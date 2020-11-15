@@ -95,15 +95,10 @@ div.menu-item.focus h3 {
 }
 
 
-@media only screen and (max-width: 500px) {
-
-  a#logo {
-      /*background: white url(./images/csd-red-circle.png) left no-repeat;*/
-      background-size: 50px;
-      height: 20px;
-      width: 60px;
-      margin-left: 4%;
-  }
+@media only screen and (max-width: 360px) {
+    #home {
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 900px) {

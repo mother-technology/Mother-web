@@ -9,7 +9,7 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
     return (
           <div id="navbar" className="flex">
               <div className="link">
-                  <Link to="/" className={props.location.pathname === '/' ? 'active' : ''} >
+                  <Link to="/" id="home" className={props.location.pathname === '/' ? 'active' : ''} >
                       HOME
                   </Link>
                   <Link to="/about" className={props.location.pathname === '/about' ? 'active' : ''} >

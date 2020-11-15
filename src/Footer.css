@@ -1,5 +1,6 @@
 div.footer img.logo {
   margin-top: 10%;
   max-width: 300px;
+  min-width: 200px;
   width: 40%;
 }

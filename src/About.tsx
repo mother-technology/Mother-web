@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+import { Link, withRouter, RouteComponentProps } from "react-router-dom";
 import "./Shared.css";
 import "./About.css";
 import "./Footer.css";
@@ -28,6 +29,9 @@ export const About: React.FC = () => {
         </h2>
         <p>
           We have a wide background of different skills.
+        </p>
+        <p>
+          Would you like to know how we <Link to="/privacy">treat your privacy?</Link>
         </p>
         <div className="team-members">
           <div className="flex team-member">

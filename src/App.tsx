@@ -5,6 +5,7 @@ import { Main } from "./Main";
 import { About } from "./About";
 import { Collaboration } from "./Collaboration";
 import { Contact } from "./Contact";
+import { Privacy } from "./Privacy";
 import Page from "./Page";
 
 import { BrowserRouter as Router, Switch } from "react-router-dom";
@@ -19,6 +20,7 @@ function App() {
                     <Page exact path="/about" component={About} title="ABOUT" description="B"/>
                     <Page exact path="/collaboration" component={Collaboration} title="Collaboration" description="C"/>
                     <Page exact path="/contact" component={Contact} title="Contact" description="D"/>
+                    <Page exact path="/privacy" component={Privacy} title="Privacy" description="D"/>
                 </Switch>
             </div>
         </Router>
