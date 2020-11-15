@@ -1,0 +1,27 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3961812, 2020-10-18T15:05:04-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: BelweSB-Medium by Scangraphic Digital Type Collection
+ * URL: https://www.myfonts.com/fonts/efscangraphic/belwe-sb/medium/
+ * Copyright: Copyright of design and/or Trademark by Scangraphic PrePress Technology GmbH or its licensors. Copyright of digital font software by Elsner+Flake Type Consulting GmbH. This font software may not be reproduced, modified, decoded, disclosed or transferred w
+ *
+ *
+ *
+ * Â© 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c73d4");
+
+@font-face {
+  font-family: 'BelweSB-Medium';
+  src: url('webFonts/BelweSB-Medium/font.woff2') format('woff2'), url('webFonts/BelweSB-Medium/font.woff') format('woff');
+}

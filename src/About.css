@@ -1,0 +1,66 @@
+div.team-header {
+	background: #808080 url(./images/bg-team.png) center 0 no-repeat;
+}
+
+div.member-info {
+	width: 100%;
+  min-width: 300px;
+  min-height: 300px;
+	margin: 0 auto;
+}
+
+div.member-info p {
+	padding:0 5%;
+}
+
+div.member-info h3 {
+	padding:5% 5% 0 5%;
+}
+
+div.team-members {
+  margin: 0 auto;
+}
+
+div.team-member {
+  align-items: stretch;
+  justify-content: center;
+	flex-direction: column;
+}
+
+div.member-img {
+  flex-shrink: 0;
+  align-items:center;
+  justify-content: center;
+  width: 100%;
+  min-width: 300px;
+  min-height: 300px;
+	margin: 0 auto;
+}
+
+div.team-member img {
+	width: 100%;
+}
+
+div.member-info.two, div.member-info.seven {
+  background-color: #ffbd33;
+}
+
+div.member-info.three, div.member-info.ten {
+  background-color: #23d1bc;
+}
+
+div.member-info.six {
+  background-color: #83B5E3;
+}
+
+@media only screen and (min-width: 600px) {
+	div.team-member {
+	  flex-direction: row;
+	}
+	div.member-info {
+	  width: 50%;
+	}
+	div.member-img {
+		width: 50%;
+	}
+}

@@ -1,0 +1,113 @@
+#navbar {
+    width: 100%;
+    align-items: flex-end;
+    margin: 30px 0 20px 0;
+}
+
+#navbar .link {
+    width: 100%;
+    text-align: right;
+    margin-right: 2%;
+}
+
+#navbar .link a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+    font-size: 0.65rem;
+    font-weight: 900;
+    margin: 0 8px;
+    padding: 4px;
+}
+
+div#menu {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 5%;
+}
+
+div.menu-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.menu-item {
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+    /*background-color: #282828;*/
+}
+
+#menu h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: BelweSB-Medium;
+    text-align: left;
+}
+
+#menu p {
+    color: white;
+    line-height: 1.2;
+    font-size: 0.8rem;
+}
+
+
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+
+div.menu-text {
+    display: inline-block;
+    width: 300px;
+}
+
+#menu img {
+    width: 70px;
+    margin-right: 10px;
+}
+
+a:hover div.menu-item.focus {
+  cursor: default;
+}
+
+div.menu-item.focus img {
+    opacity: 0.5;
+}
+
+div.menu-item.focus h3 {
+    color: grey;
+}
+
+#menu .focus p {
+    color: grey;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  a#logo {
+      /*background: white url(./images/csd-red-circle.png) left no-repeat;*/
+      background-size: 50px;
+      height: 20px;
+      width: 60px;
+      margin-left: 4%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #navbar .link a {
+      margin: 0 10px;
+  }
+}
