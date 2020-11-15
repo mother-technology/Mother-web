@@ -57,6 +57,7 @@ div.ingress p {
 
 p {
 	display:block;
+  text-align: left;
   line-height: 1.6;
   margin-top: 1%;
 }
