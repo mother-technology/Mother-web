@@ -5,7 +5,7 @@ import "./Footer.css";
 export const Footer: React.FC = () => {
     return (
       <div className="footer">
-        <a href="/"><img className="logo" src="./images/mother-changing-minds-black.png"  /></a>
+        <a href="/"><img className="logo" src="./images/mother-white.png"  /></a>
       </div>
     );
 };

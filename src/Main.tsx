@@ -14,13 +14,13 @@ export const Main: React.FC = () => {
         </div>
         <div className="main">
           <h1 className="black">
-            Bringing neuroscience to the people
+            Bringing neuroscience to the people.
           </h1>
           <p>
-            Mother. is a Stockholm based company, working in the START program with KI Innovations to bring cutting edge neuroscience techniques from the lab to the clinic. Using novel methods with immersive VR, we design digital therapeutics that affect you at a subconscious level, bringing long-lasting mental health benefits.
+            We are a Stockholm based company, working in the START program with KI Innovations to bring cutting edge neuroscience techniques from the lab to the clinic. Using novel methods with immersive VR, we design digital therapeutics that affect you at a subconscious level, bringing long-lasting mental health benefits.
           </p>
           <p>
-            VR offers avenues for treatment for mental health that have never been seen before. Mother. is devoted to realising the vast potential of this powerful technology in an open and socially responsible way.
+            VR offers avenues for treatment for mental health that have never been seen before. We are devoted to realising the vast potential of this powerful technology in an open and socially responsible way.
           </p>
 
           <h2>VR, really?</h2>
@@ -31,6 +31,10 @@ export const Main: React.FC = () => {
           <div className="text">
 <p>This area of research is relatively new, so studies are small and flawed, however they testify to the promise of VR as a new tool in the service of mental health.  If you want to know more about the science, try this <a href="https://www.nature.com/articles/s41598-018-28113-6">review</a>.</p>
 <p>In time VR will be seen as a cheaper, more convenient treatment for many mental health issues that are currently treated pharmacologically, with less side-effects and a far more pleasant experience for the patient. <a href="https://www.theguardian.com/science/blog/2017/mar/22/why-virtual-reality-could-be-a-mental-health-gamechanger"> Here's</a> a relatively recent news article about the scene.</p>
+<p>We design services for mental health that are not merely reproductions of clinical treatments in VR, but novel methods targetting specific brain systems, and giving predictable, reproducible and beneficial results.</p>
+<p>Information about our first VR therapeutic ('Depunctualisation') will be released next year.</p>
+<p>Here's an overview of how depunctualisation is performed.</p>
+
           </div>
           <div className="process">
             <div className="flex process-item">
