@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import { Link, withRouter, RouteComponentProps } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Shared.css";
 import "./About.css";
 import "./Footer.css";
@@ -13,7 +13,7 @@ export const About: React.FC = () => {
         <div className="overlay"></div>
         <div className="ingress">
           <h1 className="white">Who are we?</h1>
-          <p>VR therapy is a field emerging from the cutting edge of molecular biological neuroscience and cybernetics, and technologies developed here require a blend of software engineeering and a deep understanding of the medical science underlying the effects. Our team offers a broad palette of skills to satisfy these requirements.</p>
+          <p>VR therapy is a field emerging from the cutting edge of molecular biological neuroscience and cybernetics, and technologies developed here require a blend of software engineeering and a deep understanding of the mechanisms underlying the effects. Our team offers a broad palette of skills to satisfy these requirements.</p>
         </div>
       </div>
 
@@ -23,7 +23,7 @@ export const About: React.FC = () => {
           The team.
         </h2>
         <p>
-          More than just a team, we are a tight family with deep roots. We came together in 2019 to form Mother. with the goal of developing tools for mental health. We believe our diversity of skillsets is one of our strongest assets, giving us a high level of insight for innovation as well as making every workday a rewarding challenge.
+          More than just a team, we are a tight family with deep roots. We came together in 2019 with the goal of developing novel tools for mental health. We believe our diversity of skillsets is one of our strongest assets, giving us a high level of insight for innovation as well as making every workday a rewarding challenge.
         </p>
 
         <div className="team-members">
@@ -93,16 +93,10 @@ export const About: React.FC = () => {
             </div>
           </div>
         </div>
-
         <h2>
-          Give us a shout!
+          Our privacy policy.
         </h2>
-        <p>We believe VR is going to open up a new dawn of mental health therapeutics. It's a very exciting time for neuroscience, and if you're excited about it too, we'd love to hear from you. Please <a href="mailto:info@csd.red">reach out</a> to us. And check out our pitch deck <a href="https://mother.technology/files/pitch-deck.pdf"> here</a> (PDF).
-        </p>
-        <h2>
-          Read our privacy policy.
-        </h2>
-        <p>We want to constantly improve the tools we develop, and so ask you to send your data to us. Read about our privacy policy <Link to="/privacy">here</Link>.
+        <p>We ask you to share your data with us in order to help us continually improve our services and products. We have strong views on how to protect your data, read more in our <Link to="/privacy"> privacy policy</Link>.
         </p>
         <Footer />
         </div>

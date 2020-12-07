@@ -33,6 +33,10 @@ export const Privacy: React.FC = () => {
             <p>
             Thanks little dots!
             </p>
+            <h2>The small print. </h2>
+            <p>
+            We collect physiological data (such as heart rate, or galvanic skin response) in order to monitor the effect of our treatments. We use the data to give you feedback on how effective the treatments are, and to further develop and optimise them. We also collect emails if you mail us, and use those email addresses to keep you updated. The data is kept only as long as is necessary, and will be deleted with a rolling 18-month window. The data is not shared with any third parties except in an aggregated, anonymous way. You can always contact our DPO and ask to have your data made available to you, or to have it deleted. Read your complete rights under <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679#d1e2254-1-1">article 13</a> of the General Data Protection Regulation (GDPR).
+            </p>
             <p>
             If you want to know more, mail our <a href="mailto:dpo@csd.red">DPO</a>.
             </p>
