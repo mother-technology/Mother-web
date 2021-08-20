@@ -4,14 +4,13 @@ import "./Shared.css";
 import "./Main.css";
 import "./Footer.css";
 import { Footer } from "./Footer";
+import { Header } from "./Header";
 import { Panel } from "./Panel";
 
 export const Main: React.FC = () => {
   return (
     <div>
-      <div className="header main-header">
-        <img src="./images/mother-changing-minds-white.png" className="logo" />
-      </div>
+      <Header className="main-header" withLogo={true} />
       <div className="main">
         <h1>Bringing neuroscience to the people.</h1>
         <p>
