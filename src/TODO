@@ -1,0 +1,21 @@
+/* TODO
+Set up less-css
+
+pink: "#F4A3A3";
+colorLightGreen = "#59c8b6";
+export const colorDisabled = "#222222";
+export const colorDarkGreen = "#06373D";
+export const colorDarkerGreen = "#053035";
+export const colorDarkestGreenBorder = "#042226";
+
+export const MOBILE = 480;
+export const TABLET = 768;
+export const SMALL_DESKTOP = 1024;
+export const DESKTOP = 1200; */
+
+/* 
+
+
+Linear gradient of background? 
+
+*/

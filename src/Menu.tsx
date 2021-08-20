@@ -5,22 +5,32 @@ import "./Menu.css";
 import { Link, withRouter, RouteComponentProps } from "react-router-dom";
 
 export const Menu: React.FC<RouteComponentProps> = (props) => {
-
-    return (
-          <div id="navbar" className="flex">
-              <div className="link">
-                  <Link to="/" className={props.location.pathname === '/' ? 'active' : ''} >
-                      HOME
-                  </Link>
-                  <Link to="/about" className={props.location.pathname === '/about' ? 'active' : ''} >
-                      ABOUT
-                  </Link>
-                  <Link to="/collaboration" className={props.location.pathname === '/collaboration' ? 'active' : ''} >
-                    COLLABORATE
-                  </Link>
-              </div>
-          </div>
-    );
+  return (
+    <div id="navbar" className="flex">
+      <div className="link flex">
+        <Link
+          to="/"
+          className={props.location.pathname === "/" ? "active" : ""}
+        >
+          HOME
+        </Link>
+        <Link
+          to="/about"
+          className={props.location.pathname === "/about" ? "active" : ""}
+        >
+          ABOUT
+        </Link>
+        <Link
+          to="/collaboration"
+          className={
+            props.location.pathname === "/collaboration" ? "active" : ""
+          }
+        >
+          COLLABORATE
+        </Link>
+      </div>
+    </div>
+  );
 };
 
 export default withRouter(Menu);

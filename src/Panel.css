@@ -1,0 +1,79 @@
+div.process {
+  flex-direction: row;
+}
+
+div.process-item,
+div.member-item {
+  flex-direction: column;
+  width: 300px;
+  border-radius: 40px;
+  margin: 20px 0;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.process-item img,
+div.member-item img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  padding: 2%;
+}
+
+div.process-info,
+div.member-info {
+  color: black;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 77%;
+  padding: 2%;
+}
+
+div.process-item,
+div.member-item {
+  background-color: #f4a3a3;
+}
+
+@media only screen and (max-width: 480px) {
+  div.ingress {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .main h1,
+  .main h2 {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  div.process-item,
+  div.member-item {
+    flex-direction: column;
+  }
+  div.process-item img,
+  div.member-item img {
+    margin: 4% 0;
+  }
+  div.process-info,
+  div.member-info {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+/* return (
+        <div className="flex process-item">
+              <img src={icon} alt="process icon" />
+              <div className="flex process-info">
+                <h3>{header}</h3>
+                <p className="small">
+                  {text}
+                </p>
+              </div>
+            </div>
+
+    ); */
