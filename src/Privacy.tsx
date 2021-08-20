@@ -9,7 +9,7 @@ export const Privacy: React.FC = () => {
   return (
     <div>
       <Header className="privacy-header" />
-      <div className="main">
+      <div className="container">
         <h1>Walls have ears.</h1>
         <p>
           We have strong views on privacy when it comes to our own data, and
