@@ -4,12 +4,12 @@ import "./Header.css";
 
 type HeaderProps = {
   className: string;
-  withLogo: boolean;
+  withLogo?: boolean;
 };
 
 export const Header: React.FC<HeaderProps> = ({
   className,
-  withLogo,
+  withLogo = false,
 }: HeaderProps) => {
   let name: string = "header " + className;
   return (
