@@ -1,4 +1,4 @@
-div.panel-item {
+div.person-item {
   flex-direction: column;
   border-radius: 40px;
   margin: 20px 0;
@@ -8,16 +8,17 @@ div.panel-item {
   margin: 10px;
   flex: 1;
   width: 400px;
+  box-shadow: 2px 2px 20px #042226;
 }
 
-div.panel-item img {
+div.person-item img {
   width: 200px;
   height: 200px;
   flex-shrink: 0;
   padding: 4%;
 }
 
-div.panel-info {
+div.person-info {
   color: black;
   text-align: center;
   flex-direction: column;
@@ -27,16 +28,16 @@ div.panel-info {
   padding: 2%;
 }
 
-div.panel-item {
+div.person-item {
   background-color: #f4a3a3;
   padding: 2% 0 4% 0;
 }
 
-div.panel-info h3 {
+div.person-info h3 {
   text-align: center;
 }
 
-div.panel-info a {
+div.person-info a {
   color: black;
 }
 
@@ -50,13 +51,13 @@ div.panel-info a {
   h1 {
     font-size: 2rem;
   }
-  div.panel-item {
+  div.person-item {
     flex-direction: column;
   }
-  div.panel-item img {
+  div.person-item img {
     margin: 4% 0;
   }
-  div.panel-info {
+  div.person-info {
     text-align: center;
     align-items: center;
   }

@@ -17,9 +17,9 @@ export const PanelPerson: React.FC<PanelProps> = ({
   linkName = "LinkedIn",
 }: PanelProps) => {
   return (
-    <div className="flex panel-item">
+    <div className="flex person-item">
       <img src={img} alt="process icon" />
-      <div className="flex panel-info">
+      <div className="flex person-info">
         <h3>{header}</h3>
         <p className="small">{text}</p>
         <a href={linkHref}>{linkName}.</a>

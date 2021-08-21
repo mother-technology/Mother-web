@@ -18,7 +18,7 @@ export const Panel: React.FC<PanelProps> = ({
   return (
     <div className="flex panel-item">
       <div className="icon-container">
-        <IconContext.Provider value={{ color: "white", className: "icon" }}>
+        <IconContext.Provider value={{ className: "icon" }}>
           <IconName />
         </IconContext.Provider>
       </div>

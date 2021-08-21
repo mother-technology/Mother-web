@@ -2,7 +2,6 @@
 import React from "react";
 import "./Shared.css";
 import "./Main.css";
-import "./Footer.css";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Panel } from "./Panel";

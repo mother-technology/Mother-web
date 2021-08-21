@@ -5,10 +5,9 @@ div.panel-item {
   padding: 10px;
   justify-content: flex-start;
   align-items: center;
-  margin: 10px;
   flex: 1;
-  flex-wrap: wrap;
   width: 400px;
+  box-shadow: 2px 2px 20px #042226;
 }
 
 div.panel-item img {
@@ -23,8 +22,7 @@ div.panel-info {
   text-align: center;
   flex-direction: column;
   align-items: flex-start;
-  width: 77%;
-  padding: 2%;
+  padding: 10%;
 }
 
 div.panel-item {
@@ -32,7 +30,7 @@ div.panel-item {
 }
 
 div.panel-info h3 {
-  text-align: center;
+  margin: 0 auto;
 }
 
 div.icon-container {
@@ -63,6 +61,10 @@ div.icon-container {
   }
   div.panel-item {
     flex-direction: column;
+    border-radius: 0;
+    width: 100%;
+    margin: 10px 0;
+    max-width: none;
   }
   div.panel-item img {
     margin: 4% 0;
