@@ -31,7 +31,7 @@ export const About: React.FC = () => {
         </p>
       </div>
 
-      <div className="team-members">
+      <div className="flex team-members">
         <PanelPerson
           header="Tomás"
           img="./images/tomas.png"

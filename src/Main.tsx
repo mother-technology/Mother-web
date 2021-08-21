@@ -81,17 +81,17 @@ export const Main: React.FC = () => {
       <div className="flex process">
         <Panel
           header="1. Information"
-          icon="./images/eula.png"
+          icon="IoAccessibilityOutline"
           text="Clicking ‘I agree’ to an unreadable wall-of-text EULA isn't going to cut it when working on your brain, so our first step is to educate you about everything that you will experience, and how these experiences will affect you. You will also undergo some imaging and analysis."
         />
         <Panel
           header="2. Process"
-          icon="./images/process.png"
+          icon="IoAccessibilityOutline"
           text="The VR experience is customised to each individual, and takes about an hour. A guide is present to coach you through the process and answer any questions you might have. There's no hypnosis or visual trickery, however what you see will affect you more deeply than you might imagine."
         />
         <Panel
           header="3. Aftercare"
-          icon="./images/aftercare.png"
+          icon="IoAccessibilityOutline"
           text="Here is a test text"
         />
       </div>

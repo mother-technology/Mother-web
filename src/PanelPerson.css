@@ -7,8 +7,7 @@ div.panel-item {
   align-items: center;
   margin: 10px;
   flex: 1;
-  min-width: 300px;
-  max-width: 500px;
+  width: 400px;
 }
 
 div.panel-item img {
@@ -30,6 +29,7 @@ div.panel-info {
 
 div.panel-item {
   background-color: #f4a3a3;
+  padding: 2% 0 4% 0;
 }
 
 div.panel-info h3 {

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Panel.css";
+import { IconContext } from "react-icons";
+import { IoAccessibilityOutline } from "react-icons/io5";
 
 type PanelProps = {
   header: string;
@@ -12,9 +14,14 @@ export const Panel: React.FC<PanelProps> = ({
   text,
   icon,
 }: PanelProps) => {
+  const IconName = IoAccessibilityOutline;
   return (
     <div className="flex panel-item">
-      <img src={icon} alt="process icon" />
+      <div className="icon-container">
+        <IconContext.Provider value={{ color: "white", className: "icon" }}>
+          <IconName />
+        </IconContext.Provider>
+      </div>
       <div className="flex panel-info">
         <h3>{header}</h3>
         <p className="small">{text}</p>
