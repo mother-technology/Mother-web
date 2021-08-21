@@ -29,12 +29,17 @@ export const Privacy: React.FC = () => {
           improve our services, to study how effective our tools are and to
           develop them further.
         </p>
-        <img src="./images/privacy-data.png" width="300" className="one" />
         <p>
           To us, you data-sharing guys are little dots in graphs that look like
-          this.
+          this. Thanks little dots!
         </p>
-        <p>Thanks little dots!</p>
+        <div className="privacy-image">
+          <img
+            src="./images/privacy-data.png"
+            className="round-box"
+            alt="people as dots"
+          />
+        </div>
         <h2>The small print. </h2>
         <p>
           We collect physiological data (such as heart rate, or galvanic skin

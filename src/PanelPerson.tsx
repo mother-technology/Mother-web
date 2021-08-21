@@ -1,23 +1,28 @@
 import React from "react";
-import "./Panel.css";
+import "./PanelPerson.css";
 
 type PanelProps = {
   header: string;
   text: string;
-  icon: string;
+  img: string;
+  linkHref: string;
+  linkName?: string;
 };
 
-export const Panel: React.FC<PanelProps> = ({
+export const PanelPerson: React.FC<PanelProps> = ({
   header,
   text,
-  icon,
+  img,
+  linkHref,
+  linkName = "LinkedIn",
 }: PanelProps) => {
   return (
     <div className="flex panel-item">
-      <img src={icon} alt="process icon" />
+      <img src={img} alt="process icon" />
       <div className="flex panel-info">
         <h3>{header}</h3>
         <p className="small">{text}</p>
+        <a href={linkHref}>{linkName}.</a>
       </div>
     </div>
   );

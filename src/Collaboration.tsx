@@ -11,7 +11,7 @@ export const Collaboration: React.FC = () => {
     <div>
       <Header className="vr-header" />
 
-      <div className="main">
+      <div className="container">
         <h1>Would you like to partner with us?</h1>
         <p>
           We come from a wide range of backgrounds, both from the academic world

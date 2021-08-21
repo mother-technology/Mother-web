@@ -1,6 +1,4 @@
 /* TODO
-Set up less-css
-
 pink: "#F4A3A3";
 colorLightGreen = "#59c8b6";
 export const colorDisabled = "#222222";
@@ -15,7 +13,10 @@ export const DESKTOP = 1200; */
 
 /* 
 
+istället för main > container
+fixa teambubblor och panels överallt
 
+Set up less-css
 Linear gradient of background? 
 
 */

@@ -1,3 +1,23 @@
 div.privacy-header {
-	background: #808080 url(./images/bg-privacy.png) center 0 no-repeat;
+  background: #8d999b url(./images/bg-main.png) center 0 no-repeat;
+  /* background: #808080 url(./images/bg-privacy.png) center 0 no-repeat; */
+}
+
+.privacy-image {
+  background-color: white;
+  border-radius: 30px;
+  width: 50%;
+  min-width: 300px;
+  padding: 5% 4% 3% 4%;
+}
+
+img.round-box {
+  width: 100%;
+  min-width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .privacy-image {
+    margin: 0 auto;
+  }
 }

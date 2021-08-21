@@ -8,13 +8,14 @@ div.panel-item {
   margin: 10px;
   flex: 1;
   min-width: 300px;
+  max-width: 500px;
 }
 
 div.panel-item img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   flex-shrink: 0;
-  padding: 2%;
+  padding: 4%;
 }
 
 div.panel-info {
@@ -22,6 +23,7 @@ div.panel-info {
   text-align: center;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   width: 77%;
   padding: 2%;
 }
@@ -32,6 +34,10 @@ div.panel-item {
 
 div.panel-info h3 {
   text-align: center;
+}
+
+div.panel-info a {
+  color: black;
 }
 
 @media only screen and (max-width: 480px) {

@@ -6,12 +6,13 @@ import "./About.css";
 import "./Footer.css";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+import { PanelPerson } from "./PanelPerson";
 
 export const About: React.FC = () => {
   return (
     <div>
       <Header className="team-header" />
-      <div className="main">
+      <div className="container">
         <h1>Who are we?</h1>
         <p>
           VR therapy is a field emerging from the cutting edge of molecular
@@ -28,108 +29,73 @@ export const About: React.FC = () => {
           assets, giving us a high level of insight for innovation as well as
           making every workday a rewarding challenge.
         </p>
+      </div>
 
-        <div className="team-members">
-          <div className="flex member-item">
-            <img src="./images/tomas.png" className="one" />
-            <div className="flex member-info two">
-              <h3>Tomás</h3>
-              <p className="small">
-                Tomás has a couple of degrees in biotech, and did his PhD at the
-                Karolinska Institute on disease mechanisms in premature ageing
-                syndromes. He jumped off his postdoc to start-up when his
-                research linked to branching morphogenesis suggested that
-                immersive VR could alter mental states in a long-term and
-                beneficial way.
-              </p>
-              <p>
-                <a href="https://www.linkedin.com/in/tomasmckenna/">
-                  Linkedin.
-                </a>
-              </p>
-            </div>
-          </div>
+      <div className="team-members">
+        <PanelPerson
+          header="Tomás"
+          img="./images/tomas.png"
+          text="Tomás has a couple of degrees in biotech, and did his PhD at the
+              Karolinska Institute on disease mechanisms in premature ageing
+              syndromes. He jumped off his postdoc to start-up when his research
+              linked to branching morphogenesis suggested that immersive VR
+              could alter mental states in a long-term and beneficial way."
+          linkHref="https://www.linkedin.com/in/tomasmckenna/"
+        />
 
-          <div className="flex member-item">
-            <img src="./images/jenny.png" className="four" />
-            <div className="flex member-info three">
-              <h3>Jenny</h3>
-              <p className="small">
-                Jenny has over a decade of experience within Stockholm's tech
-                scene, working previously as engineering manager, product owner,
-                full-stack developer, head of online marketing and head of
-                analysing. Her broad technical experience, marketing
-                capabilities and adaptability make her exceptionally well
-                equipped for handling a new area of technology.
-              </p>
-              <p>
-                <a href="https://www.linkedin.com/in/jennycahier/">Linkedin.</a>
-              </p>
-            </div>
-          </div>
+        <PanelPerson
+          header="Jenny"
+          img="./images/jenny.png"
+          text="Jenny has over a decade of experience within Stockholm's tech
+              scene, working previously as engineering manager, product owner,
+              full-stack developer, head of online marketing and head of
+              analysing. Her broad technical experience, marketing capabilities
+              and adaptability make her exceptionally well equipped for handling
+              a new area of technology."
+          linkHref="https://www.linkedin.com/in/jennycahier/"
+        />
 
-          <div className="flex member-item">
-            <img src="./images/mikael.png" className="five" />
-            <div className="flex member-info six">
-              <h3>Mikael</h3>
-              <p className="small">
-                Mikael brings his years of experience developing and designing
-                complex computer systems on the Stockholm tech scene. His
-                knowledge as a system architect is fundamental to the core of
-                our VR technology.
-              </p>
-              <p>
-                <a href="https://www.linkedin.com/in/mikael-hultgren-394a9a1a/">
-                  Linkedin.
-                </a>
-              </p>
-            </div>
-          </div>
+        <PanelPerson
+          header="Mikael"
+          img="./images/mikael.png"
+          text="Mikael brings his years of experience developing and designing
+              complex computer systems on the Stockholm tech scene. His
+              knowledge as a system architect is fundamental to the core of our
+              VR technology."
+          linkHref="https://www.linkedin.com/in/mikael-hultgren-394a9a1a/"
+        />
 
-          <div className="flex member-item">
-            <img src="./images/bjorn.png" className="eight" />
-            <div className="flex member-info seven">
-              <h3>Björn</h3>
-              <p className="small">
-                An internationally acclaimed neuroscientist with a PhD in
-                psychology and brain science from MIT, Björn's thorough
-                grounding in neuroscience, behavioural biology, and
-                consciousness theory is an invaluable resource in the
-                development of our VR-based approach to therapy.
-              </p>
-              <p>
-                <a href="https://en.wikipedia.org/wiki/Bj%C3%B6rn_Merker">
-                  Wikipedia.
-                </a>
-              </p>
-            </div>
-          </div>
+        <PanelPerson
+          header="Björn"
+          img="./images/bjorn.png"
+          text="An internationally acclaimed neuroscientist with a PhD in
+              psychology and brain science from MIT, Björn's thorough grounding
+              in neuroscience, behavioural biology, and consciousness theory is
+              an invaluable resource in the development of our VR-based approach
+              to therapy."
+          linkHref="https://en.wikipedia.org/wiki/Bj%C3%B6rn_Merker"
+          linkName="Wikipedia"
+        />
 
-          <div className="flex member-item">
-            <img src="./images/ana.png" className="nine" />
-            <div className="flex member-info ten">
-              <h3>Ana</h3>
-              <p className="small">
-                A neuroscientist at KI from Portugal via Cambridge, Ana works
-                with science communication and acts as a bridge between the
-                clinics and the research group.
-              </p>
-              <p>
-                <a href="https://www.linkedin.com/in/anaisabelamaral/">
-                  Linkedin.
-                </a>
-              </p>
-            </div>
-          </div>
+        <PanelPerson
+          header="Ana"
+          img="./images/ana.png"
+          text="A neuroscientist at KI from Portugal via Cambridge, Ana works with
+              science communication and acts as a bridge between the clinics and
+              the research group."
+          linkHref="https://www.linkedin.com/in/anaisabelamaral/"
+        />
+
+        <div className="container">
+          <h2>Our privacy policy.</h2>
+          <p>
+            We ask you to share your data with us in order to help us
+            continually improve our services and products. We have strong views
+            on how to protect your data, read more in our{" "}
+            <Link to="/privacy"> privacy policy</Link>.
+          </p>
+          <Footer />
         </div>
-        <h2>Our privacy policy.</h2>
-        <p>
-          We ask you to share your data with us in order to help us continually
-          improve our services and products. We have strong views on how to
-          protect your data, read more in our{" "}
-          <Link to="/privacy"> privacy policy</Link>.
-        </p>
-        <Footer />
       </div>
     </div>
   );
