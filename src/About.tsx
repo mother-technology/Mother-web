@@ -85,17 +85,16 @@ export const About: React.FC = () => {
               the research group."
           linkHref="https://www.linkedin.com/in/anaisabelamaral/"
         />
-
-        <div className="container">
-          <h2>Our privacy policy.</h2>
-          <p>
-            We ask you to share your data with us in order to help us
-            continually improve our services and products. We have strong views
-            on how to protect your data, read more in our{" "}
-            <Link to="/privacy"> privacy policy</Link>.
-          </p>
-          <Footer />
-        </div>
+      </div>
+      <div className="container">
+        <h2>Our privacy policy.</h2>
+        <p>
+          We ask you to share your data with us in order to help us continually
+          improve our services and products. We have strong views on how to
+          protect your data, read more in our{" "}
+          <Link to="/privacy"> privacy policy</Link>.
+        </p>
+        <Footer />
       </div>
     </div>
   );

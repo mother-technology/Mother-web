@@ -8,6 +8,8 @@ div.team-members {
   max-width: 1200px;
   padding: 20px;
   margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1024px) {
