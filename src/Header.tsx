@@ -15,7 +15,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <div className={name}>
       {withLogo && (
-        <img src="./images/mother-changing-minds-white.png" className="logo" />
+        <img src="./images/mother-changing-minds-black.png" className="logo" />
       )}
     </div>
   );

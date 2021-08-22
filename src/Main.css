@@ -2,22 +2,12 @@ div.process {
   flex-direction: row;
   max-width: 1200px;
   padding: 20px;
-  align-items: flex-start;
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   div.process {
     flex-direction: column;
-    justify-content: center;
-    max-width: 400px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  div.process {
-    max-width: none;
-    margin: 0;
-    padding: 0;
+    align-items: center;
   }
 }

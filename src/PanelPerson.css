@@ -1,14 +1,15 @@
 div.person-item {
+  background-color: #f4a3a3;
   flex-direction: column;
   border-radius: 40px;
   margin: 20px 0;
   padding: 10px;
-  justify-content: flex-start;
   align-items: center;
-  margin: 10px;
+  margin: 20px 10px;
   flex: 1;
-  width: 400px;
   box-shadow: 2px 2px 20px #042226;
+  min-width: 300px;
+  max-width: 400px;
 }
 
 div.person-item img {
@@ -23,9 +24,7 @@ div.person-info {
   text-align: center;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  width: 77%;
-  padding: 2%;
+  padding: 0 10% 10% 10%;
 }
 
 div.person-item {
@@ -34,31 +33,27 @@ div.person-item {
 }
 
 div.person-info h3 {
-  text-align: center;
+  margin: 0 auto;
 }
 
 div.person-info a {
   color: black;
 }
 
-@media only screen and (max-width: 480px) {
-  p {
-    font-size: 1rem;
-  }
-  h2 {
-    font-size: 1.3rem;
-  }
-  h1 {
-    font-size: 2rem;
-  }
+@media only screen and (max-width: 1024px) {
   div.person-item {
-    flex-direction: column;
+    width: 500px;
   }
-  div.person-item img {
-    margin: 4% 0;
+}
+
+@media only screen and (max-width: 768px) {
+  div.person-item {
+    width: 400px;
   }
-  div.person-info {
-    text-align: center;
-    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  div.person-item {
+    margin: 10px;
   }
 }

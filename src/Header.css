@@ -1,5 +1,5 @@
 div.main-header {
-  background: #042226 url(./images/bg-main.png) center 0 no-repeat;
+  background: #8d999b url(./images/bg-main.png) center 0 no-repeat;
 }
 
 div.main-header img.logo {
@@ -7,7 +7,7 @@ div.main-header img.logo {
   max-width: 600px;
   min-width: 400px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

@@ -9,15 +9,10 @@ div.privacy-header {
   width: 50%;
   min-width: 300px;
   padding: 5% 4% 3% 4%;
+  margin: 0 auto;
 }
 
 img.round-box {
   width: 100%;
   min-width: 300px;
-}
-
-@media only screen and (max-width: 768px) {
-  .privacy-image {
-    margin: 0 auto;
-  }
 }
