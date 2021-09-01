@@ -1,13 +1,75 @@
 div.main-header {
-  background: #8d999b url(./images/bg-main.png) center 0 no-repeat;
+  background: #042226 url(./images/bg-main.png) center 0 no-repeat;
+}
+
+div.team-header {
+  background: #042226 url(./images/bg-about.png) center 0 no-repeat;
+}
+
+div.vr-header {
+  background: #042226 url(./images/bg-collaborate.png) center 0 no-repeat;
+}
+
+div.contact-header {
+  background: #042226 url(./images/bg-contact.png) center 0 no-repeat;
+}
+
+div.contact-header {
+  background: #042226 url(./images/bg-main.png) center 0 no-repeat;
+}
+
+div.privacy-header {
+  background: #042226 url(./images/bg-privacy.png) center 0 no-repeat;
 }
 
 div.main-header img.logo {
   width: 50%;
   max-width: 600px;
-  min-width: 400px;
+  min-width: 280px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+div.header-background {
+  background-color: #042226;
+  height: 700px;
+  width: 100%;  
+}
+
+div.header-wrapper {  
+  margin: 0 auto;
+}
+
+div.header {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+div.overlay {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(113,20,2, 0.67);
+}
+
+div.header h1 {
+  font-family: BelweSB-Medium, "Lato", sans-serif;
+  font-weight: 300;
+  margin: 0 auto 60px auto;
+  align-items: flex-end;
+}
+
+@media only screen and (min-width: 1300px) {
+  div.header-wrapper {
+    width: 1374px;  
+  }
+}
+
+
+
+
+
+

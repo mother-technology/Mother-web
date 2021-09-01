@@ -11,9 +11,9 @@ import { PanelPerson } from "./PanelPerson";
 export const About: React.FC = () => {
   return (
     <div>
-      <Header className="team-header" />
+      <Header className="team-header" header="Mental health, reborn" />
+      <div className="up-shadow">
       <div className="container">
-        <h1>Who are we?</h1>
         <p>
           VR therapy is a field emerging from the cutting edge of molecular
           biological neuroscience and cybernetics, and technologies developed
@@ -80,9 +80,7 @@ export const About: React.FC = () => {
         <PanelPerson
           header="Ana"
           img="./images/ana.png"
-          text="A neuroscientist at KI from Portugal via Cambridge, Ana works with
-              science communication and acts as a bridge between the clinics and
-              the research group."
+          text="Ana is a Portuguese biochemist and neurobiologist with 9 years of post-doctoral research experience from University of Cambridge and Karolinska Institute. At Mother, Ana works with communications as Clinical Liaison, acting as a bridge between the research group and clinicians and patients."
           linkHref="https://www.linkedin.com/in/anaisabelamaral/"
         />
       </div>
@@ -95,6 +93,7 @@ export const About: React.FC = () => {
           <Link to="/privacy"> privacy policy</Link>.
         </p>
         <Footer />
+      </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ div.person-item {
   flex-direction: column;
   border-radius: 40px;
   margin: 20px 0;
-  padding: 10px;
+  padding: 2% 0 4% 0;
   align-items: center;
   margin: 20px 10px;
   flex: 1;
@@ -27,10 +27,6 @@ div.person-info {
   padding: 0 10% 10% 10%;
 }
 
-div.person-item {
-  background-color: #f4a3a3;
-  padding: 2% 0 4% 0;
-}
 
 div.person-info h3 {
   margin: 0 auto;
@@ -50,10 +46,22 @@ div.person-info a {
   div.person-item {
     width: 400px;
   }
+  div.person-item img {
+    width: 130px;
+    height: 130px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   div.person-item {
-    margin: 10px;
+    margin: 10px 0;
+    min-width: unset;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  div.person-item {
+    width: 100%;
+  }  
+}
+

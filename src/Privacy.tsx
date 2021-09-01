@@ -8,9 +8,9 @@ import { Header } from "./Header";
 export const Privacy: React.FC = () => {
   return (
     <div>
-      <Header className="privacy-header" />
+      <Header className="privacy-header" header="Walls have ears." />
+      <div className="up-shadow">
       <div className="container">
-        <h1>Walls have ears.</h1>
         <p>
           We have strong views on privacy when it comes to our own data, and
           treat it with the pretty good encryption it deserves.
@@ -30,13 +30,13 @@ export const Privacy: React.FC = () => {
           develop them further.
         </p>
         <p>
-          To us, you data-sharing guys are little dots in graphs that look like
+          To us, you data-sharing gals and guys are little dots in graphs that look like
           this. Thanks little dots!
         </p>
-        <div className="privacy-image">
+        <div className="privacy-image-container">
           <img
             src="./images/privacy-data.png"
-            className="round-box"
+            className="privacy-image"
             alt="people as dots"
           />
         </div>
@@ -63,6 +63,7 @@ export const Privacy: React.FC = () => {
         </p>
         <Footer />
       </div>
+    </div>
     </div>
   );
 };

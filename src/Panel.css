@@ -34,7 +34,7 @@ div.icon-container {
 .icon {
   font-size: 30px;
   position: relative;
-  top: 30%;
+  top: 33%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -52,5 +52,6 @@ div.icon-container {
 @media only screen and (max-width: 480px) {
   div.panel-item {
     margin: 10px;
+    width: 100%;
   }
 }

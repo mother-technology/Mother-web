@@ -1,18 +1,23 @@
-div.privacy-header {
-  background: #8d999b url(./images/bg-main.png) center 0 no-repeat;
-  /* background: #808080 url(./images/bg-privacy.png) center 0 no-repeat; */
-}
-
-.privacy-image {
+.privacy-image-container {
   background-color: white;
-  border-radius: 30px;
-  width: 50%;
-  min-width: 300px;
   padding: 5% 4% 3% 4%;
   margin: 0 auto;
+  width: 50%;
 }
 
-img.round-box {
+img.privacy-image {
   width: 100%;
-  min-width: 300px;
 }
+
+
+
+@media only screen and (max-width: 480px) {
+  .privacy-image-container {
+    width: unset;
+  }
+  img.privacy-image {
+    width: 100%;
+  }
+  
+}
+

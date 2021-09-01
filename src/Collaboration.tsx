@@ -9,10 +9,9 @@ import { Header } from "./Header";
 export const Collaboration: React.FC = () => {
   return (
     <div>
-      <Header className="vr-header" />
-
+      <Header className="vr-header" header="Join the revolution." />
+      <div className="up-shadow">
       <div className="container">
-        <h1>Would you like to partner with us?</h1>
         <p>
           We come from a wide range of backgrounds, both from the academic world
           and the corporate. We're always open to collaboration with people and
@@ -71,6 +70,7 @@ export const Collaboration: React.FC = () => {
           (pdf) too!
         </p>
         <Footer />
+      </div>
       </div>
     </div>
   );

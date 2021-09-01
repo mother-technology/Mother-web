@@ -10,8 +10,9 @@ export const Main: React.FC = () => {
   return (
     <div>
       <Header className="main-header" withLogo={true} />
+      <div className="up-shadow">
       <div className="container">
-        <h1>Bringing neuroscience to the people.</h1>
+        <h1 className="main">Neuroscience for the people.</h1>
         <p>
           We are based in Stockholm, working in the START program with KI
           Innovations to bring cutting edge neuroscience techniques from the lab
@@ -73,14 +74,14 @@ export const Main: React.FC = () => {
         <h2>Depunctualisation</h2>
         <p>
           Information about our first VR therapeutic ('Depunctualisation') will
-          be released next year.
+          be released later this year. Sign up here for a notification.
         </p>
         <p>Here's an overview of how depunctualisation is performed.</p>
       </div>
       <div className="flex process">
         <Panel
           header="1. Information"
-          icon="IoAccessibilityOutline"
+          icon="IoBookOutline"
           text="Clicking ‘I agree’ to an unreadable wall-of-text EULA isn't going to cut it when working on your brain, so our first step is to educate you about everything that you will experience, and how these experiences will affect you. You will also undergo some imaging and analysis."
         />
         <Panel
@@ -90,11 +91,12 @@ export const Main: React.FC = () => {
         />
         <Panel
           header="3. Aftercare"
-          icon="IoAccessibilityOutline"
-          text="Here is a test text"
+          icon="IoTrendingUp"
+          text="After the VR experience, we follow-up with a customised program designed to maximise the effect of the experience, allowing you to use the changes as a fulcrum for beneficial change in your life. This app will also be available as a stand-alone B2C mental wellness guide.Change is not instantaneous, but over time will be profound."
         />
       </div>
       <Footer />
+    </div>
     </div>
   );
 };

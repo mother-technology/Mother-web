@@ -4,3 +4,10 @@ div.footer img.logo {
   min-width: 300px;
   width: 40%;
 }
+
+@media only screen and (max-width: 480px) {
+  div.footer img.logo {
+    min-width: unset;
+    width: 60%;
+  }
+}

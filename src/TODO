@@ -1,4 +1,5 @@
-/* TODO
+CONSTANTS
+
 pink: "#F4A3A3";
 colorLightGreen = "#59c8b6";
 export const colorDisabled = "#222222";
@@ -11,12 +12,23 @@ export const TABLET = 768;
 export const SMALL_DESKTOP = 1024;
 export const DESKTOP = 1200; */
 
-/* 
+ 
 
-istället för main > container
-fixa teambubblor och panels överallt
-
-Set up less-css
+TODO
+Fix style of h1 on top of header - do we want it like that or with background color somehow?
+Fix size of parallax pic
 Linear gradient of background? 
 
-*/
+
+Fix the walls have ear and about pictures - they have a white frame around them
+The dot picture would be nicer as a png with transparent background, or else the same blue as we finally pick for the site
+
+Try out the following box shadow for csd.red:  https://shadows.brumm.af/
+box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;

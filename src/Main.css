@@ -5,6 +5,16 @@ div.process {
   margin: 0 auto;
 }
 
+h1.main {
+  font-size: 2.7rem;
+}
+
+@media only screen and (max-width: 340px) {
+  h1.main {
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   div.process {
     flex-direction: column;

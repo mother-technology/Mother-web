@@ -3,7 +3,7 @@
   align-items: flex-end;
   padding: 30px 0;
   background-color: #06373d;
-  box-shadow: 1px 1px 30px #042226;
+  box-shadow: 0px -5px 13px 8px rgba(0, 0, 0, 0.8);
   position: relative;
   z-index: 100;
 }
@@ -29,15 +29,23 @@
   border-bottom: 2px solid #f4a3a3;
 }
 
-@media only screen and (max-width: 480px) {
-  #navbar .link {
-    text-align: center;
-    margin-right: 0;
-  }
-}
-
 @media only screen and (min-width: 1025px) {
   #navbar .link a {
     margin: 0 10px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #navbar .link {
+    justify-content: center;
+  }
+  
+}
+
+@media only screen and (max-width: 480px) {
+  #navbar .link a {
+    font-size: 0.4rem;
+  }
+  
+}
+

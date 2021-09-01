@@ -8,9 +8,9 @@ import { Header } from "./Header";
 export const Contact: React.FC = () => {
   return (
     <div>
-      <Header className="contact-header" />
+      <Header className="contact-header" header="Give us a shout." />
+      <div className="up-shadow">
       <div className="container">
-        <h1>Give us a shout.</h1>
         <p>
           We believe VR is going to open up a new dawn of mental health
           therapeutics. It's a very exciting time for neuroscience, and if
@@ -20,6 +20,7 @@ export const Contact: React.FC = () => {
           Please <a href="mailto:info@csd.red">reach out</a> to us.
         </p>
         <Footer />
+      </div>
       </div>
     </div>
   );
