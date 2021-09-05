@@ -52,7 +52,8 @@ div.overlay {
   height: 700px;
   width: 100%;
   overflow: hidden;
-  background-color: rgb(113,20,2, 0.67);
+  background: rgba(206, 99, 99, 0.5);
+  
 }
 
 div.header h1 {
