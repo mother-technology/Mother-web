@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Shared.css";
-import "./Collaboration.css";
+import "./Technology.css";
 import "./Footer.css";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 
-export const Collaboration: React.FC = () => {
+export const Technology: React.FC = () => {
   return (
     <div>
       <Header className="vr-header" header="Join the revolution." />

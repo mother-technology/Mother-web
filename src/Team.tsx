@@ -2,26 +2,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Shared.css";
-import "./About.css";
+import "./Team.css";
 import "./Footer.css";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { PanelPerson } from "./PanelPerson";
 
-export const About: React.FC = () => {
+export const Team: React.FC = () => {
   return (
     <div>
-      <Header className="team-header" header="Mental health, reborn" />
-      <div className="up-shadow">
+      <Header className="team-header" header="The allstar team" />
       <div className="container">
-        <p>
-          VR therapy is a field emerging from the cutting edge of molecular
-          biological neuroscience and cybernetics, and technologies developed
-          here require a blend of software engineeering and a deep understanding
-          of the mechanisms underlying the effects. Our team offers a broad
-          palette of skills to satisfy these requirements.
-        </p>
-        <h2>The team.</h2>
         <p>
           More than just a team, we are a tight family with deep roots. We came
           together in 2019 with the goal of developing novel tools for mental
@@ -84,17 +75,7 @@ export const About: React.FC = () => {
           linkHref="https://www.linkedin.com/in/anaisabelamaral/"
         />
       </div>
-      <div className="container">
-        <h2>Our privacy policy.</h2>
-        <p>
-          We ask you to share your data with us in order to help us continually
-          improve our services and products. We have strong views on how to
-          protect your data, read more in our{" "}
-          <Link to="/privacy"> privacy policy</Link>.
-        </p>
-        <Footer />
+      <Footer />
       </div>
-      </div>
-    </div>
   );
 };

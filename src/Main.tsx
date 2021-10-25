@@ -7,14 +7,14 @@ import { Header } from "./Header";
 import { Panel } from "./Panel";
 
 export const Main: React.FC = () => {
+
   return (
     <div>
       <Header className="main-header" withLogo={true} />
-      <div className="up-shadow">
       <div className="container">
         <h1 className="main">Neuroscience for the people.</h1>
         <p>
-          We are based in Stockholm, working in the START program with KI
+          We are a deep-tech neuroscience based in Stockholm, working in the START program with KI
           Innovations to bring cutting edge neuroscience techniques from the lab
           to the public. Using novel methods of immersive VR, we design digital
           therapeutics that affect you at a subconscious level, bringing
@@ -35,48 +35,7 @@ export const Main: React.FC = () => {
           Our purpose is to make tools to help people feel better in a stressful
           world.
         </p>
-        <h2>VR, really?</h2>
-        <p>
-          VR is already used to treat post-traumatic stress disorder, anxiety,
-          depression, arachnophobia and vertigo, giving a rate of success
-          equalling that of in-clinic treatment. It is also used to treat
-          schizophrenia, eating disorders, substance abuse,
-          attention-deficit/hyperactivity disorder, pain management and
-          post-stroke rehabilitation.
-        </p>
-
-        <p>
-          This area of research is relatively new, so studies are small and
-          flawed, however they testify to the promise of VR as a new tool in the
-          service of mental health. If you want to know more about the science,
-          try this{" "}
-          <a href="https://www.nature.com/articles/s41598-018-28113-6">
-            review
-          </a>
-          .
-        </p>
-        <p>
-          In time VR will be seen as a more cost effective and convenient
-          treatment for many mental health issues that are currently treated
-          pharmacologically, with less side-effects and a more pleasant
-          experience for the patient.{" "}
-          <a href="https://www.theguardian.com/science/blog/2017/mar/22/why-virtual-reality-could-be-a-mental-health-gamechanger">
-            {" "}
-            Here's
-          </a>{" "}
-          a relatively recent news article about the scene.
-        </p>
-        <p>
-          We design services for mental health that are not merely imitations of
-          clinical treatments in VR, but novel methods targeting specific brain
-          systems, giving predictable, reproducible and beneficial results.
-        </p>
-        <h2>Depunctualisation</h2>
-        <p>
-          Information about our first VR therapeutic ('Depunctualisation') will
-          be released later this year. Sign up here for a notification.
-        </p>
-        <p>Here's an overview of how depunctualisation is performed.</p>
+        
       </div>
       <div className="flex process">
         <Panel
@@ -96,7 +55,6 @@ export const Main: React.FC = () => {
         />
       </div>
       <Footer />
-    </div>
     </div>
   );
 };

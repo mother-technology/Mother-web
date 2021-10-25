@@ -1,8 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import Menu from "./Menu";
 import { Main } from "./Main";
-import { About } from "./About";
-import { Collaboration } from "./Collaboration";
+import { Team } from "./Team";
+import { Technology } from "./Technology";
 import { Contact } from "./Contact";
 import { Privacy } from "./Privacy";
 import Page from "./Page";
@@ -11,10 +11,16 @@ import ScrollToTop from "./ScrollToTop";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
+  const [open, setOpen] = useState<boolean>(false);
+  const toggleOpen = () => setOpen(value => !value);
+
   return (
     <Router>
       <div className="App flex">
-        <Menu />
+        <Menu 
+          //open={open}
+          //onClick={toggleOpen}
+        />
         <ScrollToTop />
         <Switch>
           <Page
@@ -26,15 +32,15 @@ function App() {
           />
           <Page
             exact
-            path="/about"
-            component={About}
+            path="/team"
+            component={Team}
             title="The Team - A diverse blend of scientists and engineers. | mother.technology"
             description="The background of the company and its members."
           />
           <Page
             exact
-            path="/collaboration"
-            component={Collaboration}
+            path="/technology"
+            component={Technology}
             title="Collaboration - We are always open to working together. | mother.technology"
             description="Our company maintains a strong academic spirit and values collaboration with other research partners, on technologies such as eye-tracking, or in fields such as cybernetics or neural circuitry."
           />

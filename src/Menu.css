@@ -1,51 +1,75 @@
-#navbar {
-  width: 100%;
-  align-items: flex-end;
-  padding: 30px 0;
-  background-color: #06373d;
-  box-shadow: 0px -5px 13px 8px rgba(0, 0, 0, 0.8);
-  position: relative;
+#menuIcon {
+  border-radius: 50%;
+  padding: 20px;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 25px;
+  right: 25px;
   z-index: 100;
 }
 
-#navbar .link {
-  width: 100%;
-  margin-right: 2%;
-  justify-content: flex-end;
-  align-items: center;
+.menuIcon {
+  color: black;
+  font-size: 40px;
+  align-self: center;
 }
 
-#navbar .link a {
+#navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 90;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 200px 0 0 30px;
+}
+
+div.column {
+  flex-direction: column;
+  text-align: right;
+  padding: 0 40px;
+}
+
+div.column:first-child {
+  padding-right: 120px;
+}
+
+#navbar a {
   color: white;
   text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 0.55rem;
+  font-size: 1rem;
   font-weight: 900;
-  margin: 0 8px;
-  padding: 4px;
+  padding-top: 30px;
 }
 
-.active {
-  border-bottom: 2px solid #f4a3a3;
+#navbar a.subLink {
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding-top: 10px;
 }
 
-@media only screen and (min-width: 1025px) {
-  #navbar .link a {
-    margin: 0 10px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #navbar .link {
-    justify-content: center;
-  }
-  
+#navbar a.active {
+  color: #f4a3a3; 
+  /* #59c8b6 */
 }
 
 @media only screen and (max-width: 480px) {
-  #navbar .link a {
-    font-size: 0.5rem;
+  #navbar {
+    flex-direction: column;
+    justify-content: flex-start;
   }
-  
+  div.column {
+    text-align: left;
+  }
+
+
 }
 
