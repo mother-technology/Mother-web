@@ -10,15 +10,22 @@ html {
   display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
-div.App {
+div.App {  
   flex-direction: column;
-  background-color: #06373d;
   color: white;
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: normal;
   display: block;
   text-align: center;
+}
+
+div.main {
+  background-color: #000000;
+  position: relative;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  margin-top: -50px;
 }
 
 div.container {
@@ -35,7 +42,6 @@ p {
   display: block;
   text-align: left;
   line-height: 1.6;
-  margin-top: 1%;
 }
 
 p.small {
@@ -52,7 +58,7 @@ h2 {
   font-family: BelweSB-Medium, "Lato", sans-serif;
   font-weight: 300;
   line-height: 1.3;
-  padding: 5% 0 1% 0;
+  padding: 8% 0 0 0;
   font-size: 3.5rem;
   text-align: center;
   margin: 0;

@@ -1,18 +1,18 @@
 import React from "react";
 import "./Panel.css";
 import { IconContext } from "react-icons";
-import {IoBookOutline, IoAccessibilityOutline, IoTrendingUp} from "react-icons/io5";
+import {IoBookOutline, IoAccessibilityOutline, IoEye} from "react-icons/io5";
 
 type PanelProps = {
   header: string;
-  text: string;
   icon: string;
+  children: JSX.Element;
 };
 
 export const Panel: React.FC<PanelProps> = ({
   header,
-  text,
   icon,
+  children,
 }: PanelProps) => {
   // const IconName = IoAccessibilityOutline;
   return (
@@ -25,14 +25,14 @@ export const Panel: React.FC<PanelProps> = ({
           {icon === "IoAccessibilityOutline" &&
           <IoAccessibilityOutline />
         }
-        {icon === "IoTrendingUp" &&
-          <IoTrendingUp />
+        {icon === "IoEye" &&
+          <IoEye />
         }
         </IconContext.Provider>
       </div>
       <div className="flex panel-info">
         <h3>{header}</h3>
-        <p className="small">{text}</p>
+        {children}
       </div>
     </div>
   );

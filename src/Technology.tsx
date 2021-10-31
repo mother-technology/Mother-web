@@ -5,72 +5,49 @@ import "./Technology.css";
 import "./Footer.css";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+import { Panel } from "./Panel";
 
 export const Technology: React.FC = () => {
   return (
     <div>
-      <Header className="vr-header" header="Join the revolution." />
-      <div className="up-shadow">
+      <Header className="vr-header" header="Our secret sauce" />
       <div className="container">
         <p>
-          We come from a wide range of backgrounds, both from the academic world
-          and the corporate. We're always open to collaboration with people and
-          companies that are interested in mental health and share our values.
+          We believe the tresnds in neuroscience, with psychedelic and VR revealing hidden aspects of the brain, is going to open up a new dawn for digital mental health
+          therapeutics, and we aim to be at the forefront of these developments. 
         </p>
-        <p>
-          We believe VR is going to open up a new dawn of mental health
-          therapeutics. It's an exciting time for neuroscience, and if you're
-          excited about it too, we'd love to hear from you.
-        </p>
-        <h2>Our values.</h2>
-        <p>
-          We want to reasses the norms of what it means to work for a
-          corporation, and aim to balance the relationship of power between
-          worker and management, treating people like the actual experts they
-          are, giving them freedom to work on what they think is important. It's
-          not just the morally right thing to do, it's the best game theory
-          model for success.
-        </p>
-        <p>
-          We also promise to treat our customers with care and respect, to take
-          a strong and diametrically opposing stance to the current norm of
-          customer data monetisation, and to maintain a strict privacy and
-          security discipline. Consumers today hunger for companies that follow
-          through on their word, act sincerely and with integrity, with a focus
-          on sustainability and humanitarianism. We promise to never sacrifice
-          these values.
-        </p>
-        <p>
-          We are also determined to act in a socially responsible way, to
-          prioritise the needs and values of the societies we operate in, and to
-          care proactively for the planet. This doesn't just mean vegetarian
-          lunches and taking the train instead of a flight, but in proactively
-          taking a environmentally conscious stance, and leading by example.
-        </p>
-        <p>
-          We target the beneficial, working as much as possible with free and
-          open source software, privacy focused, with our intentions and actions
-          open and public.
-        </p>
-        <h2>Our interests.</h2>
-        <p>
-          We work with software tools like Unity, Blender, Meshroom, Meshlab and
-          R. We like hardware too, EEG, GSR, eye trackers and of course, XR. And
-          we like research in neuroscience, neural nets, graph theory,
-          'Bayesian' psychology, systemic psychotherapy, cognitivist therapy,
-          reality therapy, systems engineering, cybernetics,
-          structural-functionalism and branching morphogenesis.
-        </p>
-        <p>
-          If you want to get involved,{" "}
-          <a href="mailto:info@csd.red">reach out</a> to us. And check out our{" "}
-          <a href="https://mother.technology/files/mother-pitch-deck.pdf">
-            pitch deck
-          </a>{" "}
-          (pdf) too!
-        </p>
-        <Footer />
+        </div>
+      <div className="flex process">
+        <Panel
+          header="Cognitive tools"
+          icon="IoBookOutline">
+            <p className="small">
+              Life is easier to deal with when you have a clear picture of what lies ahead. Our first step is education with innovation. Our app will ask some simple questions to discern where your efforts could best be spent, and then presents the latest mental health teachings that you might use.
+            </p>
+        </Panel>
+        <Panel
+          header="Biofeedback"
+          icon="IoAccessibilityOutline"
+        >
+          <p className="small">
+          Anxiety that builds up in our daily life, ratcheting up over time to form a constant background stress, is a common cause for mental ill-health. We have developed several tools to directly reduce anxiety as well as training you to bring the release valve, your HPA axis, under your conscious control.
+          </p>
+        </Panel>
+        <Panel
+          header="Virtual Reality"
+          icon="IoEye"
+        >
+          <p className="small">
+          VR is rapidly emerging as a powerful tool for brain health, where even single intense experiences can cause long-term changes to how we perceive the world. We use VR to strategically modify the brains set of priors, causing change that is not instantaneous, but over time will be profound.
+          </p>
+        </Panel>
       </div>
+      <div className="container">
+        <p>
+          
+        </p>
+        
+        <Footer />
       </div>
     </div>
   );

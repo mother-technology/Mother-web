@@ -1,8 +1,26 @@
+div.footer {
+  border-top: 1px solid white;
+  margin-top: 10%;
+}
+
 div.footer img.logo {
-  margin: 5% 0;
+  padding-bottom: 10%;
   max-width: 400px;
   min-width: 300px;
   width: 40%;
+}
+
+.link-container {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.link {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 480px) {

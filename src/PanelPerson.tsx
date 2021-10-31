@@ -3,25 +3,25 @@ import "./PanelPerson.css";
 
 type PanelProps = {
   header: string;
-  text: string;
   img: string;
   linkHref: string;
   linkName?: string;
+  children: JSX.Element;
 };
 
 export const PanelPerson: React.FC<PanelProps> = ({
   header,
-  text,
   img,
   linkHref,
   linkName = "LinkedIn",
+  children,
 }: PanelProps) => {
   return (
     <div className="flex person-item">
       <img src={img} alt="process icon" />
       <div className="flex person-info">
         <h3>{header}</h3>
-        <p className="small">{text}</p>
+        {children}
         <a href={linkHref}>{linkName}.</a>
       </div>
     </div>
