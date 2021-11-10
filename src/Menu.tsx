@@ -1,83 +1,85 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, {useState} from "react";
 import "./Menu.css";
 import { Link, withRouter, RouteComponentProps } from "react-router-dom";
 import { IconContext } from "react-icons";
 import {IoMenuOutline, IoCloseOutline} from "react-icons/io5";
 
-// type MenuProps = {
-//   open: boolean;
-//   onClick: (open: boolean) => void;
-// };
 export const Menu: React.FC<RouteComponentProps> = (props) => {
-  const open:boolean = false;
-// export const Menu: React.FC<MenuProps> = ({open}: MenuProps) => {
+  const [open, setOpen] = useState<boolean>(false);
+  
+
   return (
     <>
-      <div id="menuIcon">
+      <div id="menuIcon" onClick={() => setOpen(!open)}>
         <IconContext.Provider value={{ className: "menuIcon" }}>
             {open?    
-              <IoMenuOutline />
-            :
               <IoCloseOutline />
+            :
+              <IoMenuOutline />
             }
           </IconContext.Provider>
       </div>
       {open !== false &&
-        <div id="navbar" className="flex">
-            <div className="flex column">
+        <div id="navbar" className="flex" onClick={() => setOpen(false)}>
+          <div className="flex column">
               <Link
                 to="/"
                 className={props.location.pathname === "/" ? "active" : ""}
               >
                 Home
               </Link>
+                {/* className={ `subLink ${
+                 props.location.pathname === "/collaboration" ? "active" : ""
+                 }` */}
+             
               <Link
-                to="/"
-                className={ `subLink${
-                  props.location.pathname === "/collaboration" ? "active" : ""
-                }`
-                }
+                to="/technology"
+                className={props.location.pathname === "/technology" ? "active" : ""}
               >
-                Test 1
+                Technology
               </Link>
               <Link
-                to="/"
-                className={ `subLink${
-                  props.location.pathname === "/collaboration" ? "active" : ""
-                }`
-                }
+                to="/technology#IoBookOutline"
+                className="subLink"
               >
-                Test 2
+                Cognitive tools
               </Link>
-            </div>
-            <div className="flex column">
               <Link
-                to="/about"
-                className={props.location.pathname === "/about" ? "active" : ""}
+                to="/technology#IoAccessibilityOutline"
+                className="subLink"
+              >
+                Biofeedback
+              </Link>
+              <Link
+                to="/technology#IoEye"
+                className="subLink"
+              >
+                Virtual Reality
+              </Link>
+              <Link
+                to="/team"
+                className={
+                  props.location.pathname === "/team" ? "active" : ""
+                }
               >
                 Team
               </Link>
               <Link
-                to="/collaboration"
-                className={
-                  props.location.pathname === "/collaboration" ? "active" : ""
-                }
+                to="/privacy"
+                className={props.location.pathname === "/privacy" ? "active" : ""}
               >
-                Collaborate
+                Privacy
               </Link>
               <Link
-                to="/collaboration"
-                className={ `subLink${
-                  props.location.pathname === "/collaboration" ? "active" : ""
-                }`
-                }
+                to="/privacy#the-small-print"
+                className="subLink"
               >
-                Collab 1
+                The small print
               </Link>
               </div>
-          </div>
+              </div>
       }
     </>
   );

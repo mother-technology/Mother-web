@@ -1,8 +1,6 @@
 import React from "react";
 import "./Shared.css";
 import "./Contact.css";
-import "./Footer.css";
-import { Footer } from "./Footer";
 import { Header } from "./Header";
 
 export const Contact: React.FC = () => {
@@ -66,7 +64,6 @@ export const Contact: React.FC = () => {
           <p>
             Please <a href="mailto:info@csd.red">reach out</a> to us.
           </p>
-          <Footer />
         </div>
         </div>
       </div>

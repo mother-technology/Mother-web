@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
+import { Footer } from "./Footer";
 import Menu from "./Menu";
 import { Main } from "./Main";
 import { Team } from "./Team";
@@ -11,16 +12,11 @@ import ScrollToTop from "./ScrollToTop";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
-  const [open, setOpen] = useState<boolean>(false);
-  const toggleOpen = () => setOpen(value => !value);
 
   return (
     <Router>
       <div className="App flex">
-        <Menu 
-          //open={open}
-          //onClick={toggleOpen}
-        />
+        <Menu />
         <ScrollToTop />
         <Switch>
           <Page
@@ -59,7 +55,9 @@ function App() {
             description="We value your data, to feedback into our models and optimise the tools we develop. We promise to treat it with care, keeping it anonymous, encrypted and deleteable."
           />
         </Switch>
+        
       </div>
+      <Footer />  
     </Router>
   );
 }

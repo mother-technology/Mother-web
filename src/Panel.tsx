@@ -17,7 +17,7 @@ export const Panel: React.FC<PanelProps> = ({
   // const IconName = IoAccessibilityOutline;
   return (
     <div className="flex panel-item">
-      <div className="icon-container">
+      <div className="flex icon-container">
         <IconContext.Provider value={{ className: "icon" }}>
           {icon === "IoBookOutline" &&
             <IoBookOutline />
@@ -31,7 +31,7 @@ export const Panel: React.FC<PanelProps> = ({
         </IconContext.Provider>
       </div>
       <div className="flex panel-info">
-        <h3>{header}</h3>
+        <h3 id={icon}>{header}</h3>
         {children}
       </div>
     </div>

@@ -6,39 +6,23 @@ import "./Footer.css";
 export const Footer: React.FC = (props) => {
 // export const Footer: React.FC<RouteComponentProps> = (props) => {
   return (
-    <div className="footer">
-      <div className="link-container">
-        <p className="link">
-          Contact us
-        </p>
-        <p className="link">
-          Privacy
-        </p>
-        <p className="link">
-          Our values
-        </p>
-        {/* <Link
-            to="/"
-            className={props.location.pathname === "/" ? "active" : ""}
-          >
-            About
-        </Link>
-        <Link
-            to="/"
-            className={props.location.pathname === "/" ? "active" : ""}
-          >
+    <div className="footer-container">
+      <div className="footer flex">
+        <div className="link-container">
+          <p className="link">
+            Contact
+          </p>
+          <p className="link">
             Privacy
-        </Link>
-        <Link
-            to="/"
-            className={props.location.pathname === "/" ? "active" : ""}
-          >
-            Test 2
-        </Link> */}
-        </div>
-        <a href="/">
-          <img className="logo" src="./images/mother-changing-minds-white.png" />
-        </a>
+          </p>
+          <p className="link">
+            Values
+          </p>
+          </div>
+          {/* <a href="/" className="flex logo-container">
+            <img className="logo" src="./images/mother-changing-minds-white.png" />
+          </a> */}
+      </div>
     </div>
   );
 };

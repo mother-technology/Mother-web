@@ -38,10 +38,6 @@ div.column {
   padding: 0 40px;
 }
 
-div.column:first-child {
-  padding-right: 120px;
-}
-
 #navbar a {
   color: white;
   text-decoration: none;
