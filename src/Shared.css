@@ -20,6 +20,14 @@ div.App {
   justify-content: center;
 }
 
+#root {
+  height:100vh; 
+  flex-direction: column;
+  display: flex;
+  background-color: black;
+}
+
+
 div.main {
   background-color: #000000;
   position: relative;
