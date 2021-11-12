@@ -22,7 +22,7 @@ export const Technology: React.FC = () => {
           icon="IoBookOutline">
             <>
             <p className="small">
-              Life is easier to deal with when you have a clear picture of what lies ahead. Our first step is education with innovation. </p><p className="small">Our mental healthcare app will ask some simple questions to discern where your efforts could best be spent, and then present the latest and most relevant mental health knowledge.
+              Life is easier to deal with when you have a clear picture of what lies ahead. Our first step is education with innovation. </p><p className="small">Our 'brain care' App, M3,  will ask some simple questions to discern where your efforts could best be spent, and then present the latest and most relevant research findings.
             </p>
             </>
         </Panel>

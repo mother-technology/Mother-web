@@ -14,12 +14,12 @@ export const Main: React.FC = () => {
         <div className="container">
           <h1 className="main">Neuroscience for the people.</h1>
           <p>
-            We are a deep-tech, hard-science mental health company based in Stockholm, dedicated to bring cutting edge neuroscience techniques from the lab
+            We are a deep-tech, hard-science brain health company based in Stockholm, dedicated to bring cutting edge neuroscience techniques from the lab
             to the public. 
           </p>
           <p>
             We design digital therapeutics using novel methods of biofeedback and immersive VR that affect you at a subconscious level, bringing
-            long-lasting mental health benefits.
+            long-lasting benefits.
           </p>
           
           <p>

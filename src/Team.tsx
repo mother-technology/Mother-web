@@ -14,8 +14,8 @@ export const Team: React.FC = () => {
           <div className="container">
             <p>
               More than just a team, we are a tight family with deep roots. We came
-              together in 2019 with the goal of developing novel tools for mental
-              health. We believe our diversity of skillsets is one of our strongest
+              together in 2019 with the goal of developing novel tools for developing mental
+              resilience. We believe our diversity of skillsets is one of our strongest
               assets, giving us a high level of insight for innovation as well as
               making every workday a rewarding challenge.
             </p>
