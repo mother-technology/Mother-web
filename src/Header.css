@@ -22,18 +22,8 @@ div.privacy-header {
   background: #042226 url(./images/bg-privacy.png) center 0 no-repeat;
 }
 
-div.main-header img.logo {
-  width: 50%;
-  max-width: 600px;
-  min-width: 280px;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 div.header-background {
-  background-color: #6E3838;
+  background-color: #aaa;
   height: 700px;
   width: 100%;  
 }
@@ -48,19 +38,37 @@ div.header {
   position: relative;
 }
 
+div.separator {
+  width: 80px;
+  border-top: 1px solid black;
+}
+
 div.overlay {
   height: 700px;
   width: 100%;
   overflow: hidden;
-  background: rgba(206, 99, 99, 0.5);
-  
+  background: rgba(255, 255, 255, 0.7);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.headers {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
 }
 
 div.header h1 {
   font-family: BelweSB-Medium, "Lato", sans-serif;
   font-weight: 300;
-  margin: 0 auto 100px auto;
-  align-items: flex-end;
+  font-size: 4rem;
+  margin: 20px 0;
+}
+
+div.header h2 {
+  margin: 20px 0;
 }
 
 @media only screen and (min-width: 1300px) {

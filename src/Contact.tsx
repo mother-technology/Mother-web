@@ -6,9 +6,12 @@ import { Header } from "./Header";
 export const Contact: React.FC = () => {
   return (
     <div>
-      <Header className="contact-header" header="Join the revolution." />
-      <div className="main">
-        <div className="container">
+      <Header className="contact-header" 
+        header="Join the revolution." 
+        subHeader="We need your help to change the world"
+      />
+      <div className="side-margin">
+          <div className="flex main">
         <h2>Our values.</h2>
           <p>
             We want to reasses the norms of what it means to work for a

@@ -4,14 +4,14 @@ import "./Header.css";
 
 type HeaderProps = {
   className: string;
-  withLogo?: boolean;
   header?:string;
+  subHeader?:string;
 };
 
 export const Header: React.FC<HeaderProps> = ({
   className,
-  withLogo = false,
   header,
+  subHeader,
 }: HeaderProps) => {
   let name: string = "header  " + className;
   let height: number = window.innerHeight - 87; //remove navbar
@@ -24,15 +24,20 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="header-wrapper">
         <div className={name}>
         <div className="overlay flex" style={{height: height}}>
-          {withLogo && (
-            <img src="./images/mother-changing-minds-white.png" className="logo" />
-          )}
-          {header && (
-          <h1 className="flex">{header}</h1>
-          )}
+          <div className="headers flex">
+            {header && (
+                <h1 className="flex">{header}</h1>
+            )}
+            {subHeader && (
+              <>
+                <div className="separator" />
+                <h2 className="flex">{subHeader}</h2>
+              </>
+            )}
+            </div>
         </div>
-        </div>
-        </div>
+      </div>
     </div>
+  </div>
   );
 };

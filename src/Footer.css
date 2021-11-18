@@ -3,6 +3,7 @@ div.footer {
   background-color: black;
   flex-direction: column;
   align-items: center;
+  padding: 30px 0 60px 0;
 }
 
 .footer-container {
@@ -10,34 +11,29 @@ div.footer {
   background-color: black;
 }
 
-.logo-container {
-  justify-content: center;
+div.narrow-container {
+  max-width: 500px;
+  padding: 0 10%;
+  flex-direction: column;
+  align-items: space-between;
 }
 
-div.footer img.logo {
-  padding-bottom: 10%;
-  max-width: 400px;
-  min-width: 300px;
-  width: 40%;
-}
-
-.link-container {
+.links {
   flex-direction: row;
   justify-content: center;
-  display: flex;
 }
 
-.link {
+.footer .links a {
   font-size: 0.6rem;
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 20px;
+  text-decoration: none;
 }
 
-@media only screen and (max-width: 480px) {
-  div.footer img.logo {
-    min-width: unset;
-    width: 60%;
-  }
+.footer p {
+  font-size: 0.7rem;
+  color: white;
+  text-align: center;
 }

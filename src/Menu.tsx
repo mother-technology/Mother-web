@@ -30,30 +30,20 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
               >
                 Home
               </Link>
-                {/* className={ `subLink ${
-                 props.location.pathname === "/collaboration" ? "active" : ""
-                 }` */}
-             
               <Link
-                to="/technology"
-                className={props.location.pathname === "/technology" ? "active" : ""}
-              >
-                Technology
-              </Link>
-              <Link
-                to="/technology#IoBookOutline"
+                to="/#cognitive-tools"
                 className="subLink"
               >
                 Cognitive tools
               </Link>
               <Link
-                to="/technology#IoAccessibilityOutline"
+                to="/#biofeedback"
                 className="subLink"
               >
                 Biofeedback
               </Link>
               <Link
-                to="/technology#IoEye"
+                to="/#virtual-reality"
                 className="subLink"
               >
                 Virtual Reality

@@ -6,9 +6,12 @@ import { Header } from "./Header";
 export const Privacy: React.FC = () => {
   return (
     <div>
-      <Header className="privacy-header" header="Walls have ears." />
-      <div className="main">
-        <div className="container">
+      <Header className="privacy-header" 
+        header="Walls have ears" 
+        subHeader="But we will treat with respect"
+      />
+      <div className="side-margin">
+          <div className="flex main">
           <p>
             We have strong views on privacy when it comes to our own data, and we promise to treat your data equally carefully. If you decide to 'Send us your data', you can rest assured that we
             keep it safe and anonymous. 
