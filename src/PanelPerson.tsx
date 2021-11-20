@@ -22,7 +22,9 @@ export const PanelPerson: React.FC<PanelProps> = ({
       <div className="flex person-info">
         <h3>{header}</h3>
         {children}
-        <a href={linkHref}>{linkName}.</a>
+        {linkHref && 
+          <p>Read more on <a href={linkHref}>{linkName}.</a></p>
+         }
       </div>
     </div>
   );

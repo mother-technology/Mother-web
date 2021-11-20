@@ -1,66 +1,65 @@
-div.person-item {
-  background-color: #f4a3a3;
-  flex-direction: column;
-  border-radius: 40px;
-  margin: 20px 0;
-  padding: 2% 0 4% 0;
-  align-items: center;
-  margin: 20px 10px;
-  flex: 1;
-  min-width: 300px;
-  max-width: 400px;
+.persons {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 20px 50px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-div.person-item img {
-  width: 200px;
-  height: 200px;
-  flex-shrink: 0;
-  padding: 4%;
-}
-
-div.person-info {
-  color: black;
-  text-align: center;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 10% 10% 10%;
-}
-
-
-div.person-info h3 {
-  margin: 0 auto;
-}
-
-div.person-info a {
-  color: black;
-}
-
-@media only screen and (max-width: 1024px) {
   div.person-item {
-    width: 500px;
+    background-color: #EEE8EC;
+    flex-direction: column;
+    padding: 2% 0 4% 0;
+    align-items: center;
+    box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.62);
+    border: 10px solid white;
+    margin-bottom: 20px;
+    width: 400px;
+    margin: 20px 10px;
   }
-}
+
+  
+  div.person-item img {
+    object-fit: contain;
+    margin: 30px 0 20px 0;
+    width: 200px;
+  }
+  
+  
+  div.person-info {
+    color: black;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px 30px 20px;
+  }
+  
+  div.person-info h3 {
+    font-size: 1.7rem;
+    margin: 0 auto;
+  }  
+
+  
+
+  div.person-info p {
+    color: black;
+  }
 
 @media only screen and (max-width: 768px) {
-  div.person-item {
-    width: 400px;
-  }
   div.person-item img {
-    width: 130px;
-    height: 130px;
+    width: 150px;
   }
-}
-
+} 
 @media only screen and (max-width: 480px) {
   div.person-item {
     margin: 10px 0;
-    min-width: unset;
+  }
+  div.person-info h3 {
+    font-size: 1.3rem;
+  }
+  div.person-item {
+    width: unset;
+  }
+  div.person-item img {
+    width: 100px;
   }
 }
-
-@media only screen and (max-width: 480px) {
-  div.person-item {
-    width: 100%;
-  }  
-}
-

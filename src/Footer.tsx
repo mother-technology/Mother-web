@@ -20,13 +20,8 @@ export const Footer: React.FC<RouteComponentProps> = (props) => {
             >
                 Privacy
             </Link>
-            <Link
-                to="/values"
-            >
-                Values
-            </Link>
             </div>
-            <p>Mother. is a deep tech neuroscience comapany situated in Stockholm.</p>
+            <p>Mother. is a deep tech neuroscience company situated in Stockholm.</p>
         </div>
       </div>
     </div>

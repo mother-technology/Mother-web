@@ -1685,6 +1685,15 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-router-dom@*":
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.2.tgz#ebd8e145cf056db5c66eb1dac63c72f52e8542ee"
+  integrity sha512-ELEYRUie2czuJzaZ5+ziIp9Hhw+juEw8b7C11YNA4QdLCVbQ3qLi2l4aq8XnlqM7V31LZX8dxUuFUCrzHm6sqQ==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
 "@types/react-router-dom@^5.1.6":
   version "5.1.6"
   resolved "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-5.1.6.tgz"
@@ -1693,6 +1702,14 @@
     "@types/history" "*"
     "@types/react" "*"
     "@types/react-router" "*"
+
+"@types/react-router-hash-link@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@types/react-router-hash-link/-/react-router-hash-link-2.4.4.tgz#edbbf15d65890802d45d870845df455c0cfc4afe"
+  integrity sha512-YTP4OJouh3gsKDMxa9jKjDZdh6AT+34LGllCs5ZkDOS6Yii3L3TZeDiVmg0E8VFjFL+xsPKyyW4r2lkBDohudA==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-router-dom" "*"
 
 "@types/react-router@*":
   version "5.1.8"

@@ -17,7 +17,6 @@ function App() {
       <div className="App flex">
         <Menu />
         <ScrollToTop />
-        
           <Switch>
             <Page
               exact

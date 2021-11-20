@@ -1,7 +1,7 @@
 #menuIcon {
   border-radius: 50%;
   padding: 20px;
-  background-color: white;
+  background-color: black;
   width: 60px;
   height: 60px;
   justify-content: center;
@@ -12,14 +12,22 @@
   z-index: 100;
 }
 
+#menuIcon.inverted {
+  background-color: white;
+}
+
 .menuIcon {
-  color: black;
+  color: white;
   font-size: 40px;
   align-self: center;
 }
 
+.inverted .menuIcon {
+  color: black;
+}
+
 #navbar {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -29,20 +37,19 @@
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 200px 0 0 30px;
   overflow: hidden;
 }
 
 div.column {
   flex-direction: column;
   text-align: right;
-  padding: 0 40px;
+  padding: 200px 40px 0 40px;
 }
 
 #navbar a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 900;
   padding-top: 30px;
 }

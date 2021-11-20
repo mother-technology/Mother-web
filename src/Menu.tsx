@@ -3,16 +3,18 @@
 import React, {useState} from "react";
 import "./Menu.css";
 import { Link, withRouter, RouteComponentProps } from "react-router-dom";
+//import { HashLink } from 'react-router-hash-link';
 import { IconContext } from "react-icons";
 import {IoMenuOutline, IoCloseOutline} from "react-icons/io5";
 
 export const Menu: React.FC<RouteComponentProps> = (props) => {
   const [open, setOpen] = useState<boolean>(false);
-  
+  const height = document.body.clientHeight;
+
 
   return (
     <>
-      <div id="menuIcon" onClick={() => setOpen(!open)}>
+      <div id="menuIcon" className={open? "inverted" : ""} onClick={() => setOpen(!open)}>
         <IconContext.Provider value={{ className: "menuIcon" }}>
             {open?    
               <IoCloseOutline />
@@ -22,7 +24,7 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
           </IconContext.Provider>
       </div>
       {open !== false &&
-        <div id="navbar" className="flex" onClick={() => setOpen(false)}>
+        <div id="navbar" className="flex" style={{height: height}} onClick={() => setOpen(false)}>
           <div className="flex column">
               <Link
                 to="/"
@@ -30,24 +32,24 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
               >
                 Home
               </Link>
-              <Link
+              {/* <HashLink
                 to="/#cognitive-tools"
                 className="subLink"
               >
                 Cognitive tools
-              </Link>
-              <Link
+              </HashLink>
+              <HashLink
                 to="/#biofeedback"
                 className="subLink"
               >
                 Biofeedback
-              </Link>
-              <Link
+              </HashLink>
+              <HashLink
                 to="/#virtual-reality"
                 className="subLink"
               >
                 Virtual Reality
-              </Link>
+              </HashLink>
               <Link
                 to="/team"
                 className={
@@ -56,18 +58,24 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
               >
                 Team
               </Link>
+              <HashLink
+                to="team/#our-values"
+                className="subLink"
+              >
+                Our values
+              </HashLink>
               <Link
                 to="/privacy"
                 className={props.location.pathname === "/privacy" ? "active" : ""}
               >
                 Privacy
               </Link>
-              <Link
+              <HashLink
                 to="/privacy#the-small-print"
                 className="subLink"
               >
                 The small print
-              </Link>
+              </HashLink> */}
               </div>
               </div>
       }
