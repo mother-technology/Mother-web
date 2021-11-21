@@ -39,6 +39,7 @@ export const Main: React.FC = () => {
             <div className="flex panels">
               <Panel
                 header="Cognitive tools"
+                img="./images/cognitive-tools.png"
                 >
                   <>
                   <p className="small">
@@ -48,6 +49,7 @@ export const Main: React.FC = () => {
               </Panel>
               <Panel
                 header="Biofeedback"
+                img="./images/biofeedback.png"
               >
                 <>
                 <p className="small">
@@ -57,6 +59,7 @@ export const Main: React.FC = () => {
               </Panel>
               <Panel
                 header="Virtual Reality"
+                img="./images/VR.png"
               >
                 <>
                 <p className="small">

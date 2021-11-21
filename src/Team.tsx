@@ -103,7 +103,7 @@ export const Team: React.FC = () => {
               We also promise to treat our customers with care and respect, to take a strong and diametrically opposing stance to the current norm of customer data monetisation, and to maintain a strict privacy and security discipline. Consumers today hunger for companies that follow through on their word, act sincerely and with integrity, with a focus on sustainability and humanitarianism. We promise to never sacrifice these values.
               </p>
               <p>
-              We are also determined to act in a socially responsible way, to prioritise the needs and values of the societies we operate in, and to care proactively for the planet. This doesn't just mean vegetarian lunches and taking the train instead of a flight, but in proactively taking a environmentally conscious stance, and leading by example.
+              We are determined to act in a socially responsible way, to prioritise the needs and values of the societies we operate in, and to care proactively for the planet. This doesn't just mean vegetarian lunches and taking the train instead of a flight, but in proactively taking a environmentally conscious stance, and leading by example.
               </p>
               <p>
               We target the beneficial, working as much as possible with free and open source software, privacy focused, with our intentions and actions open and public.
