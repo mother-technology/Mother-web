@@ -13,17 +13,16 @@ export const Header: React.FC<HeaderProps> = ({
   header,
   subHeader,
 }: HeaderProps) => {
-  let name: string = "header  " + className;
-  let height: number = window.innerHeight - 87; //remove navbar
-  if (height > 700) {
-    height = 700;
+  let maxHeight: number = 998;
+  let name: string = "flex header  " + className;
+  let height: number = window.innerHeight;
+  if (height > maxHeight) {
+    height = maxHeight;
   }
 
   return (
-    <div className="header-background" style={{height: height}}>
-          <div className="header-wrapper">
-        <div className={name}>
-        <div className="overlay flex" style={{height: height}}>
+    
+    <div className={`header flex ${className}`} style={{height: height}}>
           <div className="headers flex">
             {header && (
                 <h1 className="flex">{header}</h1>
@@ -35,9 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
               </>
             )}
             </div>
-        </div>
       </div>
-    </div>
-  </div>
+  
   );
 };

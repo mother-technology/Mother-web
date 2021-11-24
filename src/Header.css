@@ -1,43 +1,31 @@
 div.main-header {
-  background: #042226 url(./images/bg-main.png) center 0 no-repeat;
+  background: #f7bd50 url(./images/bg-main.png) center 0 no-repeat;
 }
 
 div.team-header {
-  background: #042226 url(./images/bg-about.png) center 0 no-repeat;
+  background: #f7bd50 url(./images/bg-about.png) center 0 no-repeat;
 }
 
 div.vr-header {
-  background: #042226 url(./images/bg-collaborate.png) center 0 no-repeat;
+  background: #f7bd50 url(./images/bg-collaborate.png) center 0 no-repeat;
 }
 
 div.contact-header {
-  background: #042226 url(./images/bg-contact.png) center 0 no-repeat;
+  background: #f7bd50 url(./images/bg-contact.png) center 0 no-repeat;
 }
 
 div.contact-header {
-  background: #042226 url(./images/bg-main.png) center 0 no-repeat;
+  background: #f7bd50 url(./images/bg-main.png) center 0 no-repeat;
 }
 
 div.privacy-header {
-  background: #042226 url(./images/bg-privacy.png) center 0 no-repeat;
-}
-
-div.header-background {
-  background-color: #aaa;
-  height: 700px;
-  width: 100%;  
-  box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.22);
-  /* border-bottom: 10px solid white; */
-}
-
-div.header-wrapper {  
-  margin: 0 auto;
+  background: #f7bd50 url(./images/bg-privacy.png) center 0 no-repeat;
 }
 
 div.header {
-  margin: 0 auto;
   overflow: hidden;
-  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 div.separator {
@@ -45,22 +33,11 @@ div.separator {
   border-top: 1px solid black;
 }
 
-div.overlay {
-  height: 700px;
-  width: 100%;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.7);
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 div.headers {
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 25%;
   padding: 0 20px;
+  align-items: center;
+  margin-top: 200px;
 }
 
 div.header h1 {
@@ -74,15 +51,9 @@ div.header h2 {
   margin: 20px 0;
 }
 
-@media only screen and (min-width: 1300px) {
-  div.header-wrapper {
-    width: 1374px;  
-  }
-}
-
 @media only screen and (max-width: 480px) {
   div.headers {
-    margin-top: 50%;
+    /* margin-top: 100px; */
   }  
   div.header h1 {
     font-size: 3rem;

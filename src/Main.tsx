@@ -13,13 +13,12 @@ export const Main: React.FC = () => {
       <div>
         <Header className="main-header" 
           header="Mother."
-          subHeader="Bringing neuroscience to the people"
+          subHeader="Changings minds"
         />
         <div className="side-margin">
           <div className="flex main">
               <p>
-                We are a deep-tech, hard-science brain health company based in Stockholm, dedicated to bring cutting edge neuroscience techniques from the lab
-                to the public. 
+                We are a deep-tech, hard-science brain health company based in Stockholm, dedicated to bring neuroscience from the labs to the people.
               </p>
               <p>
                 We design digital therapeutics using novel methods of biofeedback and immersive VR that affect you at a subconscious level, bringing

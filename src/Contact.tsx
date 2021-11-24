@@ -31,7 +31,7 @@ export const Contact: React.FC = () => {
             these values.
           </p>
           <p>
-            We are also determined to act in a socially responsible way, to
+            We are also determined to act in a sustainable and socially responsible way, to
             prioritise the needs and values of the societies we operate in, and to
             care proactively for the planet. This doesn't just mean vegetarian
             lunches and taking the train instead of a flight, but in proactively
@@ -63,9 +63,6 @@ export const Contact: React.FC = () => {
             We believe VR is going to open up a new dawn of mental health
             therapeutics. It's a very exciting time for neuroscience, and if
             you're excited about it too, we'd love to hear from you.{" "}
-          </p>
-          <p>
-            Please <a href="mailto:info@csd.red">reach out</a> to us.
           </p>
         </div>
         </div>

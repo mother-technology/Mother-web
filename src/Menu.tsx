@@ -10,11 +10,12 @@ import {IoMenuOutline, IoCloseOutline} from "react-icons/io5";
 export const Menu: React.FC<RouteComponentProps> = (props) => {
   const [open, setOpen] = useState<boolean>(false);
   const height = document.body.clientHeight;
-
-
+  const width = document.body.clientWidth;
+  let right: string = "25px";
+  
   return (
     <>
-      <div id="menuIcon" className={open? "inverted" : ""} onClick={() => setOpen(!open)}>
+      <div id="menuIcon" style={{right: right}} className={open? "inverted" : ""} onClick={() => setOpen(!open)}>
         <IconContext.Provider value={{ className: "menuIcon" }}>
             {open?    
               <IoCloseOutline />
