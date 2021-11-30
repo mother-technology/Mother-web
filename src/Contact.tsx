@@ -46,18 +46,12 @@ export const Contact: React.FC = () => {
           <p>
             We work with software tools like Unity, Blender, Meshroom, Meshlab and
             R. We like hardware too, EEG, GSR, eye trackers and of course, XR. And
-            we like research in neuroscience, neural nets, graph theory,
-            'Bayesian' psychology, systemic psychotherapy, cognitivist therapy,
-            reality therapy, systems engineering, cybernetics,
-            structural-functionalism and branching morphogenesis.
+            we like research in neuroscience, 'Bayesian' psychology, systemic psychotherapy, cognitivist therapy,
+            and reality therapy.
           </p>
           <p>
-            If you want to get involved,{" "}
-            <a href="mailto:info@csd.red">reach out</a> to us. And check out our{" "}
-            <a href="https://mother.technology/files/mother-pitch-deck.pdf">
-              pitch deck
-            </a>{" "}
-            (pdf) too!
+            If you want to get involved, or get our pitch deck,{" "}
+            <a href="mailto:info@csd.red">reach out</a> to us.
           </p>
           <p>
             We believe VR is going to open up a new dawn of mental health

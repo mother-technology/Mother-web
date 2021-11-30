@@ -42,7 +42,7 @@ export const Main: React.FC = () => {
                 >
                   <>
                   <p className="small">
-                    Life is easier to deal with when you have a clear picture of what lies ahead. Our first step is education with innovation. </p><p className="small">Our 'brain care' App, M3,  will ask some simple questions to discern where your efforts could best be spent, and then present the latest and most relevant research findings.
+                    Life is easier to deal with when you have a clear picture of what lies ahead. Our first step is education with innovation. </p><p className="small">Our 'brain care' App, "Consciousness Craft",  will ask some simple questions to discern where your efforts could best be spent, and then present the latest and most relevant research findings.
                   </p>
                   </>
               </Panel>
