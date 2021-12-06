@@ -89,7 +89,8 @@ export const Team: React.FC = () => {
               >
               <>
               <p className="small">
-                Ana is a Portuguese biochemist and neurobiologist with 9 years of post-doctoral research experience from University of Cambridge and Karolinska Institute. </p> <p className="small">Ana works with communications as Clinical Liaison, acting as a bridge between the research group and clinicians and patients.
+              Ana is a Portuguese biochemist/neurobiologist with nine years of post-doctoral research experience from University of Cambridge and the Karolinska Institutet.</p> <p className="small">
+Recently trained in business and innovation and currently working in scientific communications at iBET, Portugal, Ana is a true people person and natural communicator and will act as our CMO.
               </p>
               </>
             </PanelPerson>
@@ -115,7 +116,7 @@ export const Team: React.FC = () => {
                 We work with software tools like Unity, Blender, Meshroom, Meshlab and R. We like hardware too, EEG, GSR, eye trackers and of course, XR. And we like research in neuroscience, neural nets, graph theory, 'Bayesian' psychology, systemic psychotherapy, cognitivist therapy, reality therapy, systems engineering, cybernetics, structural-functionalism and branching morphogenesis.
                 </p>
                 <p>
-                If you want to get involved, <a href="mailto:info@csd.red">reach out</a> to us. And check out our <a href="https://mother.technology/files/mother-pitch-deck.pdf">pitch deck</a> (pdf) too!
+                If you want to get involved, or recieve our pitch deck, <a href="mailto:info@csd.red">reach out</a> to us.
                 </p>
             </div>
           
