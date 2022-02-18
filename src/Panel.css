@@ -1,73 +1,67 @@
-
-
-  div.panel-item {
-    background-color: #EEE8EC;
-    flex-direction: column;
-    padding: 2% 0 4% 0;
-    align-items: center;
-    box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.62);
-    border: 10px solid white;
-    margin-bottom: 20px;
-  }
-  
-  div.panel-item img {
-    width: 80px;
-    object-fit: contain;
-    margin: 30px 0 20px 0;
-  }
-  
-  
-  div.panel-info {
-    color: black;
-    text-align: center;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 10%;
-  }
-  
-  
-  div.panel-info h2 {
-    margin: 20px auto 0 auto;
-    font-size: 2rem;
-  }
-  
-  div.panel-info a {
-    color: black;
-  }
-
-  div.panel-info p {
-    color: black;
-  }
-
-  .panels {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    max-width: 1200px;
-    margin: 0 20px 50px;
+div.panel-item {
+  background-color: #eee8ec;
+  flex-direction: column;
+  padding: 2% 0 4% 0;
+  align-items: center;
+  box-shadow: 0px 4px 9px -3px rgba(0, 0, 0, 0.62);
+  border: 10px solid white;
+  margin-bottom: 20px;
 }
 
+div.panel-item img {
+  width: 160px;
+  object-fit: contain;
+  margin: 40px 0 25px 0;
+}
+
+div.panel-info {
+  color: black;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 10%;
+}
+
+div.panel-info h2 {
+  margin: 20px auto 0 auto;
+  font-size: 2rem;
+}
+
+div.panel-info a {
+  color: black;
+}
+
+div.panel-info p {
+  color: black;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  max-width: 1200px;
+  margin: 0 20px 50px;
+}
 
 @media only screen and (max-width: 1024px) {
   .panels {
-      grid-column-gap: 5px;
+    grid-column-gap: 5px;
   }
-  
 }
 
 @media only screen and (max-width: 768px) {
   .panels {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   div.panel-item img {
-    width: 100px;
+    width: 140px;
   }
-} 
+}
 @media only screen and (max-width: 480px) {
   .panels {
-      margin: 0;
-    }
+    margin: 0;
+  }
   div.panel-item {
     margin: 10px 0;
   }
@@ -75,5 +69,3 @@
     font-size: 1.7rem;
   }
 }
-  
-  

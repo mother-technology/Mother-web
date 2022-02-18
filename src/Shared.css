@@ -1,5 +1,3 @@
-
-
 /* COMMON MEDIA QUERIES
 320px — 480px: Mobile devices.
 481px — 768px: iPads, Tablets.
@@ -9,7 +7,6 @@
 
 .App {
   flex-direction: column;
-
 }
 
 .side-margin {
@@ -55,7 +52,8 @@ div.container {
   border-top-left-radius: 50px;
 }
 
-p, ul {
+p,
+ul {
   color: black;
   font-family: "Lato", sans-serif;
   text-align: left;
@@ -98,7 +96,7 @@ span.stroke-white {
 
 img {
   margin: 10% auto;
-  max-width: 500px;
+  max-width: 311px;
   width: 100%;
 }
 
@@ -127,7 +125,7 @@ h3 {
 }
 
 a {
-  color: #3F8F82;
+  color: #3f8f82;
 }
 
 a:focus {
@@ -142,15 +140,12 @@ a:focus {
 }
 
 @media only screen and (max-width: 480px) {
-  h1, h2 {
-      font-size: 2.5rem;
+  h1,
+  h2 {
+    font-size: 2.5rem;
   }
-
 }
-
-
 
 @-ms-viewport {
   width: device-width;
 }
-

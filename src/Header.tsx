@@ -4,8 +4,8 @@ import "./Header.css";
 
 type HeaderProps = {
   className: string;
-  header?:string;
-  subHeader?:string;
+  header?: string;
+  subHeader?: string;
 };
 
 export const Header: React.FC<HeaderProps> = ({
@@ -21,20 +21,16 @@ export const Header: React.FC<HeaderProps> = ({
   }
 
   return (
-    
-    <div className={`header flex ${className}`} style={{height: height}}>
-          <div className="headers flex">
-            {header && (
-                <h1 className="flex">{header}</h1>
-            )}
-            {subHeader && (
-              <>
-                <div className="separator" />
-                <h2 className="flex">{subHeader}</h2>
-              </>
-            )}
-            </div>
+    <div className={`header flex ${className}`} style={{ height: height }}>
+      <div className="headers flex">
+        {header && <h1 className="flex">{header}</h1>}
+        {subHeader && (
+          <>
+            <div className="separator" />
+            <h2 className="flex">{subHeader}</h2>
+          </>
+        )}
       </div>
-  
+    </div>
   );
 };

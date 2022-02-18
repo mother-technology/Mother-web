@@ -1,7 +1,7 @@
 #menuIcon {
   border-radius: 50%;
   padding: 20px;
-  background-color: black;
+  background-color: white;
   width: 60px;
   height: 60px;
   justify-content: center;
@@ -11,18 +11,10 @@
   z-index: 100;
 }
 
-#menuIcon.inverted {
-  background-color: white;
-}
-
 .menuIcon {
-  color: white;
+  color: black;
   font-size: 40px;
   align-self: center;
-}
-
-.inverted .menuIcon {
-  color: black;
 }
 
 #navbar {
@@ -31,9 +23,9 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   z-index: 90;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
   overflow: hidden;
@@ -60,7 +52,7 @@ div.column {
 }
 
 #navbar a.active {
-  color: #f4a3a3; 
+  color: #f4a3a3;
   /* #59c8b6 */
 }
 
@@ -72,7 +64,4 @@ div.column {
   div.column {
     text-align: left;
   }
-
-
 }
-

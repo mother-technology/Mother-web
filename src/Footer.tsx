@@ -8,20 +8,29 @@ export const Footer: React.FC<RouteComponentProps> = (props) => {
     <div className="footer-container">
       <div className="flex footer">
         <div className="flex narrow-container">
-
           <div className="flex links">
-            <Link
-                to="/contact"
+            <Link to="/privacy">Privacy</Link>
+            <Link to="/contact">Contact</Link>
+            <a
+              className="social-logo"
+              href="https://www.linkedin.com/company/mothertechnology"
             >
-                Contact
-            </Link>
-            <Link
-                to="/privacy"
-            >
-                Privacy
-            </Link>
-            </div>
-            <p>Mother. is a deep tech neuroscience company situated in Stockholm.</p>
+              <img src="./images/li.png" />
+            </a>
+          </div>
+        </div>
+        <p>
+          Mother. is a deep tech neuroscience company situated in Stockholm and
+          a part of Sting, the leading ecosystem in the Nordics for startups
+          with high growth potential.
+        </p>
+        <div className="partner-logo">
+          <a className="partner-logo" href="https://sting.co/companies/mother/">
+            <img src="./images/sting.png" />
+          </a>
+          <a className="partner-logo" href="https://www.blingstartup.se/">
+            <img src="./images/bling.png" />
+          </a>
         </div>
       </div>
     </div>
