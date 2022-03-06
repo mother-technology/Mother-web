@@ -37,7 +37,11 @@ export const Main: React.FC = () => {
             </p>
           </div>
           <div className="flex panels">
-            <Panel header="Biofeedback" img="./images/biofeedback.png">
+            <Panel
+              header="Biofeedback"
+              img="./images/biofeedback.png"
+              link="biofeedback"
+            >
               <>
                 <p className="small">
                   Anxiety that builds up in our daily life, ratcheting up over
@@ -52,7 +56,11 @@ export const Main: React.FC = () => {
                 </p>
               </>
             </Panel>
-            <Panel header="Virtual Reality" img="./images/VR.png">
+            <Panel
+              header="Virtual Reality"
+              img="./images/VR.png"
+              link="virtual-reality"
+            >
               <>
                 <p className="small">
                   VR is rapidly emerging as a powerful tool for brain health,
@@ -66,7 +74,11 @@ export const Main: React.FC = () => {
                 </p>
               </>
             </Panel>
-            <Panel header="Cognitive tools" img="./images/cognitive-tools.png">
+            <Panel
+              header="Cognitive tools"
+              img="./images/cognitive-tools.png"
+              link="cognitive-tools"
+            >
               <>
                 <p className="small">
                   Life is easier to deal with when you have a clear picture of

@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Footer.css";
+import { Form } from "./Form";
 import { Link, withRouter, RouteComponentProps } from "react-router-dom";
 
 export const Footer: React.FC<RouteComponentProps> = (props) => {
@@ -9,15 +10,21 @@ export const Footer: React.FC<RouteComponentProps> = (props) => {
       <div className="flex footer">
         <div className="flex narrow-container">
           <div className="flex links">
+            <Link to="/team">Team</Link>
             <Link to="/privacy">Privacy</Link>
-            <Link to="/contact">Contact</Link>
-            <a
-              className="social-logo"
-              href="https://www.linkedin.com/company/mothertechnology"
-            >
-              <img src="./images/li.png" />
-            </a>
+            <Link to="/press">Press</Link>
           </div>
+        </div>
+        <p>
+          We'd love to hear from you! Send us{" "}
+          <a href="mailto:info@mother.technology">an email</a> or visit{" "}
+          <a href="https://www.linkedin.com/company/mothertechnology">
+            our LinkedIn page
+          </a>{" "}
+          - or sign up for our latest product releases
+        </p>
+        <div className="flex contact-form">
+          <Form />
         </div>
         <p>
           Mother. is a deep tech neuroscience company situated in Stockholm and

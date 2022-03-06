@@ -36,7 +36,7 @@ div.headers {
   flex-direction: column;
   padding: 0 20px;
   align-items: center;
-  margin-top: 200px;
+  justify-content: center;
 }
 
 div.header h1 {
@@ -63,3 +63,44 @@ div.header h2 {
     font-size: 2rem;
   }
 }
+
+/* 
+Testa lägga ett annat utanför body men fixa sedan resten är incheckat
+
+div.main-header {
+  background: #000 url(./images/1.png) center center;
+}
+
+div.team-header {
+  background: #000 url(./images/2.png) center center;
+}
+
+div.vr-header {
+  background: #000 url(./images/7.png) center center;
+}
+
+div.contact-header {
+  background: #000 url(./images/8.png) center center;
+}
+
+div.privacy-header {
+  background: #000 url(./images/10.png) center center;
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+div.header {
+  align-items: center;
+  justify-content: center;
+}
+ */
