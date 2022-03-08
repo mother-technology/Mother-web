@@ -1,0 +1,27 @@
+.circle-with-text {
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-with-text p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .circle-with-text {
+    width: 320px;
+    height: 320px;
+  }
+  .circle-with-text p {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+}

@@ -41,8 +41,14 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
             <Link to="/" className="subLink">
               VR
             </Link>
-            <Link to="/" className="subLink">
-              Other products
+            <Link to="/hertz" className="subLink">
+              Hertz
+            </Link>
+            <Link to="/hertz-lite" className="subLink">
+              Hertz lite
+            </Link>
+            <Link to="/self-confidence" className="subLink">
+              Self-confidence
             </Link>
             {/* <Link to="/#cognitive-tools" className="subLink">
               Cognitive tools
@@ -66,8 +72,8 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
               Our interests
             </Link>
             <Link
-              to="/press"
-              className={props.location.pathname === "/press" ? "active" : ""}
+              to="/media"
+              className={props.location.pathname === "/media" ? "active" : ""}
             >
               Press
             </Link>

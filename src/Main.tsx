@@ -4,6 +4,7 @@ import "./Shared.css";
 import "./Main.css";
 import { Header } from "./Header";
 import { Panel } from "./Panel";
+import { CircleWithText } from "./CircleWithText";
 
 export const Main: React.FC = () => {
   return (
@@ -27,8 +28,55 @@ export const Main: React.FC = () => {
               biofeedback, and guided mental training courses.
             </p>
           </div>
+
+          <div className="flex panels">
+            <Panel header="The brain" backgroundColor="pink">
+              <>
+                <p className="small">The Brain, home to us all! </p>
+                <p className="small">
+                  Never has the research on our most thinky organ been so
+                  advanced, yet globally mental health plummets.{" "}
+                </p>
+                <p className="small">
+                  Anxiety, burnout, depersonalisation, depression, and mood
+                  disorders are all too common, and amongst the youth they're on
+                  the rise. These mental health issues highlight the unhappy
+                  state of our brains.
+                </p>
+              </>
+            </Panel>
+            <Panel header="Research-based" backgroundColor="yellow">
+              <>
+                <p className="small">
+                  In research labs across the world, using tools such as VR or
+                  psychedelics, in molecular biology labs, in fMRI studies, the
+                  cutting edge of science is revealing aspects of our brains
+                  which show us a clear path forward for brain health.
+                </p>
+                <p className="small">
+                  From this and our own in-house research we develop novel
+                  digital therapeutics targetting the brain.
+                </p>
+              </>
+            </Panel>
+            <Panel header="The target" backgroundColor="black">
+              <>
+                <p className="small">
+                  We aim to enable you to fully affirm your life, yourself, and
+                  your mode of functioning. We want your brain (and body)
+                  happily ticking along like a Swiss watch. We want you to feel
+                  like every day is the best day of your life, until tomorrow...
+                </p>
+                <p className="small">
+                  And we want you to know who you are, where you want to go, and
+                  how to get there.
+                </p>
+              </>
+            </Panel>
+          </div>
+          <div className="separator" />
           <div className="flex main">
-            <h2>Technology</h2>
+            <h2>VR text</h2>
             <p>
               We believe the trends in neuroscience are revealing hidden aspects
               of the brain, and that we are approaching a new dawn for digital
@@ -36,60 +84,48 @@ export const Main: React.FC = () => {
               these developments.
             </p>
           </div>
+          <CircleWithText backgroundColor="pink">
+            <p>
+              We believe the trends in neuroscience are revealing hidden aspects
+              of the brain, and that we are approaching a new dawn for digital
+              mental health therapeutics, and we aim to be at the forefront of
+              these developments.
+            </p>
+          </CircleWithText>
+          <div className="separator" />
+          <div className="flex main">
+            <h2>Our other products</h2>
+            <p>What is in it for you</p>
+          </div>
           <div className="flex panels">
             <Panel
-              header="Biofeedback"
-              img="./images/biofeedback.png"
-              link="biofeedback"
+              header="Hertz."
+              backgroundColor="light-grey"
+              color="dark"
+              img="/images/hz-round.png"
             >
               <>
-                <p className="small">
-                  Anxiety that builds up in our daily life, ratcheting up over
-                  time to form a constant background stress, is a common cause
-                  for mental ill-health.
-                </p>
-                <p className="small">
-                  {" "}
-                  We have developed several tools to directly reduce anxiety as
-                  well as training you to give you a say in the way your brain
-                  controls your body's emergency reactions.
-                </p>
+                <p className="small dark">Visit out hertz page</p>
               </>
             </Panel>
             <Panel
-              header="Virtual Reality"
-              img="./images/VR.png"
-              link="virtual-reality"
+              header="Hertz."
+              backgroundColor="light-grey"
+              color="dark"
+              img="/images/hz-lite-round.png"
             >
               <>
-                <p className="small">
-                  VR is rapidly emerging as a powerful tool for brain health,
-                  where even single intense experiences can cause long-term
-                  changes to how we perceive the world.{" "}
-                </p>
-                <p className="small">
-                  We use VR to strategically modify the brain's maladaptive
-                  background assumptions, causing change that is not
-                  instantaneous, but over time will be profound.
-                </p>
+                <p className="small dark">Visit out hertz page</p>
               </>
             </Panel>
             <Panel
-              header="Cognitive tools"
-              img="./images/cognitive-tools.png"
-              link="cognitive-tools"
+              header="Hertz."
+              backgroundColor="light-grey"
+              color="dark"
+              img="/images/cc.png"
             >
               <>
-                <p className="small">
-                  Life is easier to deal with when you have a clear picture of
-                  what lies ahead. Our first step is education with innovation.{" "}
-                </p>
-                <p className="small">
-                  Our 'brain care' App, "Consciousness Craft", will ask some
-                  simple questions to help you discern where your efforts could
-                  best be spent, and then present the latest and most relevant
-                  research findings.
-                </p>
+                <p className="small dark">Visit out hertz page</p>
               </>
             </Panel>
           </div>

@@ -26,7 +26,7 @@ export const Header: React.FC<HeaderProps> = ({
         {header && <h1 className="flex">{header}</h1>}
         {subHeader && (
           <>
-            <div className="separator" />
+            <div className="header-separator" />
             <h2 className="flex">{subHeader}</h2>
           </>
         )}

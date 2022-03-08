@@ -18,6 +18,11 @@
   padding: 50px 20px;
 }
 
+div.separator {
+  width: 100px;
+  border-top: 1px solid black;
+}
+
 html {
   font-size: 16px;
 }
@@ -32,6 +37,8 @@ div.main {
   justify-content: center;
   margin: 0 0 50px 0;
   max-width: 550px;
+  text-align: center;
+  align-items: center;
 }
 
 div.header-text-margin {
@@ -57,7 +64,8 @@ ul {
   color: black;
   font-family: "Lato", sans-serif;
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
   font-weight: 300;
 }
 
@@ -117,11 +125,16 @@ h2 {
   margin: 10px;
 }
 
-h3 {
+h3,
+h4 {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 900;
   margin-bottom: 0;
+}
+
+h4 {
+  font-weight: 300;
 }
 
 a {
@@ -131,6 +144,23 @@ a {
 a:focus {
   border: none;
   outline: none;
+}
+
+/* All colors */
+.pink {
+  background-color: #e3736b;
+}
+
+.yellow {
+  background-color: #fbad0a;
+}
+
+.black {
+  background-color: black;
+}
+
+.light-grey {
+  background-color: #eee8ec;
 }
 
 @media only screen and (max-width: 1024px) {

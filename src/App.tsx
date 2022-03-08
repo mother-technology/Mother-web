@@ -3,11 +3,11 @@ import Footer from "./Footer";
 import Menu from "./Menu";
 import { Main } from "./Main";
 import { Team } from "./Team";
-import { Press } from "./Press";
+import { Media } from "./Media";
 import { Privacy } from "./Privacy";
-import { VirtualReality } from "./VirtualReality";
-import { CognitiveTools } from "./CognitiveTools";
-import { Biofeedback } from "./Biofeedback";
+import { HertzLite } from "./HertzLite";
+import { Hertz } from "./Hertz";
+import { SelfConfidence } from "./SelfConfidence";
 import Page from "./Page";
 import ScrollToTop from "./ScrollToTop";
 
@@ -43,30 +43,30 @@ function App() {
           />
           <Page
             exact
-            path="/press"
-            component={Press}
-            title="Press - Images of the team and products | mother.technology"
+            path="/media"
+            component={Media}
+            title="Media - Images of the team and products | mother.technology"
             description="Hi journalist or reviewer! We would love it if you wanted to write about our company."
           />
           <Page
             exact
-            path="/virtual-reality"
-            component={VirtualReality}
-            title="Virtual Reality - We develop digital tools to target the subconscious | mother.technology"
+            path="/hertz"
+            component={Hertz}
+            title="Hertz | mother.technology"
             description=""
           />
           <Page
             exact
-            path="/biofeedback"
-            component={Biofeedback}
-            title="Biofeedback - We develop digital tools to target the subconscious | mother.technology"
+            path="/hertz-lite"
+            component={HertzLite}
+            title="Hertz lite  | mother.technology"
             description=""
           />
           <Page
             exact
-            path="/Cognitive-tools"
-            component={CognitiveTools}
-            title="Cognitive tools - We develop digital tools to target the subconscious | mother.technology"
+            path="/self-confidence"
+            component={SelfConfidence}
+            title="Self confidence  | mother.technology"
             description=""
           />
         </Switch>

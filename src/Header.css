@@ -27,7 +27,7 @@ div.header {
   justify-content: center;
 }
 
-div.separator {
+div.header-separator {
   width: 80px;
   border-top: 1px solid white;
 }
@@ -44,7 +44,7 @@ div.header h1 {
   font-family: BelweSB-Medium, "Lato", sans-serif;
   font-weight: 300;
   font-size: 4rem;
-  margin: 20px 0;
+  margin: 20px 0 30px 0;
 }
 
 div.header h2 {
@@ -52,10 +52,20 @@ div.header h2 {
   margin: 20px 0;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media (hover: none)  {
   div.headers {
-    /* margin-top: 100px; */
+    background-attachment: scroll;
   }
+} 
+
+@supports (-webkit-touch-callout: inherit) {
+  div.headers {
+    background-attachment: scroll;
+  }
+}
+*/
+
+@media only screen and (max-width: 480px) {
   div.header h1 {
     font-size: 3rem;
   }
@@ -63,44 +73,22 @@ div.header h2 {
     font-size: 2rem;
   }
 }
-
 /* 
-Testa lägga ett annat utanför body men fixa sedan resten är incheckat
+https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7
+    body {
+      position: relative;
+    }
 
-div.main-header {
-  background: #000 url(./images/1.png) center center;
-}
-
-div.team-header {
-  background: #000 url(./images/2.png) center center;
-}
-
-div.vr-header {
-  background: #000 url(./images/7.png) center center;
-}
-
-div.contact-header {
-  background: #000 url(./images/8.png) center center;
-}
-
-div.privacy-header {
-  background: #000 url(./images/10.png) center center;
-}
-
-body:after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-div.header {
-  align-items: center;
-  justify-content: center;
-}
- */
+    body:after {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      content: '';
+      background-image: url(./img/YOUR_IMG.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #000;
+      background-position: bottom right;
+    } */

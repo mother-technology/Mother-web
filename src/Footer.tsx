@@ -12,7 +12,7 @@ export const Footer: React.FC<RouteComponentProps> = (props) => {
           <div className="flex links">
             <Link to="/team">Team</Link>
             <Link to="/privacy">Privacy</Link>
-            <Link to="/press">Press</Link>
+            <Link to="/media">Media</Link>
           </div>
         </div>
         <p>
@@ -26,11 +26,6 @@ export const Footer: React.FC<RouteComponentProps> = (props) => {
         <div className="flex contact-form">
           <Form />
         </div>
-        <p>
-          Mother. is a deep tech neuroscience company situated in Stockholm and
-          a part of Sting, the leading ecosystem in the Nordics for startups
-          with high growth potential.
-        </p>
         <div className="partner-logo">
           <a className="partner-logo" href="https://sting.co/companies/mother/">
             <img src="./images/sting.png" />
