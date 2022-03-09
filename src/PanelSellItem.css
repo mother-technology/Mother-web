@@ -85,4 +85,7 @@ div.panel-sell-items a.buttonLink {
   div.panel-sell-item {
     width: 320px;
   }
+  div.panel-sell-item div.panel-info {
+    height: auto;
+  }
 }
