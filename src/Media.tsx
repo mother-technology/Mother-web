@@ -19,6 +19,8 @@ export const Media: React.FC = () => {
             our software or talk to us about it. Want to know more?{" "}
             <a href="mailto:press@mother.technology">Mail us</a>.
           </p>
+        </div>
+        <div className="flex main">
           <h2>Other products</h2>
           <p>
             Here's a zip with <a href="./images/media.zip">higher resolution</a>{" "}

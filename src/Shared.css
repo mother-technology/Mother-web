@@ -15,12 +15,13 @@
   margin: 0 auto;
   flex-direction: column;
   align-items: center;
-  padding: 50px 20px;
+  padding: 80px 40px;
 }
 
 div.separator {
   width: 100px;
   border-top: 1px solid black;
+  margin: 100px 0;
 }
 
 html {
@@ -35,7 +36,7 @@ body {
 div.main {
   flex-direction: column;
   justify-content: center;
-  margin: 0 0 50px 0;
+  margin: 0 0 80px 0;
   max-width: 550px;
   text-align: center;
   align-items: center;
@@ -60,7 +61,8 @@ div.container {
 }
 
 p,
-ul {
+ul,
+a {
   color: black;
   font-family: "Lato", sans-serif;
   text-align: left;
@@ -122,7 +124,7 @@ h1 {
 }
 
 h2 {
-  margin: 10px;
+  margin: 0 0 20px 0;
 }
 
 h3,

@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+
 import React from "react";
 import "./Panel.css";
 // import { Link, withRouter, RouteComponentProps } from "react-router-dom";

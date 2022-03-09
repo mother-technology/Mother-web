@@ -10,7 +10,6 @@ import { Hertz } from "./Hertz";
 import { SelfConfidence } from "./SelfConfidence";
 import Page from "./Page";
 import ScrollToTop from "./ScrollToTop";
-
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {

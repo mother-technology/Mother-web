@@ -4,9 +4,19 @@ import "./Shared.css";
 import "./Main.css";
 import { Header } from "./Header";
 import { Panel } from "./Panel";
+import { PanelSellItem } from "./PanelSellItem";
 import { CircleWithText } from "./CircleWithText";
+import { USPList } from "./USPList";
 
 export const Main: React.FC = () => {
+  let usp = [
+    {
+      title: "Research-based",
+      text: "With our solution, you know that you get the real science, based on latest neuroscience papers.",
+    },
+    { title: "Title2", text: "Text2" },
+  ];
+
   return (
     <>
       <div>
@@ -45,7 +55,7 @@ export const Main: React.FC = () => {
                 </p>
               </>
             </Panel>
-            <Panel header="Research-based" backgroundColor="yellow">
+            <Panel header="The science" backgroundColor="yellow">
               <>
                 <p className="small">
                   In research labs across the world, using tools such as VR or
@@ -76,6 +86,10 @@ export const Main: React.FC = () => {
           </div>
           <div className="separator" />
           <div className="flex main">
+            <USPList usp={usp} />
+          </div>
+          <div className="separator" />
+          <div className="flex main">
             <h2>VR text</h2>
             <p>
               We believe the trends in neuroscience are revealing hidden aspects
@@ -97,40 +111,57 @@ export const Main: React.FC = () => {
             <h2>Our other products</h2>
             <p>What is in it for you</p>
           </div>
-          <div className="flex panels">
-            <Panel
+          <div className="flex panel-sell-items">
+            <PanelSellItem
               header="Hertz."
-              backgroundColor="light-grey"
-              color="dark"
-              img="/images/hz-round.png"
+              img="/images/hz-square.png"
+              link="/hertz"
+              linkText="Read more about Hertz."
+              buttonText="DOWNLOAD NOW"
+              buttonLink="https://apps.apple.com/us/app/hertz-an-anxiety-treatment/id1529146685"
             >
               <>
-                <p className="small dark">Visit out hertz page</p>
+                <p className="small">
+                  Work on your vagus nerve. Became a more calm person.
+                </p>
               </>
-            </Panel>
-            <Panel
-              header="Hertz."
-              backgroundColor="light-grey"
-              color="dark"
-              img="/images/hz-lite-round.png"
+            </PanelSellItem>
+            <PanelSellItem
+              header="Hertz lite."
+              img="/images/hz-lite-square.png"
+              link="/hertz-lite"
+              linkText="Read more about Hertz lite."
+              buttonText="DOWNLOAD NOW"
+              buttonLink="https://apps.apple.com/us/app/hertz-an-anxiety-treatment/id1529146685"
             >
               <>
-                <p className="small dark">Visit out hertz page</p>
+                <p className="small">
+                  For free. No ads. But still makes you pay.
+                </p>
               </>
-            </Panel>
-            <Panel
-              header="Hertz."
-              backgroundColor="light-grey"
-              color="dark"
-              img="/images/cc.png"
+            </PanelSellItem>
+
+            <PanelSellItem
+              header="Self-confidence."
+              img="/images/hz-square.png"
+              link="/self-confidence"
+              linkText="Read more about our coming app."
             >
               <>
-                <p className="small dark">Visit out hertz page</p>
+                <p className="small">Get better self confidence.</p>
               </>
-            </Panel>
+            </PanelSellItem>
           </div>
         </div>
       </div>
     </>
   );
 };
+
+// header: string;
+// img: string;
+// link?: string;
+// linkText?: string;
+// buttonText?: string;
+// buttonLink?: string;
+// children: JSX.Element;
