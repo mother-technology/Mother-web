@@ -45,7 +45,7 @@ export const Hertz: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex panels">
+        <div className="panels">
           <Panel header="The target" backgroundColor="pink">
             <>
               <p className="small">

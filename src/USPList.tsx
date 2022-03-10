@@ -16,7 +16,7 @@ export const USPList: React.FC<Props> = ({ usp }) => {
     <div className="usp">
       {usp.map((item) => (
         <>
-          <div className="flex check pink">
+          <div className="check pink">
             <IoCheckmarkSharp size={30} />
           </div>
           <div className="info">

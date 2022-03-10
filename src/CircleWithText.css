@@ -1,4 +1,5 @@
 .circle-with-text {
+  display: flex;
   flex-direction: column;
   width: 500px;
   height: 500px;
@@ -17,11 +18,22 @@
 
 @media only screen and (max-width: 768px) {
   .circle-with-text {
+    width: 420px;
+    height: 420px;
+  }
+  .circle-with-text p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .circle-with-text {
     width: 320px;
     height: 320px;
   }
   .circle-with-text p {
     font-size: 1.1rem;
-    line-height: 1.2;
+    line-height: 1.1;
   }
 }

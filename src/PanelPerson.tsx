@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+
 import React from "react";
 import "./PanelPerson.css";
 
@@ -22,9 +24,11 @@ export const PanelPerson: React.FC<PanelProps> = ({
       <div className="flex person-info">
         <h3>{header}</h3>
         {children}
-        {linkHref && 
-          <p>Read more on <a href={linkHref}>{linkName}.</a></p>
-         }
+        {linkHref && (
+          <p>
+            Read more on <a href={linkHref}>{linkName}.</a>
+          </p>
+        )}
       </div>
     </div>
   );

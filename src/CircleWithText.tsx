@@ -11,6 +11,6 @@ export const CircleWithText: React.FC<PanelProps> = ({
   children,
 }: PanelProps) => {
   return (
-    <div className={`flex circle-with-text ${backgroundColor}`}>{children}</div>
+    <div className={`circle-with-text ${backgroundColor}`}>{children}</div>
   );
 };

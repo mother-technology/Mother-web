@@ -7,7 +7,7 @@ import { Link, withRouter, RouteComponentProps } from "react-router-dom";
 export const Footer: React.FC<RouteComponentProps> = (props) => {
   return (
     <div className="footer-container">
-      <div className="flex footer">
+      <div className="footer">
         <div className="flex narrow-container">
           <div className="flex links">
             <Link to="/team">Team</Link>

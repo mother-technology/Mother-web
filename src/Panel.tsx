@@ -26,7 +26,7 @@ export const Panel: React.FC<PanelProps> = ({
 
   return (
     // <Link to={link}>
-    <div className={`flex panel-item ${backgroundColor}`}>
+    <div className={`panel-item ${backgroundColor}`}>
       {img && <img src={img} alt="product" />}
       <div className="flex panel-info">
         <h2 id={hashId} className={color}>
