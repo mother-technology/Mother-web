@@ -21,7 +21,7 @@ export const Media: React.FC = () => {
           </p>
         </div>
         <div className="flex main">
-          <h2>Other products</h2>
+          <h2 id="other-products">Other products</h2>
           <p>
             Here's a zip with <a href="./images/media.zip">higher resolution</a>{" "}
             versions of the images below. Or replace the .png extension with jpg

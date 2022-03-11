@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { IconContext } from "react-icons";
 import { IoCloseOutline, IoMenuOutline } from "react-icons/io5";
 import { Link, RouteComponentProps, withRouter } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Menu.css";
 
 export const Menu: React.FC<RouteComponentProps> = (props) => {
@@ -36,9 +37,9 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
             >
               Home
             </Link>
-            <Link to="/#vr" className="subLink">
+            <HashLink to="/#vr" className="subLink">
               VR
-            </Link>
+            </HashLink>
 
             <Link
               to="/"
@@ -62,27 +63,30 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
             >
               Team
             </Link>
-            <Link to="/team#our-values" className="subLink">
+            <HashLink to="/team#our-values" className="subLink">
               Our values
-            </Link>
-            <Link to="/team#our-interests" className="subLink">
+            </HashLink>
+            <HashLink to="/team#our-interests" className="subLink">
               Our interests
-            </Link>
+            </HashLink>
             <Link
               to="/media"
               className={props.location.pathname === "/media" ? "active" : ""}
             >
               Media
             </Link>
+            <HashLink to="/media#other-products" className="subLink">
+              Other products
+            </HashLink>
             <Link
               to="/privacy"
               className={props.location.pathname === "/privacy" ? "active" : ""}
             >
               Privacy
             </Link>
-            <Link to="/privacy#the-small-print" className="subLink">
+            <HashLink to="/privacy#the-small-print" className="subLink">
               The small print
-            </Link>
+            </HashLink>
           </div>
         </div>
       )}
