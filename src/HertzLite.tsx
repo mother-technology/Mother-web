@@ -53,7 +53,7 @@ export const HertzLite: React.FC = () => {
         </div>
 
         <div className="panels">
-          <Panel header="The difference." backgroundColor="pink">
+          <Panel header="The difference." backgroundColor="pink" img="/images/the-target.png">
             <>
               <p className="small">
                 With Hertz. we developed a novel biofeedback mechanism that
