@@ -61,6 +61,7 @@ div.contact-form {
   min-width: 320px;
   padding: 10px;
   padding-bottom: 40px;
+  flex-direction: column;
 }
 
 div .success,

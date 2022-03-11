@@ -2,7 +2,7 @@
 import React from "react";
 import "./Shared.css";
 import "./USPList.css";
-import { IoCheckmarkSharp } from "react-icons/io5";
+import { IoCheckmark } from "react-icons/io5";
 
 interface Props {
   usp: {
@@ -16,8 +16,8 @@ export const USPList: React.FC<Props> = ({ usp }) => {
     <div className="usp">
       {usp.map((item) => (
         <>
-          <div className="check pink">
-            <IoCheckmarkSharp size={30} />
+          <div className="check yellow">
+            <IoCheckmark size={30} />
           </div>
           <div className="info">
             <h4>{item.title}</h4>

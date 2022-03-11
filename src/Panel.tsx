@@ -2,7 +2,6 @@
 
 import React from "react";
 import "./Panel.css";
-// import { Link, withRouter, RouteComponentProps } from "react-router-dom";
 
 type PanelProps = {
   header: string;
@@ -13,7 +12,6 @@ type PanelProps = {
   children: JSX.Element;
 };
 
-// export const Panel: React.FC<RouteComponentProps<PanelProps>> = (props) => {
 export const Panel: React.FC<PanelProps> = ({
   header,
   img,
@@ -25,7 +23,6 @@ export const Panel: React.FC<PanelProps> = ({
   const hashId = header.replace(/\s+/g, "-").toLowerCase();
 
   return (
-    // <Link to={link}>
     <div className={`panel-item ${backgroundColor}`}>
       {img && <img src={img} alt="product" />}
       <div className="flex panel-info">
@@ -35,8 +32,5 @@ export const Panel: React.FC<PanelProps> = ({
         {children}
       </div>
     </div>
-    // </Link>
   );
 };
-
-// export default withRouter(Panel);

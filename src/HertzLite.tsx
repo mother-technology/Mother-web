@@ -5,20 +5,21 @@ import { Header } from "./Header";
 import { Panel } from "./Panel";
 import { ABriefBackground } from "./ABriefBackground";
 import { TipsAndTricks } from "./TipsAndTricks";
+import { PanelTextImageDL } from "./PanelTextImageDL";
 
 export const HertzLite: React.FC = () => {
   return (
     <div>
       <Header
         className="main-header"
-        header="Free, no ads, no in-app purchases!"
-        subHeader="But it'll still make you pay."
+        header="Sync your practice with millions!"
+        subHeader="(Potentially...)"
       />
       <div className="side-margin">
         <div className="flex main">
           <p>
-            Hertz-lite. has two components, one for breathing and one for focus.
-            Hertz-lite. coaches you to breath in a way which stimulates your{" "}
+            Hertz-lite. has two components, one for breathing and one for focus,
+            coaching you to breath in a way which stimulates your{" "}
             <a href="https://www.thecut.com/2019/05/i-now-suspect-the-vagus-nerve-is-the-key-to-well-being.html">
               vagus nerve
             </a>{" "}
@@ -27,11 +28,28 @@ export const HertzLite: React.FC = () => {
             <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6189422/">
               yoga
             </a>{" "}
-            . Our app coaches you to stimulate your vagus, directly reducing
+            .{" "}
+          </p>
+          <p>
+            Our app coaches you to stimulate your vagus, directly reducing
             anxiety. This will tone your vagus, building resilience to future
             stress. With regular practise, you will increase your CVC, deepening
             your emotional reserves.
           </p>
+          <div className="panel-sell-items">
+            <PanelTextImageDL
+              header="Hertz lite."
+              img="/images/hz-lite-square.png"
+              buttonText="DOWNLOAD NOW"
+              buttonLink="https://apps.apple.com/us/app/hertz-an-anxiety-treatment/id1529146685"
+            >
+              <>
+                <p className="small">
+                  Free, no strings attached, but some dedication required.
+                </p>
+              </>
+            </PanelTextImageDL>
+          </div>
         </div>
 
         <div className="panels">

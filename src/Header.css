@@ -19,8 +19,6 @@ div.privacy-header {
 }
 
 div.header {
-  background-size: cover;
-  background-position: center center;
   background-attachment: fixed;
   overflow: hidden;
   align-items: center;

@@ -5,21 +5,35 @@ import { Header } from "./Header";
 import { Panel } from "./Panel";
 import { ABriefBackground } from "./ABriefBackground";
 import { TipsAndTricks } from "./TipsAndTricks";
+import { PanelTextImageDL } from "./PanelTextImageDL";
 
 export const Hertz: React.FC = () => {
   return (
     <div>
       <Header
         className="main-header"
-        header="You're not going to like our first app."
-        subHeader="But your brain will"
+        header="A recharge button,"
+        subHeader="for your wrist."
       />
       <div className="side-margin">
         <div className="flex main">
-          <p>
-            Anxiety is the single most common mental health issue in the world.
-            It doesn’t have to be.
-          </p>
+          <p></p>
+          <div className="panel-sell-items">
+            <PanelTextImageDL
+              header="Hertz."
+              img="/images/hz-square.png"
+              buttonText="DOWNLOAD NOW"
+              buttonLink="https://apps.apple.com/us/app/hertz-an-anxiety-treatment/id1529146685"
+            >
+              <>
+                <p>
+                  Anxiety is the single most common mental health issue in the
+                  world.
+                </p>
+                <p> It doesn’t have to be.</p>
+              </>
+            </PanelTextImageDL>
+          </div>
           <p>
             Hertz. provides{" "}
             <a href="https://en.wikipedia.org/wiki/Biofeedback">biofeedback</a>{" "}
@@ -46,7 +60,11 @@ export const Hertz: React.FC = () => {
         </div>
 
         <div className="panels">
-          <Panel header="The target" backgroundColor="pink">
+          <Panel
+            header="The target"
+            backgroundColor="black"
+            img="/images/the-target.png"
+          >
             <>
               <p className="small">
                 Regular stimulation of your vagus nerve increases your HRV
@@ -62,7 +80,11 @@ export const Hertz: React.FC = () => {
               <p>But who has that kind of time?</p>
             </>
           </Panel>
-          <Panel header="The time" backgroundColor="yellow">
+          <Panel
+            header="The time"
+            backgroundColor="black"
+            img="/images/the-time.png"
+          >
             <>
               <p className="small">
                 For a smart world we need smart tools. Hertz. pairs a simple HRV
@@ -77,7 +99,11 @@ export const Hertz: React.FC = () => {
               <p>Or was it the other way around?</p>
             </>
           </Panel>
-          <Panel header="The magic" backgroundColor="black">
+          <Panel
+            header="The magic"
+            backgroundColor="black"
+            img="/images/the-magic.png"
+          >
             <>
               <p className="small">
                 Tying your vagal nerve stimulation to a target that gives direct

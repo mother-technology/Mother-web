@@ -105,8 +105,7 @@ span.stroke-white {
 }
 
 img {
-  margin: 10% auto;
-  max-width: 311px;
+  margin: 20px auto;
   width: 100%;
 }
 
@@ -154,15 +153,15 @@ a:focus {
 }
 
 .yellow {
-  background-color: #fbad0a;
+  background-color: #fbbc09;
 }
 
 .black {
-  background-color: black;
+  background-color: #202324;
 }
 
 .light-grey {
-  background-color: #eee8ec;
+  background-color: #eaeced;
 }
 
 @media only screen and (max-width: 1024px) {

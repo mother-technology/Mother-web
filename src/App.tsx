@@ -7,7 +7,7 @@ import { Media } from "./Media";
 import { Privacy } from "./Privacy";
 import { HertzLite } from "./HertzLite";
 import { Hertz } from "./Hertz";
-import { SelfConfidence } from "./SelfConfidence";
+import { ConsciousnessCraft } from "./ConsciousnessCraft";
 import Page from "./Page";
 import ScrollToTop from "./ScrollToTop";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
@@ -63,9 +63,9 @@ function App() {
           />
           <Page
             exact
-            path="/self-confidence"
-            component={SelfConfidence}
-            title="Self confidence  | mother.technology"
+            path="/consciousness-craft"
+            component={ConsciousnessCraft}
+            title="Consciousness craft  | mother.technology"
             description=""
           />
         </Switch>

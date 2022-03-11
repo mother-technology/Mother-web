@@ -1,18 +1,37 @@
 .circle-with-text {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 500px;
+  width: 480px;
+  height: 480px;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.circle-with-text h2 {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin: 0;
+  color: white;
+  text-align: center;
 }
 
 .circle-with-text p {
-  font-size: 1.4rem;
-  line-height: 1.4;
+  font-size: 1.1rem;
+  line-height: 1.3;
   color: white;
   padding: 20px;
+  text-align: center;
+}
+
+.circle-with-text p.step {
+  font-size: 4rem;
+  padding: 20px;
+  margin: 0;
+  line-height: 1;
+  font-family: BelweSB-Medium, "Lato", serif;
   text-align: center;
 }
 
@@ -24,6 +43,7 @@
   .circle-with-text p {
     font-size: 1.2rem;
     line-height: 1.2;
+    padding: 10px;
   }
 }
 

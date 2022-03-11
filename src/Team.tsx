@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Shared.css";
 import "./Team.css";
 import { Header } from "./Header";
@@ -142,7 +141,9 @@ export const Team: React.FC = () => {
             open source software, privacy focused, with our intentions and
             actions open and public.
           </p>
-          <h2>Our interests.</h2>
+        </div>
+        <div className="flex main">
+          <h2 id="our-interests">Our interests.</h2>
           <p>
             We work with software tools like Unity, Blender, Meshroom, Meshlab
             and R. We like hardware too, EEG, GSR, eye trackers and of course,

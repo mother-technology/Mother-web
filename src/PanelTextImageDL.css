@@ -1,0 +1,58 @@
+div.panel-sell-items {
+  margin: 30px 0;
+}
+
+div.panel-sell-item {
+  display: flex;
+  padding: 30px 0 60px 0;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+div.panel-sell-item img {
+  max-width: 140px;
+}
+
+div.panel-sell-item div.panel-info {
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+div.panel-sell-items div.panel-info h2 {
+  margin: 10px auto;
+  font-size: 2rem;
+}
+
+div.panel-sell-items div.panel-info a {
+  color: white;
+}
+
+div.panel-sell-items div.panel-info p,
+div.panel-sell-items div.panel-info h2 {
+  color: white;
+  text-align: center;
+}
+
+div.panel-sell-items a.buttonLink {
+  border: 2px solid white;
+  padding: 15px 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-size: 0.9rem;
+  font-weight: 900;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  div.panel-info h2 {
+    font-size: 1.7rem;
+  }
+}

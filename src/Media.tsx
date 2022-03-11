@@ -9,7 +9,7 @@ export const Media: React.FC = () => {
     <>
       <Header
         className="main-header"
-        header="Press"
+        header="Media"
         subHeader="Product and team images"
       />
       <div className="side-margin">
