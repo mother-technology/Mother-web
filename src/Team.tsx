@@ -9,7 +9,7 @@ export const Team: React.FC = () => {
   return (
     <div>
       <Header
-        className="vr-header"
+        className="team-header"
         header="The allstar team"
         subHeader="Our diverse and dedicated specialists"
       />

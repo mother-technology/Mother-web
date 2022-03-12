@@ -8,7 +8,7 @@ export const Media: React.FC = () => {
   return (
     <>
       <Header
-        className="main-header"
+        className="media-header"
         header="Media"
         subHeader="Product and team images"
       />

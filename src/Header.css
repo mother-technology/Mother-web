@@ -3,7 +3,7 @@ div.main-header {
 }
 
 div.team-header {
-  background: #000 url(./images/2.png) center 0 no-repeat;
+  background: #000 url(./images/4.png) center 0 no-repeat;
 }
 
 div.vr-header {
@@ -11,11 +11,15 @@ div.vr-header {
 }
 
 div.contact-header {
+  background: #000 url(./images/10.png) center 0 no-repeat;
+}
+
+div.media-header {
   background: #000 url(./images/8.png) center 0 no-repeat;
 }
 
 div.privacy-header {
-  background: #000 url(./images/10.png) center 0 no-repeat;
+  background: #000 url(./images/5.png) center 0 no-repeat;
 }
 
 div.header {

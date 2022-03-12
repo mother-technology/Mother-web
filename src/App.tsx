@@ -24,7 +24,7 @@ function App() {
             path="/"
             component={Main}
             title="Mother. - Bringing neuroscience to the people. | mother.technology"
-            description="We are a hard-science deep-tech group of scientists and developers, using cutting-edge results from the lab to create digital therapeutics for mental health."
+            description="We are a hard-science deep-tech group of scientists and developers, using cutting-edge results from the lab to create digital therapeutics for mental well-being."
           />
           <Page
             exact
@@ -52,21 +52,21 @@ function App() {
             path="/hertz"
             component={Hertz}
             title="Hertz | mother.technology"
-            description=""
+            description="A novel biofeedback and executive function training app to tackle anxiety and train the vagus nerve."
           />
           <Page
             exact
             path="/hertz-lite"
             component={HertzLite}
             title="Hertz lite  | mother.technology"
-            description=""
+            description="A simple focus training app to tackle anxiety and train the vagus nerve."
           />
           <Page
             exact
             path="/consciousness-craft"
             component={ConsciousnessCraft}
             title="Consciousness craft  | mother.technology"
-            description=""
+            description="Our big friendly guide to your brain and mind."
           />
         </Switch>
       </div>

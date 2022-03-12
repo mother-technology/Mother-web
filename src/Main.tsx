@@ -132,6 +132,13 @@ export const Main: React.FC = () => {
               src="/images/VR-headset.png"
               alt="person wearing a VR headset"
             ></img>
+            <p>
+              The slew of literature recently published in the area of VR and
+              neuroscience underlines the huge potential for VR as a mental
+              health tool. Our team has a deep understanding of the
+              mechanism-of-action, and we are fired up about leading
+              developments in this exciting area.
+            </p>
           </div>
           <div className="separator" />
           <div className="flex main">

@@ -41,7 +41,7 @@ export const HertzLite: React.FC = () => {
               header="Hertz lite."
               img="/images/hz-lite-square.png"
               buttonText="DOWNLOAD NOW"
-              buttonLink="https://apps.apple.com/us/app/hertz-an-anxiety-treatment/id1529146685"
+              buttonLink="https://apps.apple.com/us/app/hertz-lite-anxiety-relief/id1543873699"
             >
               <>
                 <p className="small">
@@ -53,18 +53,28 @@ export const HertzLite: React.FC = () => {
         </div>
 
         <div className="panels">
-          <Panel header="The difference." backgroundColor="pink" img="/images/the-target.png">
+          <Panel
+            header="The difference."
+            backgroundColor="pink"
+            img="/images/the-difference.png"
+          >
             <>
               <p className="small">
                 With Hertz. we developed a novel biofeedback mechanism that
                 turbocharges your practise, developing powerful vagus nerve
-                control and offering a new means of controlling anxiety. With
-                Hertz-lite. we removed the biofeedback, replacing it with a
+                control and offering a new means of controlling anxiety.
+              </p>
+              <p className="small">
+                With Hertz-lite. we removed the biofeedback, replacing it with a
                 standardised feedback.
               </p>
             </>
           </Panel>
-          <Panel header="The payoff." backgroundColor="yellow">
+          <Panel
+            header="The payoff."
+            backgroundColor="yellow"
+            img="/images/the-payoff.png"
+          >
             <>
               <p className="small">
                 For our networked world we need connected tools. Hertz-lite.
@@ -73,13 +83,19 @@ export const HertzLite: React.FC = () => {
               </p>
             </>
           </Panel>
-          <Panel header="The magic" backgroundColor="black">
+          <Panel
+            header="The magic"
+            backgroundColor="black"
+            img="/images/the-magic.png"
+          >
             <>
               <p className="small">
                 Will it make any difference to you to do your practise in
-                perfect unison with others, all around the world? Our yoga
-                teacher certainly seems to think so, and there's only one way to
-                find out.
+                perfect unison with others, all around the world?{" "}
+              </p>
+              <p className="small">
+                Our yoga teacher certainly seems to think so, and there's only
+                one way to find out.
               </p>
             </>
           </Panel>
