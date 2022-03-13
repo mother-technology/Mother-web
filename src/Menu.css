@@ -1,67 +1,67 @@
 #menuIcon {
-  border-radius: 50%;
-  padding: 20px;
-  background-color: white;
-  width: 60px;
-  height: 60px;
-  justify-content: center;
-  display: flex;
-  position: absolute;
-  top: 25px;
-  z-index: 100;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 25px;
+    z-index: 100;
 }
 
 .menuIcon {
-  color: black;
-  font-size: 40px;
-  align-self: center;
+    color: black;
+    font-size: 40px;
+    align-self: center;
 }
 
 #navbar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 90;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 90;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    overflow: hidden;
 }
 
 div.column {
-  flex-direction: column;
-  text-align: right;
-  padding: 200px 40px 0 40px;
+    flex-direction: column;
+    text-align: right;
+    padding: 200px 40px 0 40px;
 }
 
 #navbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.3rem;
-  font-weight: 900;
-  padding-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-top: 30px;
 }
 
 #navbar a.subLink {
-  font-size: 0.8rem;
-  font-weight: 300;
-  padding-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-top: 10px;
 }
 
 #navbar a.active {
-  color: #f4a3a3;
-  /* #59c8b6 */
+    color: #f4a3a3;
+    /* #59c8b6 */
 }
 
 @media only screen and (max-width: 480px) {
-  #navbar {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  div.column {
-    text-align: left;
-  }
+    #navbar {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    div.column {
+        text-align: left;
+    }
 }

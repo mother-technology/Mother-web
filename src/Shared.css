@@ -6,177 +6,177 @@
 1201px and more — Extra large screens, TV. */
 
 .App {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .side-margin {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px 40px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 40px;
 }
 
 div.separator {
-  width: 100px;
-  border-top: 1px solid black;
-  margin: 100px 0;
+    width: 100px;
+    border-top: 1px solid black;
+    margin: 100px 0;
 }
 
 html {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 div.main {
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 0 80px 0;
-  max-width: 550px;
-  text-align: center;
-  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 80px 0;
+    max-width: 550px;
+    text-align: center;
+    align-items: center;
 }
 
 div.header-text-margin {
-  margin-top: 200px;
+    margin-top: 200px;
 }
 
 div.header-text-margin-half {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 div.container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
-  position: relative;
-  padding: 40px 20px 20px 20px;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    position: relative;
+    padding: 40px 20px 20px 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 p,
 ul,
 a {
-  color: black;
-  font-family: "Lato", sans-serif;
-  text-align: left;
-  font-size: 1.2rem;
-  line-height: 1.4;
-  font-weight: 300;
+    color: black;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 300;
 }
 
 span.red {
-  color: red;
-  text-shadow: -1px 2px 1px #d3d3d3;
+    color: red;
+    text-shadow: -1px 2px 1px #d3d3d3;
 }
 
 span.stroke {
-  -webkit-text-fill-color: black;
-  -webkit-text-stroke: 4px black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 4px black;
 }
 
 span.outlined {
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke: 0.7px black;
-  font-size: 2.1rem;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.7px black;
+    font-size: 2.1rem;
 }
 
 span.font-hertz {
-  font-family: BelweSB-Medium, "Lato", serif;
+    font-family: BelweSB-Medium, "Lato", serif;
 }
 
 span.stroke-white {
-  -webkit-text-fill-color: black;
-  -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px white;
 }
 
 .flex {
-  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox; /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Chrome */
-  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
 img {
-  margin: 20px auto;
-  width: 100%;
+    margin: 20px auto;
+    width: 100%;
 }
 
 /*All fonts*/
 h1,
 h2 {
-  font-family: BelweSB-Medium, "Lato", serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 3rem;
+    font-family: BelweSB-Medium, "Lato", serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 3rem;
 }
 
 h1 {
-  max-width: 500px;
+    max-width: 500px;
 }
 
 h2 {
-  margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 h3,
 h4 {
-  font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 0;
 }
 
 h4 {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 a {
-  color: #3f8f82;
+    color: #3f8f82;
 }
 
 a:focus {
-  border: none;
-  outline: none;
+    border: none;
+    outline: none;
 }
 
 /* All colors */
 .pink {
-  background-color: #e3736b;
+    background-color: #e3736b;
 }
 
 .yellow {
-  background-color: #fbbc09;
+    background-color: #fbbc09;
 }
 
 .black {
-  background-color: #202324;
+    background-color: #202324;
 }
 
 .light-grey {
-  background-color: #eaeced;
+    background-color: #eaeced;
 }
 
 @media only screen and (max-width: 1024px) {
-  .panels {
-    flex-direction: column;
-  }
+    .panels {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-  h1,
-  h2 {
-    font-size: 2.5rem;
-  }
+    h1,
+    h2 {
+        font-size: 2.5rem;
+    }
 }
 
 @-ms-viewport {
-  width: device-width;
+    width: device-width;
 }

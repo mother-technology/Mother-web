@@ -1,24 +1,24 @@
 div.process {
-  flex-direction: row;
-  max-width: 1200px;
-  padding: 20px;
-  margin: 0 auto;
+    flex-direction: row;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 h1.main {
-  font-size: 2.7rem;
-  margin-top: 5%;
+    font-size: 2.7rem;
+    margin-top: 5%;
 }
 
 @media only screen and (max-width: 340px) {
-  h1.main {
-    font-size: 2rem;
-  }
+    h1.main {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
-  div.process {
-    flex-direction: column;
-    align-items: center;
-  }
+    div.process {
+        flex-direction: column;
+        align-items: center;
+    }
 }

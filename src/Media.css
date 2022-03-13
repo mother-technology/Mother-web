@@ -1,43 +1,43 @@
 .media {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 0;
-  margin-bottom: 60px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    margin-bottom: 60px;
 }
 
 p.image-text {
-  font-style: italic;
-  font-size: 0.8rem;
-  text-align: center;
-  margin-top: 0;
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0;
 }
 
 .media-item {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .media-item img {
-  margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .media-item:nth-child(even) {
-  justify-self: start;
+    justify-self: start;
 }
 
 .media-item:nth-child(odd) {
-  justify-self: end;
+    justify-self: end;
 }
 
 @media only screen and (max-width: 1024px) {
-  .media {
-    grid-template-columns: repeat(1, 1fr);
-  }
+    .media {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-  .media-item:nth-child(odd),
-  .media-item:nth-child(even) {
-    justify-self: unset;
-  }
+    .media-item:nth-child(odd),
+    .media-item:nth-child(even) {
+        justify-self: unset;
+    }
 }
