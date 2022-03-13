@@ -15,16 +15,27 @@ export const USPList: React.FC<Props> = ({ usp }) => {
     return (
         <div className="usp">
             {usp.map((item) => (
-                <>
-                    <div className="check yellow">
-                        <IoCheckmark size={30} />
-                    </div>
-                    <div className="info">
-                        <h4>{item.title}</h4>
-                        <p>{item.text}</p>
-                    </div>
-                </>
+                <USPItem key={item.title} title={item.title} text={item.text} />
             ))}
         </div>
+    );
+};
+
+interface USPItemProp {
+    title: string;
+    text: string;
+}
+
+const USPItem: React.FC<USPItemProp> = ({ title, text }) => {
+    return (
+        <>
+            <div className="check yellow">
+                <IoCheckmark size={30} />
+            </div>
+            <div className="info">
+                <h4>{title}</h4>
+                <p>{text}</p>
+            </div>
+        </>
     );
 };
