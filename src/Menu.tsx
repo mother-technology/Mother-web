@@ -3,14 +3,16 @@
 import React, { useState } from "react";
 import { IconContext } from "react-icons";
 import { IoCloseOutline, IoMenuOutline } from "react-icons/io5";
-import { Link, RouteComponentProps, withRouter } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./Menu.css";
 
-export const Menu: React.FC<RouteComponentProps> = (props) => {
+export const Menu: React.FC = () => {
     const [open, setOpen] = useState<boolean>(false);
     const height = document.body.clientHeight;
     let right: string = "25px";
+
+    let location = useLocation();
 
     return (
         <>
@@ -34,7 +36,7 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
                         <Link
                             to="/"
                             className={
-                                props.location.pathname === "/" ? "active" : ""
+                                location.pathname === "/" ? "active" : ""
                             }
                         >
                             Home
@@ -46,7 +48,7 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
                         <Link
                             to="/"
                             className={
-                                props.location.pathname === "/" ? "active" : ""
+                                location.pathname === "/" ? "active" : ""
                             }
                         >
                             Products
@@ -64,9 +66,7 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
                         <Link
                             to="/team"
                             className={
-                                props.location.pathname === "/team"
-                                    ? "active"
-                                    : ""
+                                location.pathname === "/team" ? "active" : ""
                             }
                         >
                             Team
@@ -80,9 +80,7 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
                         <Link
                             to="/media"
                             className={
-                                props.location.pathname === "/media"
-                                    ? "active"
-                                    : ""
+                                location.pathname === "/media" ? "active" : ""
                             }
                         >
                             Media
@@ -96,9 +94,7 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
                         <Link
                             to="/privacy"
                             className={
-                                props.location.pathname === "/privacy"
-                                    ? "active"
-                                    : ""
+                                location.pathname === "/privacy" ? "active" : ""
                             }
                         >
                             Privacy
@@ -116,4 +112,4 @@ export const Menu: React.FC<RouteComponentProps> = (props) => {
     );
 };
 
-export default withRouter(Menu);
+export default Menu;

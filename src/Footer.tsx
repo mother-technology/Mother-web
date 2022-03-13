@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import { Link, RouteComponentProps, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
-export const Footer: React.FC<RouteComponentProps> = (props) => {
+export const Footer: React.FC = () => {
     return (
         <div className="footer-container">
             <div className="footer">
@@ -41,4 +41,4 @@ export const Footer: React.FC<RouteComponentProps> = (props) => {
     );
 };
 
-export default withRouter(Footer);
+export default Footer;
