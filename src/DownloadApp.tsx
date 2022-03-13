@@ -5,20 +5,20 @@ import "./DownloadApp.css";
 /* <img className="preorder" src="./images/order-appstore.png" />*/
 
 type DownloadAppProps = {
-  title?: string;
-  aHref: string;
+    title?: string;
+    aHref: string;
 };
 
 export const DownloadLink: React.FC<DownloadAppProps> = ({
-  title,
-  aHref,
+    title,
+    aHref,
 }: DownloadAppProps) => {
-  return (
-    <div className="flex downloadLink">
-      <a href={aHref}>
-        <img className="appstore" src="./images/appstore-dl.svg" />
-      </a>
-      <p>{title}</p>
-    </div>
-  );
+    return (
+        <div className="flex downloadLink">
+            <a href={aHref}>
+                <img className="appstore" src="./images/appstore-dl.svg" />
+            </a>
+            <p>{title}</p>
+        </div>
+    );
 };

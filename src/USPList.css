@@ -1,54 +1,54 @@
 .usp {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: auto 1fr;
-  padding: 0;
-  text-align: start;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto 1fr;
+    padding: 0;
+    text-align: start;
 }
 
 .usp .check {
-  display: flex;
-  width: 75px;
-  height: 75px;
-  border-radius: 100%;
-  align-self: center;
-  justify-content: center;
-  align-items: center;
-  margin: 0 20px;
-  color: white;
+    display: flex;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
 }
 
 .usp .info {
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .usp h4 {
-  font-weight: 900;
-  margin-bottom: 5px;
+    font-weight: 900;
+    margin-bottom: 5px;
 }
 
 .usp p {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 @media only screen and (max-width: 480px) {
-  .usp {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    grid-template-columns: 1fr;
-    text-align: start;
-  }
-  .usp .info {
-    text-align: center;
-  }
-  .usp .check {
-    width: 60px;
-    height: 60px;
-    margin-top: 15px;
-  }
-  .usp h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
+    .usp {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        text-align: start;
+    }
+    .usp .info {
+        text-align: center;
+    }
+    .usp .check {
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+    }
+    .usp h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
 }

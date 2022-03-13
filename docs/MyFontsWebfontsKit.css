@@ -17,11 +17,11 @@
  * Â© 2020 MyFonts Inc
 */
 
-
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/3c73d4");
 
 @font-face {
-  font-family: 'BelweSB-Medium';
-  src: url('webFonts/BelweSB-Medium/font.woff2') format('woff2'), url('webFonts/BelweSB-Medium/font.woff') format('woff');
+    font-family: "BelweSB-Medium";
+    src: url("webFonts/BelweSB-Medium/font.woff2") format("woff2"),
+        url("webFonts/BelweSB-Medium/font.woff") format("woff");
 }

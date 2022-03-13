@@ -11,8 +11,10 @@ import urllib.parse
 import urllib.request
 
 if not platform.machine().endswith("64"):
-    print(f"Craft requires a 64bit operating system. You are using: {platform.machine()}")
+    print(
+        f"Craft requires a 64bit operating system. You are using: {platform.machine()}")
     exit(1)
+
 
 class CraftBootstrap(object):
     def __init__(self, craftRoot, branch, dryRun):
@@ -26,7 +28,6 @@ class CraftBootstrap(object):
         else:
             with open(dryRun, "rt", encoding="UTF-8") as ini:
                 self.settings = ini.read().splitlines()
-
 
     @staticmethod
     def isWin():
@@ -68,10 +69,10 @@ class CraftBootstrap(object):
                 default, _ = choices[0]
             else:
                 default = choices[0]
-                
+
         if returnDefaultWithoutPrompt:
             return default
-                
+
         selection = ", ".join(["[{index}] {value}".format(index=index,
                                                           value=value[0] if isinstance(value, tuple) else value)
                                for index, value in enumerate(choices)])
@@ -102,7 +103,8 @@ class CraftBootstrap(object):
                     return choices[choiceInt]
 
     def setSettignsValue(self, section, key, value):
-        reKey = re.compile(r"^[\#;]?\s*{key}\s*=.*$".format(key=key), re.IGNORECASE)
+        reKey = re.compile(
+            r"^[\#;]?\s*{key}\s*=.*$".format(key=key), re.IGNORECASE)
         reSection = re.compile(r"^\[(.*)\]$".format(section=section))
         inSection = False
         for i, line in enumerate(self.settings):
@@ -127,7 +129,6 @@ class CraftBootstrap(object):
             with open(self.dryRun + ".dry_run", "wt+", encoding="UTF-8") as out:
                 out.write("\n".join(self.settings))
 
-
     @staticmethod
     def downloadFile(url, destdir, filename=None):
         if not os.path.exists(destdir):
@@ -137,7 +138,8 @@ class CraftBootstrap(object):
             _, _, path, _, _, _ = urllib.parse.urlparse(url)
             filename = os.path.basename(path)
 
-        print("Starting to download %s to %s" % (url, os.path.join(destdir, filename)))
+        print("Starting to download %s to %s" %
+              (url, os.path.join(destdir, filename)))
         if os.path.exists(os.path.join(destdir, filename)):
             return True
 
@@ -146,16 +148,19 @@ class CraftBootstrap(object):
                 percent = int(count * blockSize * 100 / totalSize)
                 CraftBootstrap.printProgress(percent)
             else:
-                sys.stdout.write(("\r%s bytes downloaded" % (count * blockSize)))
+                sys.stdout.write(("\r%s bytes downloaded" %
+                                 (count * blockSize)))
                 sys.stdout.flush()
 
-        urllib.request.urlretrieve(url, filename=os.path.join(destdir, filename), reporthook=dlProgress)
+        urllib.request.urlretrieve(url, filename=os.path.join(
+            destdir, filename), reporthook=dlProgress)
         print()
         return os.path.exists(os.path.join(destdir, filename))
 
     @staticmethod
     def enableANSISupport():
-        subprocess.run([sys.executable, "-m", "pip", "install", "--user", "--upgrade", "coloredlogs"])
+        subprocess.run([sys.executable, "-m", "pip", "install",
+                       "--user", "--upgrade", "coloredlogs"])
 
 
 def run(args, command):
@@ -170,12 +175,14 @@ def run(args, command):
         if not subprocess.run(command).returncode == 0:
             exit(1)
 
+
 def getABI(args):
     if CraftBootstrap.isWin():
         platform = "windows"
         abi, compiler = CraftBootstrap.promptForChoice("Select compiler",
                                                        [("Mingw-w64", ("mingw", "gcc")),
-                                                        ("Microsoft Visual Studio 2019", ("msvc2019", "cl")),
+                                                        ("Microsoft Visual Studio 2019",
+                                                         ("msvc2019", "cl")),
                                                         ], "Microsoft Visual Studio 2019", returnDefaultWithoutPrompt=args.use_defaults)
         abi += f"_64"
 
@@ -199,35 +206,38 @@ def getABI(args):
 
     return f"{platform}-{abi}-{compiler}"
 
+
 def setUp(args):
     while not args.prefix:
         print("Where do you want us to install Craft")
-        prefix = Path("C:/CraftRoot/" if CraftBootstrap.isWin() else "~/CraftRoot")
-        args.prefix = prefix if args.use_defaults else os.path.expanduser(input(f"Craft install root: [{prefix}]: ") or prefix)
+        prefix = Path("C:/CraftRoot/" if CraftBootstrap.isWin()
+                      else "~/CraftRoot")
+        args.prefix = prefix if args.use_defaults else os.path.expanduser(
+            input(f"Craft install root: [{prefix}]: ") or prefix)
 
     if not args.dry_run and not os.path.exists(args.prefix):
         os.makedirs(args.prefix)
 
     for d in os.listdir(args.prefix):
-        if d != "download":#generated by the windows script
+        if d != "download":  # generated by the windows script
             print("Error: you are trying to install Craft into an non empty directory")
             exit(1)
-
 
     print("Welcome to the Craft setup wizard!")
     print(f"Craft will be installed to: {args.prefix}")
     abi = getABI(args)
 
     useANSIColor = CraftBootstrap.promptForChoice("Do you want to enable the support for colored logs",
-                                                [("Yes", True), ("No", False)],
-                                                        default="Yes", returnDefaultWithoutPrompt=args.use_defaults)
+                                                  [("Yes", True), ("No", False)],
+                                                  default="Yes", returnDefaultWithoutPrompt=args.use_defaults)
     if useANSIColor:
         CraftBootstrap.enableANSISupport()
 
     installShortCut = False
     if CraftBootstrap.isWin():
         installShortCut = CraftBootstrap.promptForChoice("Do you want to install a StartMenu entry",
-                                                         [("Yes", True), ("No", False)],
+                                                         [("Yes", True),
+                                                          ("No", False)],
                                                          default="Yes", returnDefaultWithoutPrompt=args.use_defaults)
     if not args.dry_run:
         if args.localDev:
@@ -238,7 +248,8 @@ def setUp(args):
             CraftBootstrap.downloadFile(f"https://github.com/KDE/craft/archive/{args.branch}.zip",
                                         os.path.join(args.prefix, "download"),
                                         f"craft-{args.branch}.zip")
-            shutil.unpack_archive(os.path.join(args.prefix, "download", f"craft-{args.branch}.zip"), args.prefix)
+            shutil.unpack_archive(os.path.join(
+                args.prefix, "download", f"craft-{args.branch}.zip"), args.prefix)
 
     boot = CraftBootstrap(args.prefix, args.branch, args.dry_run)
     boot.setSettignsValue("Paths", "Python", os.path.dirname(sys.executable))
@@ -246,12 +257,14 @@ def setUp(args):
     boot.setSettignsValue("General", "AllowAnsiColor", useANSIColor)
     py = shutil.which("py")
     if py:
-        py2 = subprocess.getoutput(f"""{py} -2 -c "import sys; print(sys.executable)" """)
+        py2 = subprocess.getoutput(
+            f"""{py} -2 -c "import sys; print(sys.executable)" """)
         if os.path.isfile(py2):
             boot.setSettignsValue("Paths", "Python27", os.path.dirname(py2))
 
     if CraftBootstrap.isWin():
-        boot.setSettignsValue("Compile", "MakeProgram", "mingw32-make" if "mingw" in abi else "jom")
+        boot.setSettignsValue("Compile", "MakeProgram",
+                              "mingw32-make" if "mingw" in abi else "jom")
     else:
         boot.setSettignsValue("Compile", "MakeProgram", "make")
 
@@ -289,14 +302,22 @@ def setUp(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="CraftSetupHelper")
-    parser.add_argument("--root", action="store", help="Deprecated: use prefix instead.")
-    parser.add_argument("--prefix", action="store", help="The installation directory.")
-    parser.add_argument("--branch", action="store", default="master", help="The branch to install")
-    parser.add_argument("--verbose", action="store_true", help="The verbosity.")
-    parser.add_argument("--dry-run", action="store", help="Configure the passed CraftSettings.ini and exit.")
-    parser.add_argument("--version", action="version", version="%(prog)s master")
-    parser.add_argument("--localDev", action="store", help="Path to a local directory to use instead of fetching from github")
-    parser.add_argument("--use-defaults", action="store_true", help="Use all default options instead of asking")
+    parser.add_argument("--root", action="store",
+                        help="Deprecated: use prefix instead.")
+    parser.add_argument("--prefix", action="store",
+                        help="The installation directory.")
+    parser.add_argument("--branch", action="store",
+                        default="master", help="The branch to install")
+    parser.add_argument("--verbose", action="store_true",
+                        help="The verbosity.")
+    parser.add_argument("--dry-run", action="store",
+                        help="Configure the passed CraftSettings.ini and exit.")
+    parser.add_argument("--version", action="version",
+                        version="%(prog)s master")
+    parser.add_argument("--localDev", action="store",
+                        help="Path to a local directory to use instead of fetching from github")
+    parser.add_argument("--use-defaults", action="store_true",
+                        help="Use all default options instead of asking")
 
     args = parser.parse_args()
     if args.root:
