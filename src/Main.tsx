@@ -6,6 +6,7 @@ import { Panel } from "./Panel";
 import PanelTextImage from "./PanelTextImage";
 import "./Shared.css";
 import { USPList } from "./USPList";
+import { Spacer } from "./Spacer";
 
 export const Main: React.FC = () => {
     let usp = [
@@ -50,7 +51,7 @@ export const Main: React.FC = () => {
                             training courses.
                         </p>
                     </div>
-
+                    <Spacer height="50px" />
                     <div className="panels">
                         <Panel
                             header="The brain"
@@ -58,15 +59,13 @@ export const Main: React.FC = () => {
                             img="/images/the-brain.png"
                         >
                             <>
-                                <p className="small">
-                                    The Brain, home to us all!{" "}
-                                </p>
-                                <p className="small">
+                                <p>The Brain, home to us all! </p>
+                                <p>
                                     Never has the research on our most thinky
                                     organ been so advanced, yet globally mental
                                     health plummets.{" "}
                                 </p>
-                                <p className="small">
+                                <p>
                                     Anxiety, burnout, depersonalisation,
                                     depression, and mood disorders are all too
                                     common, and amongst the youth they're on the
@@ -81,7 +80,7 @@ export const Main: React.FC = () => {
                             img="/images/the-science.png"
                         >
                             <>
-                                <p className="small">
+                                <p>
                                     In research labs across the world, using
                                     tools such as VR or psychedelics, in
                                     molecular biology labs, in fMRI studies, the
@@ -89,7 +88,7 @@ export const Main: React.FC = () => {
                                     of our brains which show us a clear path
                                     forward for brain health.
                                 </p>
-                                <p className="small">
+                                <p>
                                     From this and our own in-house research we
                                     develop novel digital therapeutics
                                     targetting the brain.
@@ -102,34 +101,33 @@ export const Main: React.FC = () => {
                             img="/images/the-target.png"
                         >
                             <>
-                                <p className="small">
+                                <p>
                                     We aim to enable you to fully affirm your
                                     life, yourself, and your mode of
                                     functioning.{" "}
                                 </p>
-                                <p className="small">
+                                <p>
                                     We want your brain (and body) happily
                                     ticking along like a Swiss watch.{" "}
                                 </p>
-                                <p className="small">
+                                <p>
                                     We want you to feel like every day is the
                                     best day of your life, until tomorrow...
                                 </p>
-                                <p className="small">
+                                <p>
                                     And we want you to know who you are, where
                                     you want to go, and how to get there.
                                 </p>
                             </>
                         </Panel>
                     </div>
-                    <div className="separator" />
+                    <Spacer height="100px" />
                     <div className="flex main">
                         <USPList usp={usp} />
                     </div>
-                    <div className="separator" />
+                    <Spacer height="100px" />
                     <div className="flex main">
                         <h2 id="vr">VR, the next revolution. </h2>
-
                         <p>
                             We believe the trends in neuroscience are revealing
                             hidden aspects of the brain, that VR will emerge as
@@ -138,7 +136,6 @@ export const Main: React.FC = () => {
                             health therapeutics - and we aim to be the vanguard
                             of these developments.
                         </p>
-
                         <img
                             src="/images/VR-headset.png"
                             alt="person wearing a VR headset"
@@ -152,7 +149,7 @@ export const Main: React.FC = () => {
                             this exciting area.
                         </p>
                     </div>
-                    <div className="separator" />
+                    <Spacer height="100px" />
                     <div className="flex main">
                         <h2>Our other products</h2>
                         <p>
@@ -161,6 +158,7 @@ export const Main: React.FC = () => {
                             can have a look at.
                         </p>
                     </div>
+                    <Spacer height="50px" />
                     <div className="panel-text-images">
                         <PanelTextImage
                             header="You're not going to like our first app."

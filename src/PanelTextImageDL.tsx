@@ -21,7 +21,7 @@ export const PanelTextImageDL: React.FC<PanelProps> = ({
     children,
 }: PanelProps) => {
     return (
-        <div className="panel-sell-item yellow">
+        <div className="panel-sell-item black">
             <div className="flex panel-info">
                 <h2 id={hashId ? hashId : ""}>{header}</h2>
                 {children}

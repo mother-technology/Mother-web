@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from "./Header";
+import { Spacer } from "./Spacer";
 import "./Privacy.css";
 import "./Shared.css";
 
@@ -39,6 +40,7 @@ export const Privacy: React.FC = () => {
                             alt="people as dots"
                         />
                     </div>
+                    <Spacer height="50px" />
                     <h2 id="the-small-print">The small print. </h2>
                     <p>
                         We collect physiological data (such as heart rate, or

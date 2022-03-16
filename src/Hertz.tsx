@@ -6,6 +6,7 @@ import { Panel } from "./Panel";
 import { PanelTextImageDL } from "./PanelTextImageDL";
 import "./Shared.css";
 import { TipsAndTricks } from "./TipsAndTricks";
+import { Spacer } from "./Spacer";
 
 export const Hertz: React.FC = () => {
     return (
@@ -17,7 +18,8 @@ export const Hertz: React.FC = () => {
             />
             <div className="side-margin">
                 <div className="flex main">
-                    <p></p>
+                    <p>Use your brain to understand your body.</p>
+                    <Spacer height="50px" />
                     <div className="panel-sell-items">
                         <PanelTextImageDL
                             header="Hertz."
@@ -34,6 +36,7 @@ export const Hertz: React.FC = () => {
                             </>
                         </PanelTextImageDL>
                     </div>
+                    <Spacer height="50px" />
                     <p>
                         Hertz. provides{" "}
                         <a href="https://en.wikipedia.org/wiki/Biofeedback">
@@ -61,7 +64,7 @@ export const Hertz: React.FC = () => {
                         consciously relax.
                     </p>
                 </div>
-
+                <Spacer height="50px" />
                 <div className="panels">
                     <Panel
                         header="The target"
@@ -128,9 +131,9 @@ export const Hertz: React.FC = () => {
                     </Panel>
                 </div>
                 <div className="flex main">
-                    <div className="separator" />
+                    <Spacer height="100px" />
                     <ABriefBackground />
-                    <div className="separator" />
+                    <Spacer height="100px" />
                     <TipsAndTricks />
                 </div>
             </div>

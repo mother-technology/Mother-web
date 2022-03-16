@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Header } from "./Header";
+import { Spacer } from "./Spacer";
 import "./Media.css";
 import "./Shared.css";
 
@@ -21,6 +22,7 @@ export const Media: React.FC = () => {
                         <a href="mailto:press@mother.technology">Mail us</a>.
                     </p>
                 </div>
+                <Spacer height="50px" />
                 <div className="flex main">
                     <h2 id="other-products">Other products</h2>
                     <p>

@@ -6,6 +6,7 @@ import { Panel } from "./Panel";
 import { PanelTextImageDL } from "./PanelTextImageDL";
 import "./Shared.css";
 import { TipsAndTricks } from "./TipsAndTricks";
+import { Spacer } from "./Spacer";
 
 export const HertzLite: React.FC = () => {
     return (
@@ -38,6 +39,7 @@ export const HertzLite: React.FC = () => {
                         will increase your CVC, deepening your emotional
                         reserves.
                     </p>
+                    <Spacer height="50px" />
                     <div className="panel-sell-items">
                         <PanelTextImageDL
                             header="Hertz lite."
@@ -46,7 +48,7 @@ export const HertzLite: React.FC = () => {
                             buttonLink="https://apps.apple.com/us/app/hertz-lite-anxiety-relief/id1543873699"
                         >
                             <>
-                                <p className="small">
+                                <p>
                                     Free, no strings attached, but some
                                     dedication required.
                                 </p>
@@ -54,7 +56,7 @@ export const HertzLite: React.FC = () => {
                         </PanelTextImageDL>
                     </div>
                 </div>
-
+                <Spacer height="100px" />
                 <div className="panels">
                     <Panel
                         header="The difference."
@@ -62,13 +64,13 @@ export const HertzLite: React.FC = () => {
                         img="/images/the-difference.png"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 With Hertz. we developed a novel biofeedback
                                 mechanism that turbocharges your practise,
                                 developing powerful vagus nerve control and
                                 offering a new means of controlling anxiety.
                             </p>
-                            <p className="small">
+                            <p>
                                 With Hertz-lite. we removed the biofeedback,
                                 replacing it with a standardised feedback.
                             </p>
@@ -80,7 +82,7 @@ export const HertzLite: React.FC = () => {
                         img="/images/the-payoff.png"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 For our networked world we need connected tools.
                                 Hertz-lite. connects to a global timing server,
                                 so that when you start your practise, you do it
@@ -94,12 +96,12 @@ export const HertzLite: React.FC = () => {
                         img="/images/the-magic.png"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 Will it make any difference to you to do your
                                 practise in perfect unison with others, all
                                 around the world?{" "}
                             </p>
-                            <p className="small">
+                            <p>
                                 Our yoga teacher certainly seems to think so,
                                 and there's only one way to find out.
                             </p>
@@ -107,9 +109,9 @@ export const HertzLite: React.FC = () => {
                     </Panel>
                 </div>
                 <div className="flex main">
-                    <div className="separator" />
+                    <Spacer height="100px" />
                     <ABriefBackground />
-                    <div className="separator" />
+                    <Spacer height="100px" />
                     <TipsAndTricks />
                 </div>
             </div>

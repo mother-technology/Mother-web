@@ -37,14 +37,6 @@ div.panel-info a {
 
 div.panel-info p {
     color: white;
-}
-
-div.panel-info p.dark,
-h2.dark {
-    color: black;
-}
-
-div.panel-info p.small {
     font-size: 1.1rem;
     line-height: 1.3;
 }

@@ -2,6 +2,7 @@
 import React from "react";
 import { Header } from "./Header";
 import { PanelPerson } from "./PanelPerson";
+import { Spacer } from "./Spacer";
 import "./Shared.css";
 import "./Team.css";
 
@@ -33,13 +34,13 @@ export const Team: React.FC = () => {
                         linkHref="https://www.linkedin.com/in/tomasmckenna/"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 Tomás has a couple of degrees in biotech, and
                                 did his PhD at the Karolinska Institute on
                                 disease mechanisms in premature ageing
                                 syndromes.{" "}
                             </p>{" "}
-                            <p className="small">
+                            <p>
                                 He jumped off his postdoc to start-up when his
                                 research linked to branching morphogenesis
                                 suggested that immersive VR could alter mental
@@ -53,14 +54,14 @@ export const Team: React.FC = () => {
                         linkHref="https://www.linkedin.com/in/jennycahier/"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 Jenny has over a decade of experience within
                                 Stockholm's tech scene, working previously as
                                 engineering manager, product owner, full-stack
                                 developer, head of online marketing and head of
                                 analysing.{" "}
                             </p>{" "}
-                            <p className="small">
+                            <p>
                                 Her broad technical experience, marketing
                                 capabilities and adaptability make her
                                 exceptionally well equipped for handling a new
@@ -73,7 +74,7 @@ export const Team: React.FC = () => {
                         img="./images/mikael.png"
                         linkHref="https://www.linkedin.com/in/mikael-hultgren-394a9a1a/"
                     >
-                        <p className="small">
+                        <p>
                             Mikael brings his years of experience developing and
                             designing complex computer systems on the Stockholm
                             tech scene. His knowledge as a system architect is
@@ -86,7 +87,7 @@ export const Team: React.FC = () => {
                         linkHref="https://en.wikipedia.org/wiki/Bj%C3%B6rn_Merker"
                         linkName="Wikipedia"
                     >
-                        <p className="small">
+                        <p>
                             An internationally acclaimed neuroscientist with a
                             PhD in psychology and brain science from MIT,
                             Björn's thorough grounding in neuroscience,
@@ -101,13 +102,13 @@ export const Team: React.FC = () => {
                         linkHref="https://www.linkedin.com/in/anaisabelamaral/"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 Ana is a Portuguese biochemist/neurobiologist
                                 with nine years of post-doctoral research
                                 experience from University of Cambridge and the
                                 Karolinska Institutet.
                             </p>{" "}
-                            <p className="small">
+                            <p>
                                 Recently trained in business and innovation and
                                 currently working in scientific communications
                                 at iBET, Portugal, Ana is a true people person
@@ -117,6 +118,7 @@ export const Team: React.FC = () => {
                         </>
                     </PanelPerson>
                 </div>
+                <Spacer height="50px" />
                 <div className="flex main">
                     <h2 id="our-values">Our values</h2>
                     <p>
@@ -154,6 +156,7 @@ export const Team: React.FC = () => {
                         with our intentions and actions open and public.
                     </p>
                 </div>
+                <Spacer height="50px" />
                 <div className="flex main">
                     <h2 id="our-interests">Our interests.</h2>
                     <p>
