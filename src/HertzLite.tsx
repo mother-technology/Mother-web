@@ -32,6 +32,25 @@ export const HertzLite: React.FC = () => {
                         </a>{" "}
                         .{" "}
                     </p>
+                </div>
+                <Spacer height="50px" />
+                <div className="panel-sell-items">
+                    <PanelTextImageDL
+                        header="Hertz lite."
+                        img="/images/hz-lite-square.png"
+                        buttonText="DOWNLOAD NOW"
+                        buttonLink="https://apps.apple.com/us/app/hertz-lite-anxiety-relief/id1543873699"
+                    >
+                        <>
+                            <p>
+                                Free, no strings attached, but some dedication
+                                required.
+                            </p>
+                        </>
+                    </PanelTextImageDL>
+                </div>
+                <Spacer height="50px" />
+                <div className="flex main">
                     <p>
                         Our app coaches you to stimulate your vagus, directly
                         reducing anxiety. This will tone your vagus, building
@@ -39,24 +58,8 @@ export const HertzLite: React.FC = () => {
                         will increase your CVC, deepening your emotional
                         reserves.
                     </p>
-                    <Spacer height="50px" />
-                    <div className="panel-sell-items">
-                        <PanelTextImageDL
-                            header="Hertz lite."
-                            img="/images/hz-lite-square.png"
-                            buttonText="DOWNLOAD NOW"
-                            buttonLink="https://apps.apple.com/us/app/hertz-lite-anxiety-relief/id1543873699"
-                        >
-                            <>
-                                <p>
-                                    Free, no strings attached, but some
-                                    dedication required.
-                                </p>
-                            </>
-                        </PanelTextImageDL>
-                    </div>
                 </div>
-                <Spacer height="100px" />
+                <Spacer height="50px" />
                 <div className="panels">
                     <Panel
                         header="The difference."

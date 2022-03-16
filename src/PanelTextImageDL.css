@@ -3,7 +3,9 @@ div.panel-sell-item {
     padding: 30px 0 60px 0;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    min-width: 320px;
+    max-width: 400px;
+    width: 100%;
 }
 
 div.panel-sell-item img {

@@ -31,7 +31,7 @@ export const ConsciousnessCraft: React.FC = () => {
                         style={{ margin: "20px 0px 80px 0" }}
                     />
                     <h2>How does it work?</h2>
-                    <CircleWithText step="1" backgroundColor="yellow">
+                    <CircleWithText step="1." backgroundColor="yellow">
                         <>
                             <h2>Let's get to know you.</h2>
                             <p>
@@ -45,7 +45,7 @@ export const ConsciousnessCraft: React.FC = () => {
                             </p>
                         </>
                     </CircleWithText>
-                    <CircleWithText step="2" backgroundColor="yellow">
+                    <CircleWithText step="2." backgroundColor="yellow">
                         <>
                             <h2>
                                 The difference between knowing and{" "}
@@ -62,7 +62,7 @@ export const ConsciousnessCraft: React.FC = () => {
                             </p>
                         </>
                     </CircleWithText>
-                    <CircleWithText step="3" backgroundColor="yellow">
+                    <CircleWithText step="3." backgroundColor="yellow">
                         <>
                             <h2>
                                 Bringing hard-science to the art of wellbeing.
