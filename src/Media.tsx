@@ -24,7 +24,7 @@ export const Media: React.FC = () => {
                 </div>
                 <Spacer height="200px" hasLine={true} />
                 <div className="flex main">
-                    <h2 id="our-other-products">Our other products</h2>
+                    <h2 id="product-pictures">Product pictures</h2>
                     <p>
                         Here's a zip with{" "}
                         <a href="./images/media.zip">higher resolution</a>{" "}
@@ -32,6 +32,7 @@ export const Media: React.FC = () => {
                         extension with jpg to see a high res version.
                     </p>
                 </div>
+                <Spacer height="50px" />
                 <div className="media">
                     <div className="media-item light-grey">
                         <img src="./images/hertz-interface.png" />

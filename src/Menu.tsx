@@ -70,10 +70,10 @@ export const Menu: React.FC = () => {
                             Media
                         </Link>
                         <HashLink
-                            to="/media#our-other-products"
+                            to="/media#product-pictures"
                             className="subLink"
                         >
-                            Our other products
+                            Product pictures
                         </HashLink>
                         <Link
                             to="/privacy"
