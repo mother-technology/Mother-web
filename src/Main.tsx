@@ -121,11 +121,11 @@ export const Main: React.FC = () => {
                             </>
                         </Panel>
                     </div>
-                    <Spacer height="100px" />
+                    <Spacer height="200px" hasLine={true} />
                     <div className="flex main">
                         <USPList usp={usp} />
                     </div>
-                    <Spacer height="100px" />
+                    <Spacer height="200px" hasLine={true} />
                     <div className="flex main">
                         <h2 id="vr">VR, the next revolution. </h2>
                         <p>
@@ -149,9 +149,9 @@ export const Main: React.FC = () => {
                             this exciting area.
                         </p>
                     </div>
-                    <Spacer height="100px" />
+                    <Spacer height="200px" hasLine={true} />
                     <div className="flex main">
-                        <h2>Our other products</h2>
+                        <h2 id="our-other-products">Our other products</h2>
                         <p>
                             Our focus right now is on our VR technology,
                             although we have other mental training apps that you
@@ -163,7 +163,6 @@ export const Main: React.FC = () => {
                         <PanelTextImage
                             header="You're not going to like our first app."
                             img="/images/hz-square.png"
-                            hashId="hertz"
                             link="/hertz"
                             subHeader="But your brain will..."
                         />
@@ -171,14 +170,12 @@ export const Main: React.FC = () => {
                             header="Free, no ads, no in-app purchases."
                             img="/images/hz-lite-square.png"
                             link="/hertz-lite"
-                            hashId="hertz-lite"
                             subHeader="But it'll still make you pay."
                         />
                         <PanelTextImage
                             header="Our big friendly guide to your brain"
                             img="/images/cc-square.png"
                             link="/consciousness-craft"
-                            hashId="consciousness-craft"
                             subHeader="Consciousness craft."
                         ></PanelTextImage>
                     </div>

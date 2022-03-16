@@ -112,9 +112,9 @@ export const HertzLite: React.FC = () => {
                     </Panel>
                 </div>
                 <div className="flex main">
-                    <Spacer height="100px" />
+                    <Spacer height="200px" hasLine={true} />
                     <ABriefBackground />
-                    <Spacer height="100px" />
+                    <Spacer height="200px" hasLine={true} />
                     <TipsAndTricks />
                 </div>
             </div>

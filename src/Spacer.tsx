@@ -2,18 +2,32 @@ import React from "react";
 
 type SpacerProps = {
     height: string;
+    hasLine?: boolean;
 };
 
-export const Spacer = ({ height }: SpacerProps) => {
+export const Spacer = ({ height, hasLine }: SpacerProps) => {
+    let width = "1px";
+    if (hasLine) width = "100px";
+
     return (
-        <span
+        <div
             style={{
                 height: height,
-                width: "1px",
-                minWidth: "1px",
+                width: width,
+                minWidth: width,
                 minHeight: height,
-                display: "block",
+                display: "flex",
+                alignItems: "center",
             }}
-        />
+        >
+            {hasLine && (
+                <div
+                    style={{
+                        border: "1px solid black",
+                        width: "100px",
+                    }}
+                />
+            )}
+        </div>
     );
 };

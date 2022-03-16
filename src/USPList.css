@@ -1,6 +1,6 @@
 .usp {
     display: grid;
-    gap: 10px;
+    grid-gap: 50px 10px;
     grid-template-columns: auto 1fr;
     padding: 0;
     text-align: start;
@@ -18,17 +18,13 @@
     color: white;
 }
 
-.usp .info {
-    justify-content: flex-end;
-}
-
 .usp h4 {
     font-weight: 900;
-    margin-bottom: 5px;
+    margin: 0 0 10px 0;
 }
 
 .usp p {
-    margin-top: 0;
+    margin: 0;
 }
 
 @media only screen and (max-width: 480px) {

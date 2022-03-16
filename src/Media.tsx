@@ -22,9 +22,9 @@ export const Media: React.FC = () => {
                         <a href="mailto:press@mother.technology">Mail us</a>.
                     </p>
                 </div>
-                <Spacer height="50px" />
+                <Spacer height="200px" hasLine={true} />
                 <div className="flex main">
-                    <h2 id="other-products">Other products</h2>
+                    <h2 id="our-other-products">Our other products</h2>
                     <p>
                         Here's a zip with{" "}
                         <a href="./images/media.zip">higher resolution</a>{" "}

@@ -44,17 +44,8 @@ export const Menu: React.FC = () => {
                         <HashLink to="/#vr" className="subLink">
                             VR
                         </HashLink>
-                        <HashLink to="/#hertz" className="subLink">
-                            Hertz
-                        </HashLink>
-                        <HashLink to="/#hertz-lite" className="subLink">
-                            Hertz lite
-                        </HashLink>
-                        <HashLink
-                            to="/#consciousness-craft"
-                            className="subLink"
-                        >
-                            Consciousness craft
+                        <HashLink to="/#our-other-products" className="subLink">
+                            Our other products
                         </HashLink>
                         <Link
                             to="/team"
@@ -79,10 +70,10 @@ export const Menu: React.FC = () => {
                             Media
                         </Link>
                         <HashLink
-                            to="/media#other-products"
+                            to="/media#our-other-products"
                             className="subLink"
                         >
-                            Other products
+                            Our other products
                         </HashLink>
                         <Link
                             to="/privacy"

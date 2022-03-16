@@ -118,7 +118,7 @@ export const Team: React.FC = () => {
                         </>
                     </PanelPerson>
                 </div>
-                <Spacer height="100px" />
+                <Spacer height="200px" hasLine={true} />
                 <div className="flex main">
                     <h2 id="our-values">Our values</h2>
                     <p>
@@ -156,7 +156,7 @@ export const Team: React.FC = () => {
                         with our intentions and actions open and public.
                     </p>
                 </div>
-                <Spacer height="50px" />
+                <Spacer height="200px" hasLine={true} />
                 <div className="flex main">
                     <h2 id="our-interests">Our interests.</h2>
                     <p>

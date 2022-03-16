@@ -4,9 +4,9 @@ import { ABriefBackground } from "./ABriefBackground";
 import { Header } from "./Header";
 import { Panel } from "./Panel";
 import { PanelTextImageDL } from "./PanelTextImageDL";
-import "./Shared.css";
 import { TipsAndTricks } from "./TipsAndTricks";
 import { Spacer } from "./Spacer";
+import "./Shared.css";
 
 export const Hertz: React.FC = () => {
     return (
@@ -131,9 +131,9 @@ export const Hertz: React.FC = () => {
                     </Panel>
                 </div>
                 <div className="flex main">
-                    <Spacer height="100px" />
+                    <Spacer height="200px" hasLine={true} />
                     <ABriefBackground />
-                    <Spacer height="100px" />
+                    <Spacer height="200px" hasLine={true} />
                     <TipsAndTricks />
                 </div>
             </div>

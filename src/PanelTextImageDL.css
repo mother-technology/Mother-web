@@ -52,6 +52,15 @@ div.panel-sell-items a.buttonLink {
     background-color: #fbbc09;
 }
 
+@media only screen and (max-width: 1024px) {
+    .panel-sell-items {
+        flex-direction: column;
+    }
+    div.panel-sell-item {
+        width: unset;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     div.panel-info h2 {
         font-size: 1.7rem;
