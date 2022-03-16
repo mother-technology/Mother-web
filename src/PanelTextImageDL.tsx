@@ -8,6 +8,7 @@ type PanelProps = {
     img: string;
     buttonText?: string;
     buttonLink?: string;
+    hashId?: string;
     children: JSX.Element;
 };
 
@@ -16,12 +17,13 @@ export const PanelTextImageDL: React.FC<PanelProps> = ({
     img,
     buttonText,
     buttonLink,
+    hashId,
     children,
 }: PanelProps) => {
     return (
         <div className="panel-sell-item yellow">
             <div className="flex panel-info">
-                <h2>{header}</h2>
+                <h2 id={hashId ? hashId : ""}>{header}</h2>
                 {children}
             </div>
             {img && <img src={img} />}

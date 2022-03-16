@@ -155,12 +155,17 @@ export const Main: React.FC = () => {
                     <div className="separator" />
                     <div className="flex main">
                         <h2>Our other products</h2>
-                        {/* <p>Less sexy than VR, but also important!</p> */}
+                        <p>
+                            Our focus right now is on our VR technology,
+                            although we have other mental training apps that you
+                            can have a look at.
+                        </p>
                     </div>
                     <div className="panel-text-images">
                         <PanelTextImage
                             header="You're not going to like our first app."
                             img="/images/hz-square.png"
+                            hashId="hertz"
                             link="/hertz"
                             subHeader="But your brain will..."
                         />
@@ -168,12 +173,14 @@ export const Main: React.FC = () => {
                             header="Free, no ads, no in-app purchases."
                             img="/images/hz-lite-square.png"
                             link="/hertz-lite"
+                            hashId="hertz-lite"
                             subHeader="But it'll still make you pay."
                         />
                         <PanelTextImage
                             header="Our big friendly guide to your brain"
                             img="/images/cc-square.png"
                             link="/consciousness-craft"
+                            hashId="consciousness-craft"
                             subHeader="Consciousness craft."
                         ></PanelTextImage>
                     </div>

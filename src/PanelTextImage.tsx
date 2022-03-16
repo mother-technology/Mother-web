@@ -8,15 +8,22 @@ import "./PanelTextImage.css";
 interface IProps extends RouteComponentProps<any> {
     header: string;
     subHeader: string;
+    hashId?: string;
     img: string;
     link: string;
 }
 
-const PanelTextImage: React.FC<IProps> = ({ header, img, link, subHeader }) => {
+const PanelTextImage: React.FC<IProps> = ({
+    header,
+    img,
+    link,
+    hashId,
+    subHeader,
+}) => {
     return (
         <Link className="panel-text-image light-grey" to={link}>
             <div className="narrow-container">
-                <h2>{header}</h2>
+                <h2 id={hashId ? hashId : ""}>{header}</h2>
                 <img src={img} />
                 <h2>{subHeader}</h2>
             </div>

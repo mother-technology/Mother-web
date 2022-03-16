@@ -9,6 +9,7 @@ type PanelProps = {
     link?: string;
     backgroundColor?: string;
     color?: string;
+    hashId?: string;
     children: JSX.Element;
 };
 
@@ -16,17 +17,16 @@ export const Panel: React.FC<PanelProps> = ({
     header,
     img,
     link,
+    hashId,
     backgroundColor,
     color,
     children,
 }: PanelProps) => {
-    const hashId = header.replace(/\s+/g, "-").toLowerCase();
-
     return (
         <div className={`panel-item ${backgroundColor}`}>
             {img && <img src={img} alt="product" />}
             <div className="flex panel-info">
-                <h2 id={hashId} className={color}>
+                <h2 id={hashId ? hashId : ""} className={color}>
                     {header}
                 </h2>
                 {children}

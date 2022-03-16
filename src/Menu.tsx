@@ -44,25 +44,18 @@ export const Menu: React.FC = () => {
                         <HashLink to="/#vr" className="subLink">
                             VR
                         </HashLink>
-
-                        <Link
-                            to="/"
-                            className={
-                                location.pathname === "/" ? "active" : ""
-                            }
-                        >
-                            Products
-                        </Link>
-
-                        <Link to="/hertz" className="subLink">
+                        <HashLink to="/#hertz" className="subLink">
                             Hertz
-                        </Link>
-                        <Link to="/hertz-lite" className="subLink">
+                        </HashLink>
+                        <HashLink to="/#hertz-lite" className="subLink">
                             Hertz lite
-                        </Link>
-                        <Link to="/consciousness-craft" className="subLink">
+                        </HashLink>
+                        <HashLink
+                            to="/#consciousness-craft"
+                            className="subLink"
+                        >
                             Consciousness craft
-                        </Link>
+                        </HashLink>
                         <Link
                             to="/team"
                             className={
