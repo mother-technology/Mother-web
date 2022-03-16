@@ -26,7 +26,7 @@ export const Team: React.FC = () => {
                         rewarding challenge.
                     </p>
                 </div>
-
+                <Spacer height="50px" />
                 <div className="flex persons">
                     <PanelPerson
                         header="Tomás"
@@ -118,7 +118,7 @@ export const Team: React.FC = () => {
                         </>
                     </PanelPerson>
                 </div>
-                <Spacer height="50px" />
+                <Spacer height="100px" />
                 <div className="flex main">
                     <h2 id="our-values">Our values</h2>
                     <p>
