@@ -69,7 +69,7 @@ export const Hertz: React.FC = () => {
                         img="/images/the-target.png"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 Regular stimulation of your vagus nerve
                                 increases your HRV (heart rate variability) as
                                 well as your CVC (cardiac vagal control), which
@@ -91,7 +91,7 @@ export const Hertz: React.FC = () => {
                         img="/images/the-time.png"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 For a smart world we need smart tools. Hertz.
                                 pairs a simple HRV training routine (breath in,
                                 breath out) with a saccadic gaze control
@@ -111,7 +111,7 @@ export const Hertz: React.FC = () => {
                         img="/images/the-magic.png"
                     >
                         <>
-                            <p className="small">
+                            <p>
                                 Tying your vagal nerve stimulation to a target
                                 that gives direct feedback allows you to take a
                                 break, and gives your basal ganglia (your

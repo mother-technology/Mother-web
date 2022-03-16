@@ -1,11 +1,8 @@
-Micke
-- Hashlänkar
-- Länka div med routecomponent
-
 Jenny
-- Styled components typescript
-- Remove CC
-- Change link in hertz
 
-https://www.daggala.com/layout-margins-in-styled-components/
-https://blog.logrocket.com/using-styled-components-in-typescript-a-tutorial-with-examples/
+- Spacer
+- Fix hertz circles
+- Fix hertz margins
+  Make smaller text for circles
+
+Double check that the new background pictures are on all pages
