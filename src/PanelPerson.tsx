@@ -20,7 +20,7 @@ export const PanelPerson: React.FC<PanelProps> = ({
 }: PanelProps) => {
     return (
         <div className="flex person-item">
-            <img src={img} alt="team member" />
+            <img src={img} />
             <div className="flex person-info">
                 <h3>{header}</h3>
                 {children}
