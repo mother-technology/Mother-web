@@ -2,7 +2,6 @@
 import React from "react";
 import { CircleWithText } from "./CircleWithText";
 import { Header } from "./Header";
-import { Spacer } from "./Spacer";
 import "./Shared.css";
 
 export const ConsciousnessCraft: React.FC = () => {
