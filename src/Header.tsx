@@ -22,7 +22,11 @@ export const Header: React.FC<HeaderProps> = ({
     return (
         <div
             className={`header flex ${className}`}
-            style={{ height: height, backgroundSize: `2000px ${height}px` }}
+            style={{
+                height: height,
+                overflow: "hidden",
+                backgroundSize: `2000px ${height}px`,
+            }}
         >
             <div className="headers flex">
                 {header && <h1 className="flex">{header}</h1>}
