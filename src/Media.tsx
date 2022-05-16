@@ -21,7 +21,21 @@ export const Media: React.FC = () => {
                         Want to know more?{" "}
                         <a href="mailto:press@mother.technology">Mail us</a>.
                     </p>
+                    <p>
+                        Like to download all high resolution pictures in one go?
+                        Here are the{" "}
+                        <a href="./images/media.zip">product pictures</a> and{" "}
+                        <a href="./images/team.zip">team pictures</a>. Or
+                        replace the .png extension with jpg to see a high
+                        resolution version.
+                    </p>
                 </div>
+                <Spacer height="200px" hasLine={true} />
+                <div className="flex main">
+                    <h2 id="team-pictures">Team pictures</h2>
+                </div>
+                <Spacer height="50px" />
+
                 <Spacer height="200px" hasLine={true} />
                 <div className="flex main">
                     <h2 id="product-pictures">Product pictures</h2>
@@ -37,85 +51,73 @@ export const Media: React.FC = () => {
                     <div className="media-item light-grey">
                         <img src="./images/hertz-interface.png" />
                         <p className="image-text">
-                            <span>
-                                Hertz<span>.</span>
-                            </span>{" "}
-                            interface.{" "}
+                            Hertz. interface -{" "}
                             <a href="./images/hertz-interface.jpg">
-                                High res jpg
+                                high resolution link
                             </a>
                         </p>
                     </div>
                     <div className="media-item light-grey">
                         <img src="./images/hertz-lite-interface.png" />
                         <p className="image-text">
-                            <span>
-                                Hertz<span>.</span>
-                            </span>{" "}
-                            interface.{" "}
+                            Hertz. interface -{" "}
                             <a href="./images/hertz-lite-interface.jpg">
-                                High res jpg
+                                high resolution link
                             </a>
                         </p>
                     </div>
                     <div className="media-item light-grey">
                         <img src="./images/hz-action-1.png" />
                         <p className="image-text">
-                            <span>
-                                Hertz<span>.</span>
-                            </span>{" "}
-                            in use.{" "}
-                            <a href="./images/hz-action-1.jpg">High res jpg</a>
+                            Hertz. in use -{" "}
+                            <a href="./images/hz-action-1.jpg">
+                                high resolution link
+                            </a>
                         </p>
                     </div>
                     <div className="media-item light-grey">
                         <img src="./images/hz-action-3.png" />
                         <p className="image-text">
-                            <span>
-                                Hertz<span>.</span>
-                            </span>{" "}
-                            in use.{" "}
-                            <a href="./images/hz-action-3.jpg">High res jpg</a>
+                            Hertz. in use -{" "}
+                            <a href="./images/hz-action-3.jpg">
+                                high resolution link
+                            </a>
                         </p>
                     </div>
                     <div className="media-item light-grey">
                         <img src="./images/hz-action-5.png" />
                         <p className="image-text">
-                            <span>
-                                Hertz<span>.</span>
-                            </span>{" "}
-                            in use.{" "}
-                            <a href="./images/hz-action-5.jpg">High res jpg</a>
+                            Hertz. in use -{" "}
+                            <a href="./images/hz-action-5.jpg">
+                                high resolution link
+                            </a>
                         </p>
                     </div>
                     <div className="media-item light-grey">
                         <img src="./images/hz-action-6.png" />
                         <p className="image-text">
-                            <span>
-                                Hertz<span>.</span>
-                            </span>{" "}
-                            in use.{" "}
-                            <a href="./images/hz-action-6.jpg">High res jpg</a>
+                            Hertz. in use -{" "}
+                            <a href="./images/hz-action-6.jpg">
+                                high resolution link
+                            </a>
                         </p>
                     </div>
                     <div className="media-item light-grey">
                         <img src="./images/hz-action-4.png" />
                         <p className="image-text">
-                            <span>
-                                Hertz<span>.</span>
-                            </span>{" "}
-                            in use.{" "}
-                            <a href="./images/hz-action-4.jpg">High res jpg</a>
+                            Hertz. in use -{" "}
+                            <a href="./images/hz-action-4.jpg">
+                                high resolution link
+                            </a>
                         </p>
                     </div>
                     <div className="media-item light-grey">
                         <img src="./images/hz-action-2.png" />
                         <p className="image-text">
-                            <span>
-                                Hertz<span>.</span>
-                            </span>{" "}
-                            in use.{" "}
-                            <a href="./images/hz-action-2.jpg">High res jpg</a>
+                            Hertz. in use -{" "}
+                            <a href="./images/hz-action-2.jpg">
+                                high resolution link
+                            </a>
                         </p>
                     </div>
                 </div>

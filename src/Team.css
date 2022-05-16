@@ -1,0 +1,8 @@
+.persons {
+    flex-direction: column;
+    align-items: center;
+}
+
+.persons img {
+    width: 100%;
+}
