@@ -24,10 +24,7 @@ export const Media: React.FC = () => {
                     <p>
                         Like to download all high resolution pictures in one go?
                         Here are the{" "}
-                        <a href="./images/media.zip">product pictures</a> and{" "}
-                        <a href="./images/team.zip">team pictures</a>. Or
-                        replace the .png extension with jpg to see a high
-                        resolution version.
+                        <a href="./images/media.zip">product pictures</a>.
                     </p>
                 </div>
                 <Spacer height="200px" hasLine={true} />
