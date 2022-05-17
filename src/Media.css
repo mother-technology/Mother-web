@@ -6,6 +6,11 @@
     margin-bottom: 60px;
 }
 
+.team {
+    flex-direction: column;
+    align-items: center;
+}
+
 p.image-text,
 p.image-text a {
     font-style: italic;

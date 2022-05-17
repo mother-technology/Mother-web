@@ -34,7 +34,40 @@ export const Media: React.FC = () => {
                 <div className="flex main">
                     <h2 id="team-pictures">Team pictures</h2>
                 </div>
+
                 <Spacer height="50px" />
+
+                <div className="team">
+                    <div className="media-item light-grey">
+                        <img src="./images/team.png" />
+                        <p className="image-text">
+                            Team -{" "}
+                            <a href="./images/team-original.png">
+                                high resolution link
+                            </a>
+                        </p>
+                    </div>
+
+                    <div className="media-item light-grey">
+                        <img src="./images/team-composite.png" />
+                        <p className="image-text">
+                            Team -{" "}
+                            <a href="./images/team-composite.png">
+                                high resolution link
+                            </a>
+                        </p>
+                    </div>
+
+                    <div className="media-item light-grey">
+                        <img src="./images/team-horizontal.png" />
+                        <p className="image-text">
+                            Team{" "}
+                            <a href="./images/team-horizontal.png">
+                                high resolution link
+                            </a>
+                        </p>
+                    </div>
+                </div>
 
                 <Spacer height="200px" hasLine={true} />
                 <div className="flex main">
