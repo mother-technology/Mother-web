@@ -7,8 +7,8 @@
     justify-content: center;
     display: flex;
     position: absolute;
-    top: 25px;
-    z-index: 100;
+    right: 20px;
+    top: 20px;
 }
 
 .menuIcon {

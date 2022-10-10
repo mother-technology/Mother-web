@@ -1,0 +1,40 @@
+.panel-testimonial {
+    border-radius: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.panel-testimonial-container {
+    padding: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.panel-testimonial .text {
+    flex-direction: column;
+    color: black;
+    text-align: left;
+    justify-content: center;
+}
+
+.panel-testimonial img {
+    width: 140px;
+    height: 140px;
+    margin-right: 25px;
+    border-radius: 70px;
+}
+
+.panel-testimonial p {
+    margin: 7px 0;
+    color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    .panel-testimonial-container {
+        flex-direction: column;
+    }
+    .panel-testimonial img {
+        margin: 10px 0 15px 0;
+    }
+}

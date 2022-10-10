@@ -4,5 +4,12 @@
 }
 
 .persons img {
-    width: 100%;
+    width: 657px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .persons img {
+        width: 400px;
+    }
 }

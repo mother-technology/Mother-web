@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import { ConsciousnessCraft } from "./ConsciousnessCraft";
 import Footer from "./Footer";
 import { Hertz } from "./Hertz";
 import { HertzLite } from "./HertzLite";
 import { Main } from "./Main";
 import { Media } from "./Media";
-import Menu from "./Menu";
+import { VR } from "./VR";
 import Page from "./Page";
 import { Privacy } from "./Privacy";
 import ScrollToTop from "./ScrollToTop";
@@ -15,7 +14,6 @@ function App() {
     return (
         <Router>
             <div className="App flex">
-                <Menu />
                 <ScrollToTop />
                 <Switch>
                     <Page
@@ -48,6 +46,13 @@ function App() {
                     />
                     <Page
                         exact
+                        path="/vr-for-health-tech"
+                        component={VR}
+                        title="Areas for VR within health  | mother.technology"
+                        description="What a second reality can help you with"
+                    />
+                    <Page
+                        exact
                         path="/hertz"
                         component={Hertz}
                         title="Hertz | mother.technology"
@@ -60,13 +65,13 @@ function App() {
                         title="Hertz lite  | mother.technology"
                         description="A simple focus training app to tackle anxiety and train the vagus nerve."
                     />
-                    <Page
+                    {/* <Page
                         exact
                         path="/consciousness-craft"
                         component={ConsciousnessCraft}
                         title="Consciousness craft  | mother.technology"
                         description="Our big friendly guide to your brain and mind."
-                    />
+                    /> */}
                 </Switch>
             </div>
             <Footer />

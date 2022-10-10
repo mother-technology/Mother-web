@@ -22,11 +22,19 @@ div.privacy-header {
     background: #000 url(./images/5.png) center 0 no-repeat;
 }
 
+div.outer-header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
 div.header {
     background-attachment: fixed;
+    background-position: center bottom;
     overflow: hidden;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 div.header-separator {

@@ -29,11 +29,8 @@ export const Footer: React.FC = () => {
                     >
                         <img src="./images/sting.png" />
                     </a>
-                    <a
-                        className="partner-logo"
-                        href="https://www.blingstartup.se/"
-                    >
-                        <img src="./images/bling.png" />
+                    <a className="partner-logo" href="https://www.almi.se/">
+                        <img src="./images/almi_logo.png" />
                     </a>
                 </div>
             </div>

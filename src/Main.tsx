@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Header } from "./Header";
+import { PanelTestimonial } from "./PanelTestimonial";
 import "./Main.css";
-import { Panel } from "./Panel";
-import PanelTextImage from "./PanelTextImage";
 import "./Shared.css";
 import { USPList } from "./USPList";
 import { Spacer } from "./Spacer";
@@ -16,15 +15,11 @@ export const Main: React.FC = () => {
         },
         {
             title: "Changing the mind the mind's way",
-            text: "Hard work is never easy, but with VR we can use the brains implicit learning systems to change your mind, for the better. ",
-        },
-        {
-            title: "Synergistic impact",
-            text: "Our VR software is designed to change your mind with one experience, and our Consciousness craft app aids you in maximising the benefit over time. ",
+            text: "Hard work is never easy, but with VR we can use the brains implicit learning systems to effortlessly change your mind, for the better. ",
         },
         {
             title: "Improved self-knowledge",
-            text: "You're in the driving seat. With our software, the goal isn't just to change your mind, but to reveal how the mind works to you. Showing how it works is part of the process.",
+            text: "You're in the driving seat. With our software, the goal isn't just to change your mind, but to reveal how the mind works to you. Showing how the magic works is part of the process.",
         },
     ];
 
@@ -34,161 +29,89 @@ export const Main: React.FC = () => {
                 <Header
                     className="main-header"
                     header="Mother."
-                    subHeader="Changing minds"
+                    subHeader="Changing your mind, for the better"
                 />
                 <div className="side-margin">
                     <div className="flex main">
                         <p>
-                            We are a Stockholm-based hard-science deep-tech
-                            mental health company, filling the niche between
-                            conventional health services and self-help
-                            approaches by translating cutting edge neuroscience
-                            into easily accessible digital therapeutics.
+                            We are a Stockholm-based medtech company developing
+                            easily accessible, scalable, digital therapeutics
+                            with as powerful effects as pharmaceutical
+                            offerings.
                         </p>
                         <p>
-                            We create high-tech digital therapeutics based on
-                            Virtual Reality, biofeedback, and guided mental
-                            training courses.
+                            Currently we are focused on virtual reality (VR) due
+                            to its powerful effects on the brain, and we
+                            anticipate a future of transformative VR
+                            experiences. We have a deep expertise in extended
+                            reality and applied neuroscience, and strive to be
+                            at the forefront of these exciting developments for
+                            mental health.
                         </p>
                     </div>
                     <Spacer height="50px" />
-                    <div className="panels">
-                        <Panel
-                            header="The brain"
-                            backgroundColor="black"
-                            img="/images/the-brain.png"
-                        >
-                            <>
-                                <p>The Brain, home to us all! </p>
-                                <p>
-                                    Never has the research on our most thinky
-                                    organ been so advanced, yet globally mental
-                                    health plummets.{" "}
-                                </p>
-                                <p>
-                                    Anxiety, burnout, depersonalisation,
-                                    depression, and mood disorders are all too
-                                    common, and amongst the youth they're on the
-                                    rise. These mental health issues highlight
-                                    the unhappy state of our brains.
-                                </p>
-                            </>
-                        </Panel>
-                        <Panel
-                            header="The science"
-                            backgroundColor="black"
-                            img="/images/the-science.png"
-                        >
-                            <>
-                                <p>
-                                    In research labs across the world, using
-                                    tools such as VR or psychedelics, in
-                                    molecular biology labs, in fMRI studies, the
-                                    cutting edge of science is revealing aspects
-                                    of our brains which show us a clear path
-                                    forward for brain health.
-                                </p>
-                                <p>
-                                    From this and our own in-house research we
-                                    develop novel digital therapeutics
-                                    targetting the brain.
-                                </p>
-                            </>
-                        </Panel>
-                        <Panel
-                            header="The target"
-                            backgroundColor="black"
-                            img="/images/the-target.png"
-                        >
-                            <>
-                                <p>
-                                    We aim to enable you to fully affirm your
-                                    life, yourself, and your mode of
-                                    functioning.{" "}
-                                </p>
-                                <p>
-                                    We want your brain (and body) happily
-                                    ticking along like a Swiss watch.{" "}
-                                </p>
-                                <p>
-                                    We want you to feel like every day is the
-                                    best day of your life, until tomorrow...
-                                </p>
-                                <p>
-                                    And we want you to know who you are, where
-                                    you want to go, and how to get there.
-                                </p>
-                            </>
-                        </Panel>
+                    <div className="flex main">
+                        <h2 id="sick-of-smoking">Sick of smoking</h2>
+                        <p>
+                            Our first solution targets the number one health
+                            issue in the world - smoking. We offer a highly
+                            effective VR solution that uses a powerful
+                            biological mechanism to end tobacco addiction in a
+                            few five minute treatments. It is cost-effective,
+                            safe and effortless.
+                        </p>
+                        <Spacer height="50px" />
+                        <PanelTestimonial
+                            text="I tried smoking water pipe twice and felt sick the second time. I feel disgusted when someone smokes next to me."
+                            name="Camille, smoke-free after 3 treatments"
+                            img="/images/camille.png"
+                            color="pink"
+                        />
+                        <Spacer height="20px" />
+                        <PanelTestimonial
+                            text="I totally lost the taste for cigarettes. I can’t stand them."
+                            name="Erik after 1 treatment"
+                            color="blue"
+                        />
+                        <Spacer height="20px" />
+                        <PanelTestimonial
+                            text="It tastes disgusting when I smkoke now, not the same as before."
+                            name="Daniel after 1 treatment"
+                            color="pink"
+                        />
+                        <Spacer height="20px" />
+                        <PanelTestimonial
+                            text="This was the first time in 40 years that I have not smoked for 24 hours."
+                            name="Anna after 1 treatment"
+                            color="blue"
+                        />
                     </div>
                     <Spacer height="200px" hasLine={true} />
                     <div className="flex main">
+                        <h2 id="who-we-are">Who we are</h2>
+                        <p>
+                            We aim to become a portfolio company, by creating
+                            small, impactful solutions that help society and
+                            humanity to become healthier. Sick of Smoking is our
+                            first solution, there are many more to come.
+                        </p>
+                        <Spacer height="50px" />
                         <USPList usp={usp} />
                     </div>
                     <Spacer height="200px" hasLine={true} />
                     <div className="flex main">
-                        <h2 id="vr">VR, the next revolution. </h2>
+                        <h2 id="news">News</h2>
                         <p>
-                            We believe the trends in neuroscience are revealing
-                            hidden aspects of the brain, that VR will emerge as
-                            a powerful vector for impacting the brain, and that
-                            we are approaching a new dawn for digital mental
-                            health therapeutics - and we aim to be the vanguard
-                            of these developments.
+                            If you find the above inspiring and would like to
+                            know more, follow us on{" "}
+                            <a href="https://www.linkedin.com/company/mothertechnology">
+                                LinkedIn
+                            </a>{" "}
+                            where we link to inspiring news, papers and reports.
                         </p>
-                        <img
-                            src="/images/VR-headset.png"
-                            alt="person wearing a VR headset"
-                        ></img>
-                        <p>
-                            The slew of literature recently published in the
-                            area of VR and neuroscience underlines the huge
-                            potential for VR as a mental health tool. Our team
-                            has a deep understanding of the mechanism-of-action,
-                            and we are fired up about leading developments in
-                            this exciting area.
-                        </p>
-                    </div>
-                    <Spacer height="200px" hasLine={true} />
-                    <div className="flex main">
-                        <h2 id="our-other-products">Our other products</h2>
-                        <p>
-                            Our focus right now is on our VR technology,
-                            although we have other mental training apps that you
-                            can have a look at.
-                        </p>
-                    </div>
-                    <Spacer height="50px" />
-                    <div className="panel-text-images">
-                        <PanelTextImage
-                            header="You're not going to like our first app."
-                            img="/images/hz-square.png"
-                            link="/hertz"
-                            subHeader="But your brain will..."
-                        />
-                        <PanelTextImage
-                            header="Free, no ads, no in-app purchases."
-                            img="/images/hz-lite-square.png"
-                            link="/hertz-lite"
-                            subHeader="But it'll still make you pay."
-                        />
-                        <PanelTextImage
-                            header="Our big friendly guide to your brain"
-                            img="/images/cc-square.png"
-                            link="/consciousness-craft"
-                            subHeader="Consciousness craft."
-                        ></PanelTextImage>
                     </div>
                 </div>
             </div>
         </>
     );
 };
-
-// header: string;
-// img: string;
-// link?: string;
-// linkText?: string;
-// buttonText?: string;
-// buttonLink?: string;
-// children: JSX.Element;

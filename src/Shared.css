@@ -65,6 +65,10 @@ a {
     font-weight: 300;
 }
 
+p.italic {
+    font-style: italic;
+}
+
 span.red {
     color: red;
     text-shadow: -1px 2px 1px #d3d3d3;
@@ -143,11 +147,15 @@ a:focus {
 
 /* All colors */
 .pink {
-    background-color: #e3736b;
+    background-color: #ef857d;
 }
 
 .yellow {
-    background-color: #fbbc09;
+    background-color: #faae4e;
+}
+
+.blue {
+    background-color: #80cac2;
 }
 
 .black {

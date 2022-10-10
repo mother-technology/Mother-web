@@ -16,65 +16,39 @@ export const Media: React.FC = () => {
             <div className="side-margin">
                 <div className="flex main">
                     <p>
-                        Good morning. We'd love if you would like to write
-                        something about our software or talk to us about it.
-                        Want to know more?{" "}
-                        <a href="mailto:press@mother.technology">Mail us</a>.
+                        We have exciting stories about our research and the area
+                        of VR usage for health tech in general and will gladly
+                        share them with you. Contact us to start a conversation!
+                    </p>
+                    <h3>Contact us</h3>
+                    <p>
+                        Send us an{" "}
+                        <a href="mailto:press@mother.technology">email</a> or
+                        reach us over{" "}
+                        <a href="tel:0046738150102">phone (073-8150102)</a>. We
+                        are experts on the brain's visual perspection and how it
+                        is affected by VR.
                     </p>
                     <p>
-                        Like to download all high resolution pictures in one go?
-                        Here are the{" "}
-                        <a href="./images/media.zip">product pictures</a>.
+                        If you are interested in the news and research we share
+                        in the area, follow us on{" "}
+                        <a href="https://www.linkedin.com/company/mothertechnology">
+                            LinkedIn
+                        </a>{" "}
+                        .
                     </p>
-                </div>
-                <Spacer height="200px" hasLine={true} />
-                <div className="flex main">
-                    <h2 id="team-pictures">Team pictures</h2>
-                </div>
 
-                <Spacer height="50px" />
-
-                <div className="team">
-                    <div className="media-item light-grey">
-                        <img src="./images/team.png" />
-                        <p className="image-text">
-                            Team -{" "}
-                            <a href="./images/team-original.png">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-
-                    <div className="media-item light-grey">
-                        <img src="./images/team-composite.png" />
-                        <p className="image-text">
-                            Team -{" "}
-                            <a href="./images/team-composite.png">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-
-                    <div className="media-item light-grey">
-                        <img src="./images/team-horizontal.png" />
-                        <p className="image-text">
-                            Team{" "}
-                            <a href="./images/team-horizontal.png">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-                </div>
-
-                <Spacer height="200px" hasLine={true} />
-                <div className="flex main">
-                    <h2 id="product-pictures">Product pictures</h2>
+                    <h3>About us</h3>
                     <p>
-                        Here's a zip with{" "}
-                        <a href="./images/media.zip">higher resolution</a>{" "}
-                        versions of the images below. Or replace the .png
-                        extension with jpg to see a high res version.
+                        We are a Stockholm-based health company, filling the
+                        niche between conventional health services and self-help
+                        approaches by translating cutting edge neuroscience into
+                        easily accessible digital therapeutics.
                     </p>
+                </div>
+                {/* <Spacer height="200px" hasLine={true} />
+                <div className="flex main">
+                    <h2 id="team-pictures">Team</h2>
                 </div>
                 <Spacer height="50px" />
                 <div className="media">
@@ -87,70 +61,44 @@ export const Media: React.FC = () => {
                             </a>
                         </p>
                     </div>
+                </div> */}
+
+                {/* <Spacer height="200px" hasLine={true} />
+                <div className="flex main">
+                    <h2 id="product-pictures">VR</h2>
+                </div>
+                <Spacer height="50px" />
+                <div className="media">
                     <div className="media-item light-grey">
-                        <img src="./images/hertz-lite-interface.png" />
+                        <img src="./images/hertz-interface.png" />
                         <p className="image-text">
                             Hertz. interface -{" "}
-                            <a href="./images/hertz-lite-interface.jpg">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-                    <div className="media-item light-grey">
-                        <img src="./images/hz-action-1.png" />
-                        <p className="image-text">
-                            Hertz. in use -{" "}
-                            <a href="./images/hz-action-1.jpg">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-                    <div className="media-item light-grey">
-                        <img src="./images/hz-action-3.png" />
-                        <p className="image-text">
-                            Hertz. in use -{" "}
-                            <a href="./images/hz-action-3.jpg">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-                    <div className="media-item light-grey">
-                        <img src="./images/hz-action-5.png" />
-                        <p className="image-text">
-                            Hertz. in use -{" "}
-                            <a href="./images/hz-action-5.jpg">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-                    <div className="media-item light-grey">
-                        <img src="./images/hz-action-6.png" />
-                        <p className="image-text">
-                            Hertz. in use -{" "}
-                            <a href="./images/hz-action-6.jpg">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-                    <div className="media-item light-grey">
-                        <img src="./images/hz-action-4.png" />
-                        <p className="image-text">
-                            Hertz. in use -{" "}
-                            <a href="./images/hz-action-4.jpg">
-                                high resolution link
-                            </a>
-                        </p>
-                    </div>
-                    <div className="media-item light-grey">
-                        <img src="./images/hz-action-2.png" />
-                        <p className="image-text">
-                            Hertz. in use -{" "}
-                            <a href="./images/hz-action-2.jpg">
+                            <a href="./images/hertz-interface.jpg">
                                 high resolution link
                             </a>
                         </p>
                     </div>
                 </div>
+
+                <Spacer height="200px" hasLine={true} />
+                <div className="flex main">
+                    <h2 id="product-pictures">Logos</h2>
+                </div>
+                <Spacer height="50px" />
+                <div className="media">
+                    <div className="media-item light-grey">
+                        <img src="./images/hertz-interface.png" />
+                        <p className="image-text">
+                            Hertz. interface -{" "}
+                            <a href="./images/hertz-interface.jpg">
+                                high resolution link
+                            </a>
+                        </p>
+                    </div>
+                </div> */}
+
+                {/* <h2>Press releases</h2>
+                <h2>News clips</h2> */}
             </div>
         </>
     );
