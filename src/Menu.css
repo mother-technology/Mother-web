@@ -26,14 +26,20 @@
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     overflow: hidden;
 }
 
-div.column {
+div.nav-container {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+div.link-group {
+    display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    padding: 140px 100px 0 0;
+    padding: 40px;
 }
 
 #navbar a {
@@ -54,12 +60,25 @@ div.column {
     color: #fbbc09;
 }
 
+@media only screen and (max-width: 768px) {
+    #navbar {
+        justify-content: flex-start;
+        padding: 60px;
+    }
+    div.nav-container {
+        flex-direction: column;
+    }
+    div.link-group {
+        padding: 5px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     #navbar {
         flex-direction: column;
         justify-content: flex-start;
     }
-    div.column {
+    div.nav-container {
         text-align: left;
     }
 }
