@@ -34,10 +34,9 @@ export const Main: React.FC = () => {
                 <div className="side-margin">
                     <div className="flex main">
                         <p>
-                            We are a Stockholm-based medtech company developing
-                            easily accessible, scalable, digital therapeutics
-                            with as powerful effects as pharmaceutical
-                            offerings.
+                            We are a Swedish medtech company developing easily
+                            accessible, scalable, digital therapeutics with as
+                            powerful effects as pharmaceutical offerings.
                         </p>
                         <p>
                             Currently we are focused on virtual reality (VR) due
@@ -57,12 +56,12 @@ export const Main: React.FC = () => {
                             issue in the world - smoking. We offer a highly
                             effective VR solution that uses a powerful
                             biological mechanism to end tobacco addiction in a
-                            few five minute treatments. It is cost-effective,
-                            safe and effortless.
+                            few five minute treatments.
                         </p>
+                        <p>It is cost-effective, safe and effortless.</p>
                         <Spacer height="50px" />
                         <PanelTestimonial
-                            text="I tried smoking water pipe twice and felt sick the second time. I feel disgusted when someone smokes next to me."
+                            text="I tried smoking water pipe twice and felt sick. I feel disgusted when someone smokes next to me."
                             name="Camille, smoke-free after 3 treatments"
                             img="/images/camille.png"
                             color="pink"
@@ -75,7 +74,7 @@ export const Main: React.FC = () => {
                         />
                         <Spacer height="20px" />
                         <PanelTestimonial
-                            text="It tastes disgusting when I smkoke now, not the same as before."
+                            text="It tastes disgusting when I smoke now, not the same as before."
                             name="Daniel after 1 treatment"
                             color="pink"
                         />
