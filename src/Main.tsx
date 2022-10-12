@@ -53,11 +53,11 @@ export const Main: React.FC = () => {
                     <div className="flex main">
                         <h2 id="sick-of-smoking">Sick of smoking</h2>
                         <p>
-                            Our first solution targets the number one health
+                            Our first solution targets the single biggest health
                             issue in the world - smoking. We offer a highly
                             effective VR solution that uses a powerful
-                            biological mechanism to end tobacco addiction in a
-                            few five minute treatments.
+                            biological mechanism to help end tobacco addiction
+                            in as little as a few five minute treatments.
                         </p>
                         <p>It is cost-effective, safe and effortless.</p>
                         <Spacer height="50px" />

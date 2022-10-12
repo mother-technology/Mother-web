@@ -115,10 +115,10 @@ export const Team: React.FC = () => {
                                     management business development and
                                     strategy. She holds a Master of Science
                                     degree from Stockholm School of Economics
-                                    and is also a yoga teacher since 10 years.
-                                    She will bring her passion for both business
-                                    and wellbeing together in the role as
-                                    CCO/CMO at Mother.
+                                    and has also been teaching yoga for 10
+                                    years. She will bring her passion for both
+                                    business and wellbeing together in the role
+                                    as CCO at Mother.
                                 </p>
                             </>
                         </Panel>
