@@ -53,14 +53,14 @@ export const Menu: React.FC = () => {
                                 Sick of Smoking
                             </HashLink>
                             <HashLink
-                                to="/#who-we-are"
+                                to="/#our-dna"
                                 className={
-                                    location.hash === "#who-we-are"
+                                    location.hash === "#our-dna"
                                         ? "subLink active"
                                         : "subLink"
                                 }
                             >
-                                Who we are
+                                Our DNA
                             </HashLink>
                             <HashLink
                                 to="/#news"
@@ -116,6 +116,26 @@ export const Menu: React.FC = () => {
                             >
                                 Media
                             </Link>
+                            <HashLink
+                                to="/media#contact-us"
+                                className={
+                                    location.hash === "#contact-us"
+                                        ? "subLink active"
+                                        : "subLink"
+                                }
+                            >
+                                Contact us
+                            </HashLink>
+                            <HashLink
+                                to="/media#about-us"
+                                className={
+                                    location.hash === "#about-us"
+                                        ? "subLink active"
+                                        : "subLink"
+                                }
+                            >
+                                About us
+                            </HashLink>
                         </div>
                         <div className="link-group">
                             <Link

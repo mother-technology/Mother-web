@@ -1,0 +1,34 @@
+.panel-text-tabs {
+    display: flex;
+    justify-content: center;
+}
+
+button.panel-text-tab {
+    display: flex;
+    padding: 12px;
+    margin: 10px;
+    min-width: 250px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    border-style: none;
+}
+
+button:hover {
+    background-color: #ffdbb0;
+}
+
+button.panel-text-tab h3 {
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.panel-text-tab.active {
+    background-color: #faae4e;
+}
+
+@media only screen and (max-width: 480px) {
+}

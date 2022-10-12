@@ -62,6 +62,11 @@ div.header h2 {
     margin: 20px 0;
 }
 
+img.logo {
+    width: 160px;
+    padding-bottom: 20px;
+}
+
 /* @media (hover: none)  {
   div.headers {
     background-attachment: scroll;
@@ -81,6 +86,10 @@ div.header h2 {
     }
     div.header h2 {
         font-size: 2rem;
+    }
+    img.logo {
+        width: 120px;
+        padding-bottom: 20px;
     }
 }
 /*

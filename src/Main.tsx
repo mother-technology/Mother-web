@@ -28,11 +28,12 @@ export const Main: React.FC = () => {
             <div>
                 <Header
                     className="main-header"
-                    header="Mother."
-                    subHeader="Changing your mind, for the better"
+                    logo="/images/mother-white-m.png"
+                    subHeader="Changing your mind for the better"
                 />
                 <div className="side-margin">
                     <div className="flex main">
+                        <h2>We are Mother.</h2>
                         <p>
                             We are a Swedish medtech company developing easily
                             accessible, scalable, digital therapeutics with as
@@ -64,35 +65,35 @@ export const Main: React.FC = () => {
                             text="I tried smoking water pipe twice and felt sick. I feel disgusted when someone smokes next to me."
                             name="Camille, smoke-free after 3 treatments"
                             img="/images/camille.png"
-                            color="pink"
+                            color="dark-blue"
                         />
                         <Spacer height="20px" />
                         <PanelTestimonial
                             text="I totally lost the taste for cigarettes. I can’t stand them."
                             name="Erik after 1 treatment"
-                            color="blue"
+                            color="dark-blue"
                         />
                         <Spacer height="20px" />
                         <PanelTestimonial
                             text="It tastes disgusting when I smoke now, not the same as before."
                             name="Daniel after 1 treatment"
-                            color="pink"
+                            color="dark-blue"
                         />
                         <Spacer height="20px" />
                         <PanelTestimonial
                             text="This was the first time in 40 years that I have not smoked for 24 hours."
                             name="Anna after 1 treatment"
-                            color="blue"
+                            color="dark-blue"
                         />
                     </div>
                     <Spacer height="200px" hasLine={true} />
                     <div className="flex main">
-                        <h2 id="who-we-are">Who we are</h2>
+                        <h2 id="our-dna">Our DNA</h2>
                         <p>
                             We aim to become a portfolio company, by creating
-                            small, impactful solutions that help society and
-                            humanity to become healthier. Sick of Smoking is our
-                            first solution, there are many more to come.
+                            impactful solutions that help society and humanity
+                            to become healthier. Sick of Smoking is our first
+                            solution, there are many more to come.
                         </p>
                         <Spacer height="50px" />
                         <USPList usp={usp} />

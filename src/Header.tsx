@@ -7,12 +7,14 @@ type HeaderProps = {
     className: string;
     header?: string;
     subHeader?: string;
+    logo?: string;
 };
 
 export const Header: React.FC<HeaderProps> = ({
     className,
     header,
     subHeader,
+    logo,
 }: HeaderProps) => {
     // let maxHeight: number = 1395;
     let maxWidth: number = 2000;
@@ -38,6 +40,7 @@ export const Header: React.FC<HeaderProps> = ({
 
                 <div className="headers flex">
                     {header && <h1 className="flex">{header}</h1>}
+                    {logo && <img className="flex logo" src={logo} />}
                     {subHeader && (
                         <>
                             <div className="header-separator" />
