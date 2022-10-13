@@ -11,8 +11,8 @@ export const Team: React.FC = () => {
         <div>
             <Header
                 className="team-header"
-                header="The allstar team"
-                subHeader="Our diverse and dedicated specialists"
+                header="Our team"
+                subHeader="Diverse and dedicated specialists"
             />
             <div className="side-margin">
                 <div className="flex main">
@@ -41,7 +41,7 @@ export const Team: React.FC = () => {
                         >
                             <>
                                 <p>
-                                    <a href="https://www.linkedin.com/in/jennycahier/">
+                                    <a href="mailto:jenny@mother.technology">
                                         Jenny Cahier
                                     </a>{" "}
                                     [CEO] has over a decade of experience within
@@ -51,7 +51,11 @@ export const Team: React.FC = () => {
                                     developer. Her broad technical experience,
                                     marketing capabilities and adaptability make
                                     her exceptionally well equipped for handling
-                                    a new area of technology.{" "}
+                                    a new area of technology. Read more on{" "}
+                                    <a href="https://www.linkedin.com/in/jennycahier/">
+                                        LinkedIn
+                                    </a>{" "}
+                                    .
                                 </p>
                             </>
                         </Panel>
@@ -106,7 +110,7 @@ export const Team: React.FC = () => {
                         >
                             <>
                                 <p>
-                                    <a href="https://www.linkedin.com/in/ingrid-salomonsson-98802b2/">
+                                    <a href="mailto:ingrid@mother.technology">
                                         Ingrid Salomonsson
                                     </a>{" "}
                                     [CCO] has 20 years of experience from the
@@ -118,7 +122,11 @@ export const Team: React.FC = () => {
                                     and has also been teaching yoga for 10
                                     years. She will bring her passion for both
                                     business and wellbeing together in the role
-                                    as CCO at Mother.
+                                    as CCO at Mother. Read more on{" "}
+                                    <a href="https://www.linkedin.com/in/ingrid-salomonsson-98802b2/">
+                                        LinkedIn
+                                    </a>
+                                    .
                                 </p>
                             </>
                         </Panel>

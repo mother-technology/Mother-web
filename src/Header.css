@@ -3,19 +3,15 @@ div.main-header {
 }
 
 div.team-header {
-    background: #000 url(./images/4.png) center 0 no-repeat;
+    background: #000 url(./images/11.png) center 0 no-repeat;
 }
 
 div.vr-header {
-    background: #000 url(./images/7.png) center 0 no-repeat;
-}
-
-div.contact-header {
-    background: #000 url(./images/10.png) center 0 no-repeat;
+    background: #000 url(./images/2c.png) center 0 no-repeat;
 }
 
 div.media-header {
-    background: #000 url(./images/8.png) center 0 no-repeat;
+    background: #000 url(./images/2.png) center 0 no-repeat;
 }
 
 div.privacy-header {
@@ -67,19 +63,6 @@ img.logo {
     padding-bottom: 20px;
 }
 
-/* @media (hover: none)  {
-  div.headers {
-    background-attachment: scroll;
-  }
-}
-
-@supports (-webkit-touch-callout: inherit) {
-  div.headers {
-    background-attachment: scroll;
-  }
-}
-*/
-
 @media only screen and (max-width: 480px) {
     div.header h1 {
         font-size: 3rem;
@@ -92,22 +75,3 @@ img.logo {
         padding-bottom: 20px;
     }
 }
-/*
-https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7
-    body {
-      position: relative;
-    }
-
-    body:after {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      content: '';
-      background-image: url(./img/YOUR_IMG.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #000;
-      background-position: bottom right;
-    } */

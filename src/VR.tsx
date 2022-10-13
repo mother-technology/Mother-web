@@ -6,10 +6,7 @@ import "./Shared.css";
 export const VR: React.FC = () => {
     return (
         <div>
-            <Header
-                className="privacy-header"
-                header="A mental health revolution"
-            />
+            <Header className="vr-header" header="A mental health revolution" />
             <div className="side-margin">
                 <div className="flex main">
                     <h2>Areas within health for VR</h2>
