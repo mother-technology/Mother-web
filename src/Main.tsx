@@ -81,6 +81,12 @@ export const Main: React.FC = () => {
                         />
                         <Spacer height="20px" />
                         <PanelTestimonial
+                            text="I have not had any cravings whatsoever during the days since the last session."
+                            name="Carl after 3 treatments"
+                            color="dark-blue"
+                        />
+                        <Spacer height="20px" />
+                        <PanelTestimonial
                             text="This was the first time in 40 years that I have not smoked for 24 hours."
                             name="Anna after 1 treatment"
                             color="dark-blue"
