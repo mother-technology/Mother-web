@@ -15,7 +15,7 @@ export const Main: React.FC = () => {
         },
         {
             title: "Changing the mind the mind's way",
-            text: "Hard work is never easy, but with VR we can use the brain's implicit learning systems to effortlessly change your mind, for the better. ",
+            text: "Changing your mind may not be easy, but with our VR solutions you can tap into the brain's implicit learning systems to effortlessly change your mind, for the better. ",
         },
         {
             title: "Improved self-knowledge",
@@ -97,11 +97,6 @@ export const Main: React.FC = () => {
                     <div className="flex main">
                         <h2 id="our-dna">Our DNA</h2>
                         <p>
-                            Changing your mind may not be easy, but with our VR
-                            solutions you can tap into the brain's implicit
-                            learning systems to effortlessly change your mind,
-                            for the better.
-                            <p></p>
                             We aim to become a portfolio company, by creating
                             impactful solutions that help society and humanity
                             to become healthier. Sick of Smoking is our first
