@@ -35,15 +35,16 @@ export const Main: React.FC = () => {
                     <div className="flex main">
                         <h2>We are Mother.</h2>
                         <p>
-                            We are a Swedish medtech company developing easily
-                            accessible, scalable, digital therapeutics with as
-                            powerful effects as pharmaceutical offerings.
+                            A Swedish medtech company developing easily
+                            accessible, scalable, digital therapeutics with
+                            effects comparable to pharmaceuticals, but without
+                            their risks.
                         </p>
                         <p>
                             Currently we are focused on virtual reality (VR) due
-                            to its powerful effects on the brain, and we
+                            to its powerful psychological effects, and we
                             anticipate a future of transformative VR
-                            experiences. We have a deep expertise in extended
+                            experiences. We have deep expertise in extended
                             reality and applied neuroscience, and strive to be
                             at the forefront of these exciting developments for
                             mental health.
@@ -96,6 +97,11 @@ export const Main: React.FC = () => {
                     <div className="flex main">
                         <h2 id="our-dna">Our DNA</h2>
                         <p>
+                            Changing your mind may not be easy, but with our VR
+                            solutions you can tap into the brain's implicit
+                            learning systems to effortlessly change your mind,
+                            for the better.
+                            <p></p>
                             We aim to become a portfolio company, by creating
                             impactful solutions that help society and humanity
                             to become healthier. Sick of Smoking is our first
