@@ -15,7 +15,7 @@ export const Main: React.FC = () => {
         },
         {
             title: "Changing the mind the mind's way",
-            text: "Hard work is never easy, but with VR we can use the brains implicit learning systems to effortlessly change your mind, for the better. ",
+            text: "Hard work is never easy, but with VR we can use the brain's implicit learning systems to effortlessly change your mind, for the better. ",
         },
         {
             title: "Improved self-knowledge",
