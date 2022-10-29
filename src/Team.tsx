@@ -70,7 +70,7 @@ export const Team: React.FC = () => {
                                         Tomás McKenna
                                     </a>{" "}
                                     [CIO] has a couple of degrees in biotech,
-                                    and did his PhD at the Karolinska Institute
+                                    and did his PhD at the Karolinska Institutet
                                     on disease mechanisms in premature ageing
                                     syndromes. He jumped off his postdoc to
                                     start-up when his research linked to
