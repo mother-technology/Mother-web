@@ -64,7 +64,7 @@ export const Main: React.FC = () => {
                         <Spacer height="50px" />
                         <PanelTestimonial
                             text="I tried smoking twice and felt sick. I feel disgusted when someone smokes next to me."
-                            name="Camille, smoke-free after 3 treatments"
+                            name="Camille, smoke-free after 2 treatments"
                             img="/images/camille.png"
                             color="dark-blue"
                         />
