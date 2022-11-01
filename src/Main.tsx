@@ -63,7 +63,7 @@ export const Main: React.FC = () => {
                         <p>It is cost-effective, safe and effortless.</p>
                         <Spacer height="50px" />
                         <PanelTestimonial
-                            text="I tried smoking water pipe twice and felt sick. I feel disgusted when someone smokes next to me."
+                            text="I tried smoking twice and felt sick. I feel disgusted when someone smokes next to me."
                             name="Camille, smoke-free after 3 treatments"
                             img="/images/camille.png"
                             color="dark-blue"
