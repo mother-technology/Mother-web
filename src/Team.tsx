@@ -44,14 +44,15 @@ export const Team: React.FC = () => {
                                     <a href="mailto:jenny@mother.technology">
                                         Jenny Cahier
                                     </a>{" "}
-                                    [CEO] has over a decade of experience within
-                                    Stockholm's tech scene, working previously
-                                    as engineering manager, head of online
-                                    marketing, head of analysing and full stack
-                                    developer. Her broad technical experience,
-                                    marketing capabilities and adaptability make
-                                    her exceptionally well equipped for handling
-                                    a new area of technology. Read more on{" "}
+                                    [Chief Executive Officer/CEO] has over a
+                                    decade of experience within Stockholm's tech
+                                    scene, working previously as engineering
+                                    manager, head of online marketing, head of
+                                    analysing and full stack developer. Her
+                                    broad technical experience, marketing
+                                    capabilities and adaptability make her
+                                    exceptionally well equipped for handling a
+                                    new area of technology. Read more on{" "}
                                     <a href="https://www.linkedin.com/in/jennycahier/">
                                         LinkedIn
                                     </a>{" "}
@@ -69,14 +70,15 @@ export const Team: React.FC = () => {
                                     <a href="https://www.linkedin.com/in/tomasmckenna/">
                                         Tomás McKenna
                                     </a>{" "}
-                                    [CIO] has a couple of degrees in biotech,
-                                    and did his PhD at the Karolinska Institutet
-                                    on disease mechanisms in premature ageing
-                                    syndromes. He jumped off his postdoc to
-                                    start-up when his research linked to
-                                    branching morphogenesis suggested that
-                                    immersive VR could alter mental states in a
-                                    long-term and beneficial way.
+                                    [Chief Information Officer/CIO] has a couple
+                                    of degrees in biotech, and did his PhD at
+                                    the Karolinska Institutet on disease
+                                    mechanisms in premature ageing syndromes. He
+                                    jumped off his postdoc to start-up when his
+                                    research linked to branching morphogenesis
+                                    suggested that immersive VR could alter
+                                    mental states in a long-term and beneficial
+                                    way.
                                 </p>
                             </>
                         </Panel>
@@ -113,16 +115,16 @@ export const Team: React.FC = () => {
                                     <a href="mailto:ingrid@mother.technology">
                                         Ingrid Salomonsson
                                     </a>{" "}
-                                    [CCO] has 20 years of experience from the
-                                    digital media industry within several roles
-                                    - all related to sales, partnership
-                                    management business development and
-                                    strategy. She holds a Master of Science
-                                    degree from Stockholm School of Economics
-                                    and has also been teaching yoga for 10
-                                    years. She will bring her passion for both
-                                    business and wellbeing together in the role
-                                    as CCO at Mother. Read more on{" "}
+                                    [Chief Commercial Officer/CCO] has 20 years
+                                    of experience from the digital media
+                                    industry within several roles - all related
+                                    to sales, partnership management business
+                                    development and strategy. She holds a Master
+                                    of Science degree from Stockholm School of
+                                    Economics and has also been teaching yoga
+                                    for 10 years. She will bring her passion for
+                                    both business and wellbeing together in the
+                                    role as CCO at Mother. Read more on{" "}
                                     <a href="https://www.linkedin.com/in/ingrid-salomonsson-98802b2/">
                                         LinkedIn
                                     </a>
