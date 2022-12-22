@@ -43,16 +43,6 @@ export const Menu: React.FC = () => {
                                 Home
                             </Link>
                             <HashLink
-                                to="/#sick-of-smoking"
-                                className={
-                                    location.hash === "#sick-of-smoking"
-                                        ? "subLink active"
-                                        : "subLink"
-                                }
-                            >
-                                Sick of Smoking
-                            </HashLink>
-                            <HashLink
                                 to="/#our-dna"
                                 className={
                                     location.hash === "#our-dna"
@@ -72,16 +62,28 @@ export const Menu: React.FC = () => {
                             >
                                 News
                             </HashLink>
-                            {/* <Link
-                            to="/vr-for-health-tech"
-                            className={
-                                location.pathname === "vr-for-health-tech"
-                                    ? "active"
-                                    : ""
-                            }
-                        >
-                            VR for health tech
-                        </Link> */}
+                        </div>
+                        <div className="link-group">
+                            <Link
+                                to="/sick-of-smoking"
+                                className={
+                                    location.pathname === "/sick-of-smoking"
+                                        ? "active"
+                                        : ""
+                                }
+                            >
+                                Sick of Smoking
+                            </Link>
+                            <HashLink
+                                to="/sick-of-smoking#the-problem"
+                                className={
+                                    location.hash === "#the-problem"
+                                        ? "subLink active"
+                                        : "subLink"
+                                }
+                            >
+                                The problem
+                            </HashLink>
                         </div>
                         <div className="link-group">
                             <Link

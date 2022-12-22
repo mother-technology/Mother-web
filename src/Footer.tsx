@@ -9,9 +9,10 @@ export const Footer: React.FC = () => {
             <div className="footer">
                 <div className="flex narrow-container">
                     <div className="flex links">
+                        <Link to="/sick-of-smoking">Sick of Smoking</Link>
                         <Link to="/team">Team</Link>
-                        <Link to="/privacy">Privacy</Link>
                         <Link to="/media">Media</Link>
+                        <Link to="/privacy">Privacy</Link>
                     </div>
                 </div>
                 <p>
