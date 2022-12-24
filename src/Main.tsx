@@ -31,6 +31,7 @@ export const Main: React.FC = () => {
                     logo="/images/mother-white-m.png"
                     header="Changing your mind for the better"
                 />
+                <Spacer height="40px" />
                 <div className="side-margin">
                     <div className="flex main">
                         <h2>We are Mother.</h2>
@@ -118,6 +119,7 @@ export const Main: React.FC = () => {
                         </p>
                     </div>
                 </div>
+                <Spacer height="80px" />
             </div>
         </>
     );

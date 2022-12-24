@@ -14,6 +14,7 @@ export const HertzLite: React.FC = () => {
                 className="main-header"
                 header="Sync your practice with millions!"
             />
+            <Spacer height="40px" />
             <div className="side-margin">
                 <div className="flex main">
                     <div>
@@ -102,6 +103,7 @@ export const HertzLite: React.FC = () => {
                     <TipsAndTricks />
                 </div>
             </div>
+            <Spacer height="80px" />
         </div>
     );
 };

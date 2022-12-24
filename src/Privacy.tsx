@@ -11,6 +11,7 @@ export const Privacy: React.FC = () => {
                 className="privacy-header"
                 header="Our lips are sealed"
             />
+            <Spacer height="40px" />
             <div className="side-margin">
                 <div className="flex main">
                     <p>
@@ -66,6 +67,8 @@ export const Privacy: React.FC = () => {
                     </p>
                 </div>
             </div>
+            <Spacer height="80px" />
         </div>
+        
     );
 };

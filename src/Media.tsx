@@ -10,6 +10,7 @@ export const Media: React.FC = () => {
     return (
         <>
             <Header className="media-header" header="Media" />
+            <Spacer height="40px" />
             <div className="side-margin">
                 <div className="flex main">
                     <p>
@@ -32,8 +33,7 @@ export const Media: React.FC = () => {
                         in the area, follow us on{" "}
                         <a href="https://www.linkedin.com/company/mothertechnology">
                             LinkedIn
-                        </a>{" "}
-                        .
+                        </a>.
                     </p>
                     <Spacer height="50px" />
                     <h2 id="about-us">About us</h2>
@@ -50,6 +50,7 @@ export const Media: React.FC = () => {
                 {/* <h2>Press releases</h2>
                 <h2>News clips</h2> */}
             </div>
+            <Spacer height="80px" />
         </>
     );
 };

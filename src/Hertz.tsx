@@ -14,6 +14,7 @@ export const Hertz: React.FC = () => {
                 className="main-header"
                 header="A recharge button for your wrist"
             />
+            <Spacer height="40px" />
             <div className="side-margin">
                 <div className="flex main">
                     <div>
@@ -126,6 +127,7 @@ export const Hertz: React.FC = () => {
                     <TipsAndTricks />
                 </div>
             </div>
+            <Spacer height="80px" />
         </div>
     );
 };

@@ -91,6 +91,8 @@ export const SickOfSmoking: React.FC = () => {
                     <TipsAndTricks />
                 </div>
             </div>
+            <Spacer height="80px" />
         </div>
+        
     );
 };
