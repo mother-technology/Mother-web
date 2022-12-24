@@ -4,7 +4,6 @@ import { ABriefBackground } from "./ABriefBackground";
 import { Header } from "./Header";
 import { Panel } from "./Panel";
 import { PanelTestimonial } from "./PanelTestimonial";
-import { PanelTextImageDL } from "./PanelTextImageDL";
 import { TipsAndTricks } from "./TipsAndTricks";
 import { Spacer } from "./Spacer";
 import "./Shared.css";
@@ -19,14 +18,14 @@ export const SickOfSmoking: React.FC = () => {
             <div className="side-margin">
                 <div className="flex main">
                     <p>Change your brain to detest cigarettes.</p>
-                   <Spacer height="50px" />
-                        <PanelTestimonial
-                            text="Before when I tried to quit it still tasted good when I smoked a cigarette, but this has made it so that I have an extreme distaste for cigarettes, it was so easy to abstain and quit unlike other times."
-                            name="Eva, smoke-free after 3 treatments"
-                            img="/images/camille.png"
-                            color="dark-blue"
-                        />
-                        <Spacer height="20px" />
+                    <Spacer height="50px" />
+                    <PanelTestimonial
+                        text="Before when I tried to quit it still tasted good when I smoked a cigarette, but this has made it so that I have an extreme distaste for cigarettes, it was so easy to abstain and quit unlike other times."
+                        name="Eva, smoke-free after 3 treatments"
+                        img="/images/camille.png"
+                        color="dark-blue"
+                    />
+                    <Spacer height="20px" />
                     <p>
                         SoS utilises the{" "}
                         <a href="https://en.wikipedia.org/wiki/Garcia_effect">

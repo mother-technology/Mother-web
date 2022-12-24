@@ -146,6 +146,18 @@ a:focus {
     outline: none;
 }
 
+a.buttonLink {
+    padding: 17px 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: #fbbc09;
+}
+
 /* All colors */
 .pink {
     background-color: #ef857d;

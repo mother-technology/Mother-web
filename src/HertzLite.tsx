@@ -3,7 +3,6 @@ import React from "react";
 import { ABriefBackground } from "./ABriefBackground";
 import { Header } from "./Header";
 import { Panel } from "./Panel";
-import { PanelTextImageDL } from "./PanelTextImageDL";
 import "./Shared.css";
 import { TipsAndTricks } from "./TipsAndTricks";
 import { Spacer } from "./Spacer";
@@ -17,38 +16,24 @@ export const HertzLite: React.FC = () => {
             />
             <div className="side-margin">
                 <div className="flex main">
-                    <p>
-                        Hertz-lite. has two components, one for breathing and
+                    <div>
+                        <p>
+                        Free, no strings attached, but some dedication required. Hertz-lite. has two components, one for breathing and
                         one for focus, coaching you to breath in a way which
                         stimulates your{" "}
                         <a href="https://www.thecut.com/2019/05/i-now-suspect-the-vagus-nerve-is-the-key-to-well-being.html">
                             vagus nerve
-                        </a>{" "}
-                        , as you would with a meditative breathing exercise, or
+                        </a>, as you would with a meditative breathing exercise, or
                         with activities such as{" "}
-                        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6189422/">
-                            yoga
-                        </a>{" "}
-                        .{" "}
-                    </p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6189422/">yoga</a>{" "}.
+                        </p>
+                        <Spacer height="30px" />
+                        <a className="buttonLink" href="https://apps.apple.com/us/app/hertz-lite-anxiety-relief/id1543873699">
+                            Download now!
+                        </a>
+                        <Spacer height="30px" />
+                    </div>
                 </div>
-                <Spacer height="50px" />
-                <div className="panel-sell-items">
-                    <PanelTextImageDL
-                        header="Hertz lite."
-                        img="/images/hz-lite-square.png"
-                        buttonText="DOWNLOAD NOW"
-                        buttonLink="https://apps.apple.com/us/app/hertz-lite-anxiety-relief/id1543873699"
-                    >
-                        <>
-                            <p>
-                                Free, no strings attached, but some dedication
-                                required.
-                            </p>
-                        </>
-                    </PanelTextImageDL>
-                </div>
-                <Spacer height="50px" />
                 <div className="flex main">
                     <p>
                         Our app coaches you to stimulate your vagus, directly

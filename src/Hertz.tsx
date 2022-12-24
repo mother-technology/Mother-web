@@ -3,7 +3,6 @@ import React from "react";
 import { ABriefBackground } from "./ABriefBackground";
 import { Header } from "./Header";
 import { Panel } from "./Panel";
-import { PanelTextImageDL } from "./PanelTextImageDL";
 import { TipsAndTricks } from "./TipsAndTricks";
 import { Spacer } from "./Spacer";
 import "./Shared.css";
@@ -17,25 +16,16 @@ export const Hertz: React.FC = () => {
             />
             <div className="side-margin">
                 <div className="flex main">
-                    <p>Use your brain to understand your body.</p>
-                    <Spacer height="50px" />
-                    <div className="panel-sell-items">
-                        <PanelTextImageDL
-                            header="Hertz."
-                            img="/images/hz-square.png"
-                            buttonText="DOWNLOAD NOW"
-                            buttonLink="https://apps.apple.com/us/app/hertz-an-anxiety-treatment/id1529146685"
-                        >
-                            <>
-                                <p>
-                                    Anxiety is the single most common mental
-                                    health issue in the world.
-                                </p>
-                                <p> It doesn’t have to be.</p>
-                            </>
-                        </PanelTextImageDL>
+                    <div>
+                        <p>
+                        Anxiety is the single most common mental health issue in the world. It doesn’t have to be.
+                        </p>
+                        <Spacer height="30px" />
+                        <a className="buttonLink" href="https://apps.apple.com/us/app/hertz-an-anxiety-treatment/id1529146685">
+                            Download now!
+                        </a>
+                        <Spacer height="30px" />
                     </div>
-                    <Spacer height="50px" />
                     <p>
                         Hertz. provides{" "}
                         <a href="https://en.wikipedia.org/wiki/Biofeedback">
