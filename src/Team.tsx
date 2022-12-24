@@ -13,6 +13,7 @@ export const Team: React.FC = () => {
                 className="team-header"
                 header="Our diverse team"
             />
+            <Spacer height="40px" />
             <div className="side-margin">
                 <div className="flex main">
                     <p>
@@ -26,11 +27,13 @@ export const Team: React.FC = () => {
                         democratised solutions that change lives for the better.
                     </p>
                 </div>
-                <Spacer height="50px" />
+                <Spacer height="20px" />
                 <div className="flex persons">
                     <img src="/images/team.png" alt="team" />
                 </div>
-                <Spacer height="200px" hasLine={true} />
+
+
+                <Spacer height="100px" hasLine={true} />
                 <div className="flex main">
                     <div className="panels">
                         <Panel
@@ -131,9 +134,10 @@ export const Team: React.FC = () => {
                                 </p>
                             </>
                         </Panel>
+                        
                     </div>
                 </div>
-
+                <Spacer height="40px" />
                 {/* <div className="flex main">
                     <h2 id="our-values">Our values</h2>
                     <p>
