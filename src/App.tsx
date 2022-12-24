@@ -4,9 +4,9 @@ import { Hertz } from "./Hertz";
 import { HertzLite } from "./HertzLite";
 import { Main } from "./Main";
 import { Media } from "./Media";
-import { VR } from "./VR";
 import Page from "./Page";
 import { Privacy } from "./Privacy";
+import { SickOfSmoking } from "./SickOfSmoking";
 import ScrollToTop from "./ScrollToTop";
 import { Team } from "./Team";
 
@@ -46,10 +46,10 @@ function App() {
                     />
                     <Page
                         exact
-                        path="/vr-for-health-tech"
-                        component={VR}
-                        title="Areas for VR within health  | mother.technology"
-                        description="What a second reality can help you with"
+                        path="/sick-of-smoking"
+                        component={SickOfSmoking}
+                        title="Sick of Smoking | mother.technology"
+                        description="Let us guide you into a smoke-free life"
                     />
                     <Page
                         exact

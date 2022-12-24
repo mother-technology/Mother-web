@@ -9,8 +9,7 @@ export const ConsciousnessCraft: React.FC = () => {
         <div>
             <Header
                 className="main-header"
-                header="Consciousness craft"
-                subHeader="Our big friendly guide to your brain."
+                header="Our big friendly guide to your brain."
             />
             <div className="side-margin">
                 <div className="flex main">

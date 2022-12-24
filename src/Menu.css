@@ -19,7 +19,7 @@
 }
 
 #navbar {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
@@ -40,7 +40,7 @@ div.nav-container {
 div.link-group {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px 40px;
 }
 
 #navbar a {
@@ -76,6 +76,11 @@ div.link-group {
 
 @media only screen and (max-width: 480px) {
     #navbar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
         flex-direction: column;
         justify-content: flex-start;
     }

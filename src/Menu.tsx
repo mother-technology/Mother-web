@@ -62,8 +62,6 @@ export const Menu: React.FC = () => {
                             >
                                 News
                             </HashLink>
-                        </div>
-                        <div className="link-group">
                             <Link
                                 to="/sick-of-smoking"
                                 className={
@@ -106,8 +104,6 @@ export const Menu: React.FC = () => {
                             >
                                 Our values
                             </HashLink>
-                        </div>
-                        <div className="link-group">
                             <Link
                                 to="/media"
                                 className={

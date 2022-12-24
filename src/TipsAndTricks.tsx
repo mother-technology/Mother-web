@@ -17,7 +17,7 @@ export const TipsAndTricks: React.FC = () => {
             text: "Relax your muscles as you breath out. Try to 'will' the dot to slow down as you breath out.",
         },
         {
-            title: "Let go off the app",
+            title: "Let go of the app",
             text: "As you recognise the sensation of activating your vagus, practise its activation also without the app.",
         },
         {

@@ -15,6 +15,7 @@ export const Footer: React.FC = () => {
                 <p>
                     Sign up for our newsletter, email us or follow us on social media
                 </p>
+                <Spacer height="20px" />
                 <div className="flex contact-logos">
                     <a href="https://www.linkedin.com/company/mothertechnology">
                             <img src="./images/icon_ln.png" className="contact-logo" />
@@ -23,7 +24,7 @@ export const Footer: React.FC = () => {
                             <img src="./images/icon_mail.png" className="contact-logo" />
                         </a>
                 </div>
-                <Spacer height="50px" hasLine={true} inverted={true} />
+                <Spacer height="80px" hasLine={true} inverted={true} />
                 <div className="partner-logo">
                     <a href="https://sting.co/companies/mother/">
                         <img src="./images/sting.png" />

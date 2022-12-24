@@ -2,7 +2,7 @@
 import React from "react";
 import { Header } from "./Header";
 import { PanelTestimonial } from "./PanelTestimonial";
-import "./Main.css";
+import "./SickOfSmoking.css";
 import "./Shared.css";
 import { USPList } from "./USPList";
 import { Spacer } from "./Spacer";
@@ -29,7 +29,7 @@ export const Main: React.FC = () => {
                 <Header
                     className="main-header"
                     logo="/images/mother-white-m.png"
-                    subHeader="Changing your mind for the better"
+                    header="Changing your mind for the better"
                 />
                 <div className="side-margin">
                     <div className="flex main">

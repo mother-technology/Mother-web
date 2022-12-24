@@ -9,8 +9,7 @@ export const Privacy: React.FC = () => {
         <div>
             <Header
                 className="privacy-header"
-                header="Privacy."
-                subHeader="Our lips are sealed."
+                header="Our lips are sealed"
             />
             <div className="side-margin">
                 <div className="flex main">

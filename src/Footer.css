@@ -30,15 +30,20 @@ div.footer {
     padding-right: 5px;
 }
 
-.partner-logo a {
+.footer .partner-logo a {
     padding: 0 8px;
+    color: transparent;
 }
 
-.partner-logo a img {
-    margin: 5% auto;
+.footer .partner-logo a img {
+    margin: 0 auto;
     width: 100px;
 }
 
 h4.footer-header {
     color: white;
+}
+
+.footer img.contact-logo {
+    margin: 0 auto;
 }

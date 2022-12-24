@@ -13,8 +13,7 @@ export const Hertz: React.FC = () => {
         <div>
             <Header
                 className="main-header"
-                header="A recharge button,"
-                subHeader="for your wrist."
+                header="A recharge button for your wrist"
             />
             <div className="side-margin">
                 <div className="flex main">

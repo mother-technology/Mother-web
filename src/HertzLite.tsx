@@ -14,7 +14,6 @@ export const HertzLite: React.FC = () => {
             <Header
                 className="main-header"
                 header="Sync your practice with millions!"
-                subHeader="(Potentially...)"
             />
             <div className="side-margin">
                 <div className="flex main">

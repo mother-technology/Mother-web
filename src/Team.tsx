@@ -11,8 +11,7 @@ export const Team: React.FC = () => {
         <div>
             <Header
                 className="team-header"
-                header="Our team"
-                subHeader="Diverse and dedicated specialists"
+                header="Our diverse team"
             />
             <div className="side-margin">
                 <div className="flex main">
