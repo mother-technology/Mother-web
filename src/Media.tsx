@@ -46,9 +46,6 @@ export const Media: React.FC = () => {
                 </div>
                 <Spacer height="50px" />
                 <MediaTabs />
-
-                {/* <h2>Press releases</h2>
-                <h2>News clips</h2> */}
             </div>
             <Spacer height="80px" />
         </>

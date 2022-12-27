@@ -10,6 +10,23 @@ h1.main {
     margin-top: 5%;
 }
 
+div.news-images {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.news-images a {
+    width: unset;
+}
+
+div.news-images a img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #EEEEEA;
+}
+
+
 @media only screen and (max-width: 340px) {
     h1.main {
         font-size: 2rem;

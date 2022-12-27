@@ -4,6 +4,7 @@ import { Header } from "./Header";
 import { PanelTestimonial } from "./PanelTestimonial";
 import "./SickOfSmoking.css";
 import "./Shared.css";
+import "./Main.css";
 import { USPList } from "./USPList";
 import { Spacer } from "./Spacer";
 
@@ -31,7 +32,7 @@ export const Main: React.FC = () => {
                     logo="/images/mother-white-m.png"
                     header="Changing your mind for the better"
                 />
-                <Spacer height="40px" />
+                <Spacer height="80px" />
                 <div className="side-margin">
                     <div className="flex main">
                         <h2>We are Mother.</h2>
@@ -117,6 +118,13 @@ export const Main: React.FC = () => {
                             </a>{" "}
                             where we link to inspiring news, papers and reports.
                         </p>
+                    </div>
+                     <div className="flex news-images">
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7009515098977251328"><img alt="Linkedin post: It has been so easy to quit this time" src="/images/linkedin_2.png" /></a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7005869347252396032"><img alt="Linkedin post: Interesting VR focused on health tech" src="/images/linkedin_1.png" /></a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7002939543872024576"><img alt="Linkedin post: EU working for a tobacco-free generation 2040" src="/images/linkedin_3.png" /></a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7000481434213736448"><img alt="Linkedin post: One of the hottest Swedish health tech startups" src="/images/linkedin_5.png" /></a>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6995765239338156032"><img alt="Linkedin post: introducing Mother" src="/images/linkedin_4.png" /></a>    
                     </div>
                 </div>
                 <Spacer height="80px" />

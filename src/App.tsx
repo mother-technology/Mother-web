@@ -65,13 +65,6 @@ function App() {
                         title="Hertz lite  | mother.technology"
                         description="A simple focus training app to tackle anxiety and train the vagus nerve."
                     />
-                    {/* <Page
-                        exact
-                        path="/consciousness-craft"
-                        component={ConsciousnessCraft}
-                        title="Consciousness craft  | mother.technology"
-                        description="Our big friendly guide to your brain and mind."
-                    /> */}
                 </Switch>
             </div>
             <Footer />
