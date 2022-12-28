@@ -73,14 +73,24 @@ export const Menu: React.FC = () => {
                                 Sick of Smoking
                             </Link>
                             <HashLink
-                                to="/sick-of-smoking#the-problem"
+                                to="/sick-of-smoking#testimonials"
                                 className={
-                                    location.hash === "#the-problem"
+                                    location.hash === "#testimonials"
                                         ? "subLink active"
                                         : "subLink"
                                 }
                             >
-                                The problem
+                                Testimonials
+                            </HashLink>
+                                                        <HashLink
+                                to="/sick-of-smoking#would-you-like-to-take-part"
+                                className={
+                                    location.hash === "#would-you-like-to-take-part"
+                                        ? "subLink active"
+                                        : "subLink"
+                                }
+                            >
+                                Would you like to take part?
                             </HashLink>
                         </div>
                         <div className="link-group">

@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bdea062.chunk.css",
-    "main.js": "/static/js/main.ff40da3f.chunk.js",
-    "main.js.map": "/static/js/main.ff40da3f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b3952e14.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b3952e14.js.map",
-    "static/js/2.3d4f181b.chunk.js": "/static/js/2.3d4f181b.chunk.js",
-    "static/js/2.3d4f181b.chunk.js.map": "/static/js/2.3d4f181b.chunk.js.map",
-    "static/js/3.f24dc235.chunk.js": "/static/js/3.f24dc235.chunk.js",
-    "static/js/3.f24dc235.chunk.js.map": "/static/js/3.f24dc235.chunk.js.map",
+    "main.css": "/static/css/main.e5c68df7.css",
+    "main.js": "/static/js/main.8e1ddc73.js",
+    "static/js/787.432e0992.chunk.js": "/static/js/787.432e0992.chunk.js",
+    "static/media/11.png": "/static/media/11.a825c3ed123d5ab515f4.png",
+    "static/media/2.png": "/static/media/2.99cfbac9953868394a5d.png",
+    "static/media/sos-header.png": "/static/media/sos-header.0aff889c28ef0a1015ac.png",
+    "static/media/5.png": "/static/media/5.b5c4281c63552c6a437c.png",
+    "static/media/1.png": "/static/media/1.adda0bf832b590724683.png",
     "index.html": "/index.html",
-    "static/css/main.5bdea062.chunk.css.map": "/static/css/main.5bdea062.chunk.css.map",
-    "static/js/2.3d4f181b.chunk.js.LICENSE.txt": "/static/js/2.3d4f181b.chunk.js.LICENSE.txt",
-    "static/media/Header.css": "/static/media/5.b5c4281c.png"
+    "main.e5c68df7.css.map": "/static/css/main.e5c68df7.css.map",
+    "main.8e1ddc73.js.map": "/static/js/main.8e1ddc73.js.map",
+    "787.432e0992.chunk.js.map": "/static/js/787.432e0992.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3952e14.js",
-    "static/js/2.3d4f181b.chunk.js",
-    "static/css/main.5bdea062.chunk.css",
-    "static/js/main.ff40da3f.chunk.js"
+    "static/css/main.e5c68df7.css",
+    "static/js/main.8e1ddc73.js"
   ]
 }

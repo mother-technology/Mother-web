@@ -101,7 +101,8 @@ export const Team: React.FC = () => {
                                     With a PhD in psychology and brain science
                                     from MIT, his thorough grounding in
                                     neuroscience, behavioural biology, and
-                                    consciousness theory is an invaluable
+                                    
+                                    theory is an invaluable
                                     resource in the development of our VR-based
                                     approach to therapy.
                                 </p>

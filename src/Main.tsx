@@ -60,44 +60,10 @@ export const Main: React.FC = () => {
                             issue in the world - smoking. We offer a highly
                             effective VR solution that uses a powerful
                             biological mechanism to help end tobacco addiction
-                            in as little as a few five minute treatments.
+                            in a few five minute treatments.
                         </p>
                         <p>It is cost-effective, safe and effortless.</p>
-                        <Spacer height="50px" />
-                        <PanelTestimonial
-                            text="I tried smoking twice and felt sick. I feel disgusted when someone smokes next to me."
-                            name="Camille, smoke-free after 2 treatments"
-                            img="/images/camille.png"
-                            color="dark-blue"
-                        />
-                        <Spacer height="20px" />
-                        <PanelTestimonial
-                            text="I totally lost the taste for cigarettes. I can’t stand them."
-                            name="Erik after 1 treatment"
-                            color="dark-blue"
-                        />
-                        <Spacer height="20px" />
-                        <PanelTestimonial
-                            text="It tastes disgusting when I smoke now, not the same as before."
-                            name="Daniel after 1 treatment"
-                            color="dark-blue"
-                        />
-                        <Spacer height="20px" />
-                        <PanelTestimonial
-                            text="I have not had any cravings whatsoever during the days since the last session."
-                            name="Carl after 3 treatments"
-                            color="dark-blue"
-                        />
-                        <Spacer height="20px" />
-                        <PanelTestimonial
-                            text="This was the first time in 40 years that I have not smoked for 24 hours."
-                            name="Anna after 1 treatment"
-                            color="dark-blue"
-                        />
-                    </div>
-                    <Spacer height="200px" hasLine={true} />
-                    <div className="flex main">
-                        <h2 id="our-dna">Our DNA</h2>
+                        <Spacer height="200px" hasLine={true} />
                         <p>
                             We aim to become a portfolio company, by creating
                             impactful solutions that help society and humanity
