@@ -9,7 +9,7 @@ import "./Shared.css";
 export const Media: React.FC = () => {
     return (
         <>
-            <Header className="media-header" header="Media" />
+            <Header className="media-header" header="Get press material and contact details for our company" />
             <Spacer height="40px" />
             <div className="side-margin">
                 <div className="flex main">

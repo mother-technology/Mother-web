@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
                     Follow us
                 </h4>
                 <p>
-                    Sign up for <a href="mailto:info@mother.technology?subject=Subscribe to your newsletter&body=Hi, I would like to subscribe to your quarterly newsletter.">our newsletter</a>, email us or follow us on social media
+                    Sign up for <a href="mailto:info@mother.technology?subject=Subscribe to newsletter&body=Hi, I would like to subscribe to your newsletter.">our newsletter</a>, email us or follow us on social media
                 </p>
                 <Spacer height="20px" />
                 <div className="flex contact-logos">

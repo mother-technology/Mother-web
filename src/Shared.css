@@ -156,6 +156,7 @@ a.buttonLink {
     font-size: 1.2rem;
     font-weight: 300;
     background-color: #fbbc09;
+    max-width: 250px;
 }
 
 /* All colors */

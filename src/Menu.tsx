@@ -43,14 +43,14 @@ export const Menu: React.FC = () => {
                                 Home
                             </Link>
                             <HashLink
-                                to="/#our-dna"
+                                to="/#our-products"
                                 className={
-                                    location.hash === "#our-dna"
+                                    location.hash === "#our-products"
                                         ? "subLink active"
                                         : "subLink"
                                 }
                             >
-                                Our DNA
+                                Our products
                             </HashLink>
                             <HashLink
                                 to="/#news"
@@ -104,16 +104,7 @@ export const Menu: React.FC = () => {
                             >
                                 Team
                             </Link>
-                            <HashLink
-                                to="/team#our-values"
-                                className={
-                                    location.hash === "#our-values"
-                                        ? "subLink active"
-                                        : "subLink"
-                                }
-                            >
-                                Our values
-                            </HashLink>
+                            
                             <Link
                                 to="/media"
                                 className={
@@ -157,15 +148,15 @@ export const Menu: React.FC = () => {
                                 Privacy
                             </Link>
                             <HashLink
-                                to="/privacy#how-we-protect-your-data"
+                                to="/privacy#the-small-print"
                                 className={
                                     location.hash ===
-                                    "#how-we-protect-your-data"
+                                    "#the-small-print"
                                         ? "subLink active"
                                         : "subLink"
                                 }
                             >
-                                How we protect your data
+                                The small print
                             </HashLink>
                         </div>
                     </div>

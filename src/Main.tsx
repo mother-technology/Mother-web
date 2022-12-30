@@ -54,22 +54,21 @@ export const Main: React.FC = () => {
                     </div>
                     <Spacer height="50px" />
                     <div className="flex main">
-                        <h2 id="sick-of-smoking">Sick of smoking</h2>
-                        <p>
-                            Our first solution targets the single biggest health
-                            issue in the world - smoking. We offer a highly
-                            effective VR solution that uses a powerful
-                            biological mechanism to help end tobacco addiction
-                            in a few five minute treatments.
-                        </p>
-                        <p>It is cost-effective, safe and effortless.</p>
-                        <Spacer height="200px" hasLine={true} />
+                        <h2 id="our-products">Our products</h2>
                         <p>
                             We aim to become a portfolio company, by creating
                             impactful solutions that help society and humanity
-                            to become healthier. Sick of Smoking is our first
-                            solution, there are many more to come.
+                            to become healthier. 
                         </p>
+                        <p>
+                            Our first solution - Sick of Smoking - targets the single biggest health
+                            issue in the world - smoking. We offer a highly
+                            effective VR solution that uses a powerful
+                            biological mechanism to help end tobacco addiction
+                            in a few five minute treatments. </p>
+                        <p>
+                            It is cost-effective, safe and effortless.</p>
+                        
                         <Spacer height="50px" />
                         <USPList usp={usp} />
                     </div>

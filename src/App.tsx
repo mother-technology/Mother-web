@@ -20,49 +20,49 @@ function App() {
                         exact
                         path="/"
                         component={Main}
-                        title="Mother. - Bringing neuroscience to the people. | mother.technology"
+                        title="Changing your mind for the better | Mother."
                         description="We are a hard-science deep-tech group of scientists and developers, using cutting-edge results from the lab to create digital therapeutics for mental well-being."
                     />
                     <Page
                         exact
                         path="/team"
                         component={Team}
-                        title="The Team - A diverse blend of scientists and engineers. | mother.technology"
+                        title="Our diverse team | Mother."
                         description="The background of the company and its members."
                     />
                     <Page
                         exact
                         path="/privacy"
                         component={Privacy}
-                        title="Privacy - We make strong promises on data security. | mother.technology"
-                        description="We value your data, to feedback into our models and optimise the tools we develop. We promise to treat it with care, keeping it anonymous, encrypted and deleteable."
+                        title="Privacy | Mother."
+                        description="We promise to treat your data with care, keeping it anonymous, encrypted and deletable."
                     />
                     <Page
                         exact
                         path="/media"
                         component={Media}
-                        title="Media - Images of the team and products | mother.technology"
+                        title="Media - Images of the team and products | Mother."
                         description="Hi journalist or reviewer! We would love it if you wanted to write about our company."
                     />
                     <Page
                         exact
                         path="/sick-of-smoking"
                         component={SickOfSmoking}
-                        title="Sick of Smoking | mother.technology"
-                        description="Let us guide you into a smoke-free life"
+                        title="Sick of Smoking | Mother."
+                        description="Ready to quit smoking? Let our VR solution guide you to a smoke-free life"
                     />
                     <Page
                         exact
                         path="/hertz"
                         component={Hertz}
-                        title="Hertz | mother.technology"
+                        title="Hertz | Mother."
                         description="A novel biofeedback and executive function training app to tackle anxiety and train the vagus nerve."
                     />
                     <Page
                         exact
                         path="/hertz-lite"
                         component={HertzLite}
-                        title="Hertz lite  | mother.technology"
+                        title="Hertz lite  | Mother."
                         description="A simple focus training app to tackle anxiety and train the vagus nerve."
                     />
                 </Switch>

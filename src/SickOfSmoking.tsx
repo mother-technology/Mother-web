@@ -12,15 +12,15 @@ export const SickOfSmoking: React.FC = () => {
     let tips = [
         {
             title: "1. Virtual onboarding",
-            text: "Your first step is to meet Dr. Freedman, who will introduce you to the software and guide you to a smoke-free life.",
+            text: "Your first step is to meet our virtual Dr. Freedman, who will introduce you to the program and guide you to a smoke-free life.",
         },
         {
             title: "2. Long-lasting aversion",
-            text: "Secondly we create a long-lasting aversion against the tobacco taste of your choice, which is done with our patent-pending conditioning procedure.",
+            text: "Secondly we create a long-lasting aversion against tobacco, which is done with our unique conditioning procedure.",
         },
         {
             title: "3. Coaching and mindfulness",
-            text: "Then we have our tailor-made guided coaching course, breathing exercises and mindfulness programs, to maximise your chances of succesfully quitting and avoiding relapse.",
+            text: "Then you take part of our tailor-made guided coaching course, breathing exercises and mindfulness programs, to maximise your chances of successfully quitting without relapse.",
         },
      ];
 
@@ -28,22 +28,24 @@ export const SickOfSmoking: React.FC = () => {
         <div>
             <Header
                 className="main-header"
-                header="Making quitting easy."
+                header="Making quitting easy"
             />
             <Spacer height="40px" />
             <div className="side-margin">
                 <div className="flex main">
-                    <p>We offer a sensational VR solution that uses a powerful
-                            biological mechanism to help end tobacco addiction
-                            with a few five minute treatments.</p>
+                    <p>We offer a safe, effective and innovative VR solution based on a powerful
+                            biological mechanism that helps you end tobacco addiction
+                            with just a few short treatments.</p>
                     <Spacer height="40px" />
                     <USPList usp={tips} />                    
                     <Spacer height="200px" hasLine={true} />
                         <h2 id="testimonials">Testimonials</h2>
+                        <p>Our participants have given us great feedback so far and we clearly see how we change the taste of tobacco for them, making it much easier than before to lead a smoke-free life.
+                        </p>
                         <Spacer height="30px" />
                         <PanelTestimonial
                             text="I tried smoking twice and felt sick. I feel disgusted when someone smokes next to me."
-                            name="Camille, smoke-free after 2 treatments"
+                            name="Camille, still smoke-free after four months"
                             img="/images/camille.png"
                             color="dark-blue"
                         />
@@ -51,25 +53,25 @@ export const SickOfSmoking: React.FC = () => {
                         <PanelTestimonial
                             text="Before when I tried to quit, it still tasted good when I smoked a cigarette, but [Sick of Smoking] made it so that I have an extreme distaste for cigarettes.
                         It was so easy to abstain and quit unlike other times."
-                            name="Jonna after 2 treatment"
+                            name="Jonna, still smoke-free after two months"
                             color="dark-blue"
                         />
                         <Spacer height="20px" />
                         <PanelTestimonial
-                            text="It tastes disgusting when I smoke now, not the same as before."
-                            name="Daniel after 1 treatment"
+                            text="Initially, restless and every craving was accompanied by nausea. Now, I rarely think of smoking and when I do, I think about the treatment and how lucky I was to get the chance."
+                            name="Annie, still smoke-free after two months"
                             color="dark-blue"
                         />
                         <Spacer height="20px" />
                         <PanelTestimonial
                             text="I have not had any cravings whatsoever during the days since the last session."
-                            name="Carl after 3 treatments"
+                            name="Carl, still smoke-free after two months"
                             color="dark-blue"
                         />
                         <Spacer height="20px" />
                         <PanelTestimonial
-                            text="This was the first time in 40 years that I have not smoked for 24 hours."
-                            name="Anna after 1 treatment"
+                            text="Before I have managed to quit smoking for periods of time with just willpower. Then I always had an urge to smoke for a long time. After your procedure, I have not had the urge at all."
+                            name="Catharine, still smoke-free after two months"
                             color="dark-blue"
                         />
                     </div>
@@ -78,13 +80,19 @@ export const SickOfSmoking: React.FC = () => {
                     <Spacer height="200px" hasLine={true} />
                     <h2 id="would-you-like-to-take-part">Would you like to take part?</h2>
                     <p>
-                        Sign up now for a chance to access our beta and be amongst the first to use {" "}
-                        <a href="https://bit.ly/sos-beta-invite">
-                           Sick of Smoking
-                        </a>{" "}
-                        .
+                        We are opening up a few spots in an exclusive closed beta trial. It is a digital program that you can do from home with the use of your own VR headset. 
                     </p>
-                    
+                    <p>
+                        This is a free beta test for us to gather feedback to help us develop our product. 
+                    </p>
+                    <p>
+                        Sign up here and maybe you will be selected. We are happy to receive your application. 
+                        Let's start the new year by becoming tobacco free!
+                    </p>
+                    <Spacer height="20px" />
+                    <a className="buttonLink" href="https://bit.ly/sos-beta-invite">
+                        Sign me up!
+                    </a>
                     <Spacer height="80px" />
                 </div>
             </div>
