@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Header } from "./Header";
+import { NewsList } from "./NewsList";
 import { PanelTestimonial } from "./PanelTestimonial";
 import "./SickOfSmoking.css";
 import "./Shared.css";
@@ -21,6 +22,34 @@ export const Main: React.FC = () => {
         {
             title: "Improved self-knowledge",
             text: "You're in the driving seat. With our software, the goal isn't just to change your mind, but to reveal how the mind works to you. Showing how the magic works is part of the process.",
+        },
+    ];
+
+    let news = [
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7009515098977251328",
+            alt: "Linkedin post: It has been so easy to quit this time",
+            image:"/images/linkedin_2.png",
+        },
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7005869347252396032",
+            alt: "Linkedin post: Interesting VR focused on health tech",
+            image:"/images/linkedin_1.png",
+        },
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7002939543872024576",
+            alt: "Linkedin post: EU working for a tobacco-free generation 2040",
+            image:"/images/linkedin_3.png",
+        },
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7000481434213736448",
+            alt: "Linkedin post: One of the hottest Swedish health tech startups",
+            image:"/images/linkedin_5.png",
+        },
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:6995765239338156032",
+            alt: "Linkedin post: introducing Mother",
+            image:"/images/linkedin_4.png",
         },
     ];
 
@@ -84,13 +113,7 @@ export const Main: React.FC = () => {
                             where we link to inspiring news, papers and reports.
                         </p>
                     </div>
-                     <div className="flex news-images">
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7009515098977251328"><img alt="Linkedin post: It has been so easy to quit this time" src="/images/linkedin_2.png" /></a>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7005869347252396032"><img alt="Linkedin post: Interesting VR focused on health tech" src="/images/linkedin_1.png" /></a>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7002939543872024576"><img alt="Linkedin post: EU working for a tobacco-free generation 2040" src="/images/linkedin_3.png" /></a>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7000481434213736448"><img alt="Linkedin post: One of the hottest Swedish health tech startups" src="/images/linkedin_5.png" /></a>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6995765239338156032"><img alt="Linkedin post: introducing Mother" src="/images/linkedin_4.png" /></a>    
-                    </div>
+                    <NewsList news={news} />
                 </div>
                 <Spacer height="80px" />
             </div>

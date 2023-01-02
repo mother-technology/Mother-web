@@ -1,11 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Header } from "./Header";
-import { Panel } from "./Panel";
+import { NewsList } from "./NewsList";
 import { PanelTestimonial } from "./PanelTestimonial";
 import "./Shared.css";
 import { Spacer } from "./Spacer";
 import { USPList } from "./USPList";
+
 
 export const SickOfSmoking: React.FC = () => {
     let tips = [
@@ -23,6 +24,17 @@ export const SickOfSmoking: React.FC = () => {
         },
     ];
 
+    let screendumps = [
+        {
+            alt: "Sick of smoking - interior view",
+            image:"/images/sos1.png",
+        },
+        {
+            alt: "Sick of smoking - exterior view",
+            image:"/images/sos2.png",
+        },
+    ];
+
     return (
         <div>
             <Header
@@ -34,12 +46,20 @@ export const SickOfSmoking: React.FC = () => {
             <div className="side-margin">
                 <div className="flex main">
                     <p>
-                        We offer a safe, effective and innovative VR solution
+                        We offer a safe, effective and innovative VR solution - Sick of Smoking -  
                         based on a powerful biological mechanism that helps you
                         end tobacco addiction with just a few short treatments.
                     </p>
+                    <Spacer height="20px" />
+                    <a className="buttonLink" href="https://bit.ly/sos-beta-invite">
+                        Sign me up!
+                    </a>
+                    <Spacer height="20px" />
+                    <p>The process to become smoke free is ideally done in  a week, with 5 min exercises that you do daily in VR. You can modify the process at your own convenience or repeat exercises how many times you want. They are all available to you in VR.</p>
                     <Spacer height="40px" />
                     <USPList usp={tips} />
+                    <Spacer height="40px" />
+                    <NewsList news={screendumps} />
                     <Spacer height="200px" hasLine={true} />
                     <h2 id="testimonials">Testimonials</h2>
                     <p>
@@ -99,7 +119,7 @@ export const SickOfSmoking: React.FC = () => {
                     <p>
                         Sign up here and maybe you will be selected. We are
                         happy to receive your application. Let's start the new
-                        year by becoming tobacco free!
+                        year by becoming tobacco free! If you have any questions, feel free to <a href="mailto:info@mother.technology">email us</a>.
                     </p>
                     <Spacer height="20px" />
                     <a

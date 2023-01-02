@@ -43,14 +43,7 @@ export const Privacy: React.FC = () => {
                     <Spacer height="50px" />
                     <h2 id="the-small-print">The small print. </h2>
                     <p>
-                        We collect physiological data (such as heart rate, or
-                        galvanic skin response) in order to monitor the effect
-                        of our treatments. We use the data to give you feedback
-                        on how effective the treatments are, and to further
-                        develop and optimise them.
-                    </p>
-                    <p>
-                        We also collect emails if you mail us, and use those
+                        We collect emails if you mail us, and use those
                         email addresses to keep you updated. The data is kept
                         only as long as is necessary, and will be deleted with a
                         rolling 18-month window. You can always contact us and
@@ -60,6 +53,9 @@ export const Privacy: React.FC = () => {
                             article 13
                         </a>{" "}
                         of the General Data Protection Regulation (GDPR).
+                    </p>
+                    <p>
+                        When we collect data in a form, we keep the email addresses for 6 months, thereafter anonymising the data. 
                     </p>
                     <p>
                         If you want to know more, mail our{" "}

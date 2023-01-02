@@ -1,0 +1,19 @@
+
+div.news-images {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.news-images a {
+    width: unset;
+}
+
+div.news-images a img, div.news-images img {
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #EEEEEA;
+}
+
+div.news-images.capped-width a img, div.news-images.capped-width img {
+    width: 300px;
+}
