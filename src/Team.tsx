@@ -32,7 +32,6 @@ export const Team: React.FC = () => {
                     <img src="/images/team.png" alt="team" />
                 </div>
 
-
                 <Spacer height="100px" hasLine={true} />
                 <div className="flex main">
                     <div className="panels">
@@ -46,7 +45,7 @@ export const Team: React.FC = () => {
                                     <a href="mailto:jenny@mother.technology">
                                         Jenny Cahier
                                     </a>{" "}
-                                    [Chief Executive Officer/CEO] has over a
+                                    [Chief Executive Officer/Co-CEO] has over a
                                     decade of experience within Stockholm's tech
                                     scene, working previously as engineering
                                     manager, head of online marketing, head of
@@ -72,9 +71,9 @@ export const Team: React.FC = () => {
                                     <a href="https://www.linkedin.com/in/tomasmckenna/">
                                         Tomás McKenna
                                     </a>{" "}
-                                    [Chief Information Officer/CIO] has a couple
-                                    of degrees in biotech, and did his PhD at
-                                    the Karolinska Institutet on disease
+                                    [Chief Executive Officer/Co-CEO] has a
+                                    couple of degrees in biotech, and did his
+                                    PhD at the Karolinska Institutet on disease
                                     mechanisms in premature ageing syndromes. He
                                     jumped off his postdoc to start-up when his
                                     research linked to branching morphogenesis
@@ -101,10 +100,9 @@ export const Team: React.FC = () => {
                                     With a PhD in psychology and brain science
                                     from MIT, his thorough grounding in
                                     neuroscience, behavioural biology, and
-                                    
-                                    theory is an invaluable
-                                    resource in the development of our VR-based
-                                    approach to therapy.
+                                    theory is an invaluable resource in the
+                                    development of our VR-based approach to
+                                    therapy.
                                 </p>
                             </>
                         </Panel>
@@ -135,7 +133,6 @@ export const Team: React.FC = () => {
                                 </p>
                             </>
                         </Panel>
-                        
                     </div>
                 </div>
                 <Spacer height="40px" />

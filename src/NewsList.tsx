@@ -11,13 +11,17 @@ interface Props {
 }
 
 export const NewsList: React.FC<Props> = ({ news }) => {
-
-    let cappedClass = news.length > 2? "capped-width": "";
+    let cappedClass = news.length > 2 ? "capped-width" : "";
 
     return (
         <div className={"flex news-images " + cappedClass}>
             {news.map((item) => (
-                <NewsClip key={item.href} href={item.href? item.href : "" } alt={item.alt} image={item.image} />
+                <NewsClip
+                    key={item.href}
+                    href={item.href ? item.href : ""}
+                    alt={item.alt}
+                    image={item.image}
+                />
             ))}
         </div>
     );
@@ -29,15 +33,15 @@ interface NewsClipProp {
     image: string;
 }
 
-const NewsClip: React.FC<NewsClipProp> = ({ href, alt, image}) => {
+const NewsClip: React.FC<NewsClipProp> = ({ href, alt, image }) => {
     return (
-    <>
-        {href != "" &&
-            <a href={href}><img alt={alt} src={image} /></a>    
-        }
-        {href == "" &&
-            <img alt={alt} src={image} />
-        }
-     </>
+        <>
+            {href !== "" && (
+                <a href={href}>
+                    <img alt={alt} src={image} />
+                </a>
+            )}
+            {href === "" && <img alt={alt} src={image} />}
+        </>
     );
 };

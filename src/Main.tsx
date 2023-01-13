@@ -2,7 +2,6 @@
 import React from "react";
 import { Header } from "./Header";
 import { NewsList } from "./NewsList";
-import { PanelTestimonial } from "./PanelTestimonial";
 import "./SickOfSmoking.css";
 import "./Shared.css";
 import "./Main.css";
@@ -27,29 +26,34 @@ export const Main: React.FC = () => {
 
     let news = [
         {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7018516971184922624",
+            alt: "Linkedin post: Opportunity to join our closed beta test",
+            image: "/images/linkedin-6.jpg",
+        },
+        {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:7009515098977251328",
             alt: "Linkedin post: It has been so easy to quit this time",
-            image:"/images/linkedin_2.png",
+            image: "/images/linkedin-2.png",
         },
         {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:7005869347252396032",
             alt: "Linkedin post: Interesting VR focused on health tech",
-            image:"/images/linkedin_1.png",
+            image: "/images/linkedin-1.png",
         },
         {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:7002939543872024576",
             alt: "Linkedin post: EU working for a tobacco-free generation 2040",
-            image:"/images/linkedin_3.png",
+            image: "/images/linkedin-3.png",
         },
         {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:7000481434213736448",
             alt: "Linkedin post: One of the hottest Swedish health tech startups",
-            image:"/images/linkedin_5.png",
+            image: "/images/linkedin-5.png",
         },
         {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:6995765239338156032",
             alt: "Linkedin post: introducing Mother",
-            image:"/images/linkedin_4.png",
+            image: "/images/linkedin-4.png",
         },
     ];
 
@@ -87,17 +91,17 @@ export const Main: React.FC = () => {
                         <p>
                             We aim to become a portfolio company, by creating
                             impactful solutions that help society and humanity
-                            to become healthier. 
+                            to become healthier.
                         </p>
                         <p>
-                            Our first solution - Sick of Smoking - targets the single biggest health
-                            issue in the world - smoking. We offer a highly
-                            effective VR solution that uses a powerful
-                            biological mechanism to help end tobacco addiction
-                            in a few five minute treatments. </p>
-                        <p>
-                            It is cost-effective, safe and effortless.</p>
-                        
+                            Our first solution - Sick of Smoking - targets the
+                            single biggest health issue in the world - smoking.
+                            We offer a highly effective VR solution that uses a
+                            powerful biological mechanism to help end tobacco
+                            addiction in a few five minute treatments.{" "}
+                        </p>
+                        <p>It is cost-effective, safe and effortless.</p>
+
                         <Spacer height="50px" />
                         <USPList usp={usp} />
                     </div>

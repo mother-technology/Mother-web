@@ -7,7 +7,6 @@ import "./Shared.css";
 import { Spacer } from "./Spacer";
 import { USPList } from "./USPList";
 
-
 export const SickOfSmoking: React.FC = () => {
     let tips = [
         {
@@ -27,11 +26,11 @@ export const SickOfSmoking: React.FC = () => {
     let screendumps = [
         {
             alt: "Sick of smoking - interior view",
-            image:"/images/sos1.png",
+            image: "/images/sos1.png",
         },
         {
             alt: "Sick of smoking - exterior view",
-            image:"/images/sos2.png",
+            image: "/images/sos2.png",
         },
     ];
 
@@ -46,16 +45,26 @@ export const SickOfSmoking: React.FC = () => {
             <div className="side-margin">
                 <div className="flex main">
                     <p>
-                        We offer a safe, effective and innovative VR solution - Sick of Smoking -  
-                        based on a powerful biological mechanism that helps you
-                        end tobacco addiction with just a few short treatments.
+                        We offer a safe, effective and innovative VR solution -
+                        Sick of Smoking - based on a powerful biological
+                        mechanism that helps you end tobacco addiction with just
+                        a few short treatments.
                     </p>
                     <Spacer height="20px" />
-                    <a className="buttonLink" href="https://bit.ly/sos-beta-invite">
+                    <a
+                        className="buttonLink"
+                        href="https://bit.ly/sos-beta-invite"
+                    >
                         Sign me up!
                     </a>
                     <Spacer height="20px" />
-                    <p>The process to become smoke free is ideally done in  a week, with 5 min exercises that you do daily in VR. You can modify the process at your own convenience or repeat exercises how many times you want. They are all available to you in VR.</p>
+                    <p>
+                        The process to become smoke free is ideally done in a
+                        week, with 5 min exercises that you do daily in VR. You
+                        can modify the process at your own convenience or repeat
+                        exercises how many times you want. They are all
+                        available to you in VR.
+                    </p>
                     <Spacer height="40px" />
                     <USPList usp={tips} />
                     <Spacer height="40px" />
@@ -77,9 +86,16 @@ export const SickOfSmoking: React.FC = () => {
                     />
                     <Spacer height="20px" />
                     <PanelTestimonial
-                        text="Before when I tried to quit, it still tasted good when I smoked a cigarette, but [Sick of Smoking] made it so that I have an extreme distaste for cigarettes.
+                        text="Cigarettes smell bad afterwards"
+                        name="Linn, still smoke-free after two months"
+                        img="/images/linn.png"
+                        color="dark-blue"
+                    />
+                    <Spacer height="20px" />
+                    <PanelTestimonial
+                        text="Before when I tried to quit, it still tasted good when I smoked a cigarette, but this product has made it so that I have an extreme distaste for cigarettes.
                         It was so easy to abstain and quit unlike other times."
-                        name="Jonna, still smoke-free after two months"
+                        name="Josefine, still smoke-free after two months"
                         color="dark-blue"
                     />
                     <Spacer height="20px" />
@@ -91,13 +107,13 @@ export const SickOfSmoking: React.FC = () => {
                     <Spacer height="20px" />
                     <PanelTestimonial
                         text="I have not had any cravings whatsoever during the days since the last session."
-                        name="Carl, still smoke-free after two months"
+                        name="Kostas, still smoke-free after two months"
                         color="dark-blue"
                     />
                     <Spacer height="20px" />
                     <PanelTestimonial
                         text="Before I have managed to quit smoking for periods of time with just willpower. Then I always had an urge to smoke for a long time. After your procedure, I have not had the urge at all."
-                        name="Catharine, still smoke-free after two months"
+                        name="Carina, still smoke-free after two months"
                         color="dark-blue"
                     />
                 </div>
@@ -119,7 +135,9 @@ export const SickOfSmoking: React.FC = () => {
                     <p>
                         Sign up here and maybe you will be selected. We are
                         happy to receive your application. Let's start the new
-                        year by becoming tobacco free! If you have any questions, feel free to <a href="mailto:info@mother.technology">email us</a>.
+                        year by becoming tobacco free! If you have any
+                        questions, feel free to{" "}
+                        <a href="mailto:info@mother.technology">email us</a>.
                     </p>
                     <Spacer height="20px" />
                     <a
