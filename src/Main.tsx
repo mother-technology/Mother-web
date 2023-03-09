@@ -26,9 +26,24 @@ export const Main: React.FC = () => {
 
     let news = [
         {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7021876503164403712",
+            alt: "Linkedin post: Sting Demo Day",
+            image: "/images/linkedin-9.png",
+        },
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7029476406635958272",
+            alt: "Linkedin post: Featured in Kearney's future healthcare outlook",
+            image: "/images/linkedin-8.png",
+        },
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7031555464601427968/",
+            alt: "Linkedin post: All you need is love - and preseed investment",
+            image: "/images/linkedin-7.png",
+        },
+        {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:7018516971184922624",
             alt: "Linkedin post: Opportunity to join our closed beta test",
-            image: "/images/linkedin-6.jpg",
+            image: "/images/linkedIn-6.jpg",
         },
         {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:7009515098977251328",
@@ -39,21 +54,6 @@ export const Main: React.FC = () => {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:7005869347252396032",
             alt: "Linkedin post: Interesting VR focused on health tech",
             image: "/images/linkedin-1.png",
-        },
-        {
-            href: "https://www.linkedin.com/feed/update/urn:li:activity:7002939543872024576",
-            alt: "Linkedin post: EU working for a tobacco-free generation 2040",
-            image: "/images/linkedin-3.png",
-        },
-        {
-            href: "https://www.linkedin.com/feed/update/urn:li:activity:7000481434213736448",
-            alt: "Linkedin post: One of the hottest Swedish health tech startups",
-            image: "/images/linkedin-5.png",
-        },
-        {
-            href: "https://www.linkedin.com/feed/update/urn:li:activity:6995765239338156032",
-            alt: "Linkedin post: introducing Mother",
-            image: "/images/linkedin-4.png",
         },
     ];
 
