@@ -26,6 +26,21 @@ export const Main: React.FC = () => {
 
     let news = [
         {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7066722829810941952",
+            alt: "Linkedin post: Bjorn meeting Dalai Lama",
+            image: "/images/linkedin-12.png",
+        },
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7061763511999209474",
+            alt: "Linkedin post: Sick of smoking invited to tobacco and health conference ECTOH",
+            image: "/images/linkedin-11.png",
+        },
+        {
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7039224567659118592",
+            alt: "Linkedin post: Celebrating international woman's day",
+            image: "/images/linkedin-10.png",
+        },
+        {
             href: "https://www.linkedin.com/feed/update/urn:li:activity:7021876503164403712",
             alt: "Linkedin post: Sting Demo Day",
             image: "/images/linkedin-9.png",
@@ -36,24 +51,9 @@ export const Main: React.FC = () => {
             image: "/images/linkedin-8.png",
         },
         {
-            href: "https://www.linkedin.com/feed/update/urn:li:activity:7031555464601427968/",
+            href: "https://www.linkedin.com/feed/update/urn:li:activity:7031555464601427968",
             alt: "Linkedin post: All you need is love - and preseed investment",
             image: "/images/linkedin-7.png",
-        },
-        {
-            href: "https://www.linkedin.com/feed/update/urn:li:activity:7018516971184922624",
-            alt: "Linkedin post: Opportunity to join our closed beta test",
-            image: "/images/linkedIn-6.jpg",
-        },
-        {
-            href: "https://www.linkedin.com/feed/update/urn:li:activity:7009515098977251328",
-            alt: "Linkedin post: It has been so easy to quit this time",
-            image: "/images/linkedin-2.png",
-        },
-        {
-            href: "https://www.linkedin.com/feed/update/urn:li:activity:7005869347252396032",
-            alt: "Linkedin post: Interesting VR focused on health tech",
-            image: "/images/linkedin-1.png",
         },
     ];
 

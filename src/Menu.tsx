@@ -62,38 +62,11 @@ export const Menu: React.FC = () => {
                             >
                                 News
                             </HashLink>
-                            <Link
-                                to="/sick-of-smoking"
-                                className={
-                                    location.pathname === "/sick-of-smoking"
-                                        ? "active"
-                                        : ""
-                                }
-                            >
-                                Sick of Smoking
-                            </Link>
-                            <HashLink
-                                to="/sick-of-smoking#testimonials"
-                                className={
-                                    location.hash === "#testimonials"
-                                        ? "subLink active"
-                                        : "subLink"
-                                }
-                            >
-                                Testimonials
-                            </HashLink>
-                                                        <HashLink
-                                to="/sick-of-smoking#would-you-like-to-take-part"
-                                className={
-                                    location.hash === "#would-you-like-to-take-part"
-                                        ? "subLink active"
-                                        : "subLink"
-                                }
-                            >
-                                Would you like to take part?
-                            </HashLink>
                         </div>
                         <div className="link-group">
+                            <a href="https://sickofsmoking.app">
+                                Sick of Smoking
+                            </a>
                             <Link
                                 to="/team"
                                 className={
@@ -104,7 +77,28 @@ export const Menu: React.FC = () => {
                             >
                                 Team
                             </Link>
-                            
+                        </div>
+                        <div className="link-group">
+                            <Link
+                                to="/privacy"
+                                className={
+                                    location.pathname === "/privacy"
+                                        ? "active"
+                                        : ""
+                                }
+                            >
+                                Privacy
+                            </Link>
+                            <HashLink
+                                to="/privacy#the-small-print"
+                                className={
+                                    location.hash === "#the-small-print"
+                                        ? "subLink active"
+                                        : "subLink"
+                                }
+                            >
+                                The small print
+                            </HashLink>
                             <Link
                                 to="/media"
                                 className={
@@ -134,29 +128,6 @@ export const Menu: React.FC = () => {
                                 }
                             >
                                 About us
-                            </HashLink>
-                        </div>
-                        <div className="link-group">
-                            <Link
-                                to="/privacy"
-                                className={
-                                    location.pathname === "/privacy"
-                                        ? "active"
-                                        : ""
-                                }
-                            >
-                                Privacy
-                            </Link>
-                            <HashLink
-                                to="/privacy#the-small-print"
-                                className={
-                                    location.hash ===
-                                    "#the-small-print"
-                                        ? "subLink active"
-                                        : "subLink"
-                                }
-                            >
-                                The small print
                             </HashLink>
                         </div>
                     </div>
