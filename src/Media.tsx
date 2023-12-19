@@ -9,7 +9,10 @@ import "./Shared.css";
 export const Media: React.FC = () => {
     return (
         <>
-            <Header className="media-header" header="Get press material and contact details for our company" />
+            <Header
+                className="media-header"
+                header="Get press material and contact details for our company"
+            />
             <Spacer height="40px" />
             <div className="side-margin">
                 <div className="flex main">
@@ -24,8 +27,8 @@ export const Media: React.FC = () => {
                         Send us an{" "}
                         <a href="mailto:press@mother.technology">email</a> or
                         reach us over phone,{" "}
-                        <a href="tel:0046738150102">073-8150102</a>. We are
-                        experts on the brain's visual perspection and how it is
+                        <a href="tel:0046707721981">070-7721981</a>. We are
+                        experts on the brain's visual system and how it is
                         affected by VR.
                     </p>
                     <p>
@@ -33,7 +36,8 @@ export const Media: React.FC = () => {
                         in the area, follow us on{" "}
                         <a href="https://www.linkedin.com/company/mothertechnology">
                             LinkedIn
-                        </a>.
+                        </a>
+                        .
                     </p>
                     <Spacer height="50px" />
                     <h2 id="about-us">About us</h2>
